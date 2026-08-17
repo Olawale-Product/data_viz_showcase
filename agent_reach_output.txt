@@ -1,0 +1,259 @@
+=== INSTALL ===
+Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (26.2.1)
+Collecting git+https://github.com/Panniantong/Agent-Reach.git
+  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-0qgo5g2h
+  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-0qgo5g2h
+  Resolved https://github.com/Panniantong/Agent-Reach.git to commit 93ae1d18c37b707dec053c7c4f9d91cd8ef8943d
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting feedparser>=6.0 (from agent-reach==1.5.0)
+  Downloading feedparser-6.0.14-py3-none-any.whl.metadata (2.7 kB)
+Collecting loguru>=0.7 (from agent-reach==1.5.0)
+  Downloading loguru-0.7.3-py3-none-any.whl.metadata (22 kB)
+Collecting python-dotenv>=1.0 (from agent-reach==1.5.0)
+  Downloading python_dotenv-1.2.3-py3-none-any.whl.metadata (29 kB)
+Collecting pyyaml>=6.0 (from agent-reach==1.5.0)
+  Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting requests>=2.28 (from agent-reach==1.5.0)
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting rich>=13.0 (from agent-reach==1.5.0)
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting yt-dlp>=2026.07.04 (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
+  Downloading yt_dlp-2026.7.4-py3-none-any.whl.metadata (183 kB)
+Collecting feedparser-sgmllib<3,>=2 (from feedparser>=6.0->agent-reach==1.5.0)
+  Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl.metadata (926 bytes)
+Collecting charset_normalizer<4,>=2 (from requests>=2.28->agent-reach==1.5.0)
+  Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)
+Collecting idna<4,>=2.5 (from requests>=2.28->agent-reach==1.5.0)
+  Downloading idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+Collecting urllib3<3,>=1.26 (from requests>=2.28->agent-reach==1.5.0)
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests>=2.28->agent-reach==1.5.0)
+  Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.0->agent-reach==1.5.0)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.0->agent-reach==1.5.0)
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.0->agent-reach==1.5.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting brotli (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
+  Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+Collecting mutagen (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
+  Downloading mutagen-1.48.1-py3-none-any.whl.metadata (1.8 kB)
+Collecting pycryptodomex (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
+  Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.4 kB)
+Collecting websockets>=13.0 (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
+  Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.3 kB)
+Collecting yt-dlp-ejs==0.8.0 (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
+  Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl.metadata (3.5 kB)
+Downloading feedparser-6.0.14-py3-none-any.whl (80 kB)
+Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl (11 kB)
+Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+Downloading python_dotenv-1.2.3-py3-none-any.whl (22 kB)
+Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 40.6 MB/s  0:00:00
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (248 kB)
+Downloading idna-3.18-py3-none-any.whl (65 kB)
+Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 73.2 MB/s  0:00:00
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading yt_dlp-2026.7.4-py3-none-any.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 194.2 MB/s  0:00:00
+Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl (53 kB)
+Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (220 kB)
+Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 216.2 MB/s  0:00:00
+Downloading mutagen-1.48.1-py3-none-any.whl (195 kB)
+Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 321.3 MB/s  0:00:00
+Building wheels for collected packages: agent-reach
+  Building wheel for agent-reach (pyproject.toml): started
+  Building wheel for agent-reach (pyproject.toml): finished with status 'done'
+  Created wheel for agent-reach: filename=agent_reach-1.5.0-py3-none-any.whl size=129286 sha256=fe7cb407143628d724bafb40b04746f370ebaceaef2cd4296bb3129f7433a99a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-43ib37s2/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
+Successfully built agent-reach
+Installing collected packages: brotli, yt-dlp-ejs, yt-dlp, websockets, urllib3, pyyaml, python-dotenv, pygments, pycryptodomex, mutagen, mdurl, loguru, idna, feedparser-sgmllib, charset_normalizer, certifi, requests, markdown-it-py, feedparser, rich, agent-reach
+
+Successfully installed agent-reach-1.5.0 brotli-1.2.0 certifi-2026.7.22 charset_normalizer-3.5.1 feedparser-6.0.14 feedparser-sgmllib-2.1.0 idna-3.18 loguru-0.7.3 markdown-it-py-4.2.0 mdurl-0.1.2 mutagen-1.48.1 pycryptodomex-3.23.0 pygments-2.21.0 python-dotenv-1.2.3 pyyaml-6.0.3 requests-2.34.2 rich-15.0.0 urllib3-2.7.0 websockets-17.0.1 yt-dlp-2026.7.4 yt-dlp-ejs-0.8.0
+
+=== VERSION ===
+Agent Reach v1.5.0
+
+=== DOCTOR ===
+{
+  "github": {
+    "status": "warn",
+    "name": "GitHub 仓库和代码",
+    "message": "gh CLI 可执行，但未检测到显式认证配置。运行 `gh auth login` 完成登录；Doctor 不会自动执行 `gh auth status`。",
+    "tier": 0,
+    "backends": [
+      "gh CLI"
+    ],
+    "active_backend": null
+  },
+  "twitter": {
+    "status": "warn",
+    "name": "Twitter/X 推文",
+    "message": "Twitter CLI 未安装。安装方式：\n  pipx install twitter-cli\n或：\n  uv tool install twitter-cli",
+    "tier": 1,
+    "backends": [
+      "twitter-cli",
+      "OpenCLI",
+      "bird CLI (legacy)"
+    ],
+    "active_backend": null
+  },
+  "youtube": {
+    "status": "warn",
+    "name": "YouTube 视频和字幕",
+    "message": "yt-dlp 已安装但未配置 JS runtime。运行：\n  mkdir -p /home/runner/.config/yt-dlp && { grep -qxF -- '--js-runtimes node' /home/runner/.config/yt-dlp/config 2>/dev/null || printf '%s\\n' '--js-runtimes node' >> /home/runner/.config/yt-dlp/config; }",
+    "tier": 0,
+    "backends": [
+      "yt-dlp"
+    ],
+    "active_backend": "yt-dlp"
+  },
+  "reddit": {
+    "status": "off",
+    "name": "Reddit 帖子和评论",
+    "message": "未安装任何 Reddit 后端。注意：Reddit 没有零配置路径（匿名 .json 已被封，官方 API 需人工审批），必须用登录态。推荐：\n  桌面：agent-reach install --system --channels opencli\n       （复用 Chrome 登录态，登录过 reddit.com 即可用）\n  服务器/存量：pipx install 'git+https://github.com/public-clis/rdt-cli.git@5e4fb3720d5c174e976cd425ccc3b879d52cac66'\n       然后 `rdt login` 或手动写入 Cookie（见 doctor 提示）\n中国大陆访问 Reddit 需要代理",
+    "tier": 1,
+    "backends": [
+      "OpenCLI",
+      "rdt-cli"
+    ],
+    "active_backend": null
+  },
+  "facebook": {
+    "status": "off",
+    "name": "Facebook 帖子、主页和群组",
+    "message": "未安装 Facebook 帖子、主页和群组 后端。安装：\n  agent-reach install --system --channels opencli\n然后在 Chrome 里登录 facebook.com",
+    "tier": 1,
+    "backends": [
+      "OpenCLI"
+    ],
+    "active_backend": null
+  },
+  "instagram": {
+    "status": "off",
+    "name": "Instagram 用户、主页和指定用户帖子",
+    "message": "未安装 Instagram 用户、主页和指定用户帖子 后端。安装：\n  agent-reach install --system --channels opencli\n然后在 Chrome 里登录 instagram.com",
+    "tier": 1,
+    "backends": [
+      "OpenCLI"
+    ],
+    "active_backend": null
+  },
+  "bilibili": {
+    "status": "ok",
+    "name": "B站视频、字幕和搜索",
+    "message": "B站搜索 API 可达（仅搜索，curl 直连）。完整功能建议安装 bili-cli：pipx install bilibili-cli",
+    "tier": 1,
+    "backends": [
+      "bili-cli",
+      "OpenCLI",
+      "B站搜索 API"
+    ],
+    "active_backend": "B站搜索 API"
+  },
+  "xiaohongshu": {
+    "status": "off",
+    "name": "小红书笔记",
+    "message": "未安装任何小红书后端。推荐：\n  桌面：agent-reach install --system --channels opencli\n       （复用 Chrome 登录态，刷过小红书即零配置可用）\n  服务器：xiaohongshu-mcp：https://github.com/xpzouying/xiaohongshu-mcp\n       登录只使用 Cookie-Editor 明确导出：\n       agent-reach configure xhs-cookies（隐藏输入）",
+    "tier": 1,
+    "backends": [
+      "OpenCLI",
+      "xiaohongshu-mcp",
+      "xhs-cli (xiaohongshu-cli)"
+    ],
+    "active_backend": null
+  },
+  "linkedin": {
+    "status": "off",
+    "name": "LinkedIn 职业社交",
+    "message": "基本内容可通过 Jina Reader 读取。完整功能需要：\n  先安装 uv/uvx：https://docs.astral.sh/uv/getting-started/installation/\n  uvx mcp-server-linkedin@latest --login\n  mcporter config add linkedin --command uvx --arg mcp-server-linkedin@latest --env UV_HTTP_TIMEOUT=300 --scope home\n  详见 https://github.com/stickerdaniel/linkedin-mcp-server",
+    "tier": 2,
+    "backends": [
+      "mcp-server-linkedin",
+      "Jina Reader"
+    ],
+    "active_backend": null
+  },
+  "xiaoyuzhou": {
+    "status": "off",
+    "name": "小宇宙播客转文字",
+    "message": "需要 ffmpeg（音频转码和切片）。安装：\n  Ubuntu/Debian: apt install -y ffmpeg\n  macOS: brew install ffmpeg",
+    "tier": 1,
+    "backends": [
+      "groq-whisper",
+      "ffmpeg"
+    ],
+    "active_backend": null
+  },
+  "v2ex": {
+    "status": "ok",
+    "name": "V2EX 节点、主题与回复",
+    "message": "公开 API 可用（热门主题、节点浏览、主题详情、用户信息）",
+    "tier": 0,
+    "backends": [
+      "V2EX API (public)"
+    ],
+    "active_backend": "V2EX API (public)"
+  },
+  "xueqiu": {
+    "status": "warn",
+    "name": "雪球股票行情与社区动态",
+    "message": "Xueqiu API 连接失败：HTTP Error 400。如需登录 Cookie，请运行：agent-reach configure --from-browser chrome --platform xueqiu；doctor 不会自动读取浏览器 Cookie。",
+    "tier": 1,
+    "backends": [
+      "Xueqiu API (需要登录 Cookie)"
+    ],
+    "active_backend": null
+  },
+  "rss": {
+    "status": "ok",
+    "name": "RSS/Atom 订阅源",
+    "message": "可读取 RSS/Atom 源",
+    "tier": 0,
+    "backends": [
+      "feedparser"
+    ],
+    "active_backend": "feedparser"
+  },
+  "exa_search": {
+    "status": "off",
+    "name": "全网语义搜索",
+    "message": "需要 mcporter + Exa MCP。安装：\n  npm install -g mcporter\n  mcporter config add exa https://mcp.exa.ai/mcp --scope home",
+    "tier": 0,
+    "backends": [
+      "Exa via mcporter"
+    ],
+    "active_backend": null
+  },
+  "web": {
+    "status": "ok",
+    "name": "任意网页",
+    "message": "通过 Jina Reader 读取任意网页（curl https://r.jina.ai/URL）",
+    "tier": 0,
+    "backends": [
+      "Jina Reader"
+    ],
+    "active_backend": "Jina Reader"
+  }
+}
+
+=== COMMANDS ===
+/opt/hostedtoolcache/Python/3.12.13/x64/bin/agent-reach
+
+=== ACCESSCORP SEARCH ===
+/home/runner/work/_temp/f677a38c-e4f1-461d-836f-a03b188703c4.sh: line 19: twitter: command not found
+=== END SEARCH ===
