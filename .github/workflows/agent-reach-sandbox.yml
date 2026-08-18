@@ -42,29 +42,21 @@ jobs:
           set +e
           {
             echo '=== INSTALL AGENT REACH ==='
-            python -m pip install --upgrade pip
-            pip install 'git+https://github.com/Panniantong/Agent-Reach.git'
-            echo
+            python -m pip install --upgrade pip >/dev/null
+            pip install 'git+https://github.com/Panniantong/Agent-Reach.git' >/dev/null
             echo '=== INSTALL BIRD ==='
-            npm install -g @steipete/bird
-            echo
+            npm install -g @steipete/bird >/dev/null
             echo '=== AUTH CHECK ==='
-            if [ -n "$TWITTER_AUTH_TOKEN" ] && [ -n "$TWITTER_CT0" ]; then
-              echo 'Twitter secrets detected.'
-            else
-              echo 'Twitter secrets missing.'
-            fi
-            echo
-            echo '=== BIRD VERSION ==='
-            bird --version || true
-            echo
+            if [ -n "$TWITTER_AUTH_TOKEN" ] && [ -n "$TWITTER_CT0" ]; then echo 'Twitter secrets detected.'; else echo 'Twitter secrets missing.'; fi
             echo '=== BIRD WHOAMI ==='
             bird whoami --plain || true
-            echo
-            echo '=== BIRD ACCESSCORP SEARCH ==='
-            bird search 'ACCESSCORP OR "Access Holdings" OR "Access Bank"' -n 50 --json || true
-            echo '=== END BIRD SEARCH ==='
-            echo
+            echo '=== FINANCE SEARCH 1: ACCESSCORP ==='
+            bird search 'ACCESSCORP' -n 50 --json || true
+            echo '=== FINANCE SEARCH 2: ACCESS HOLDINGS ==='
+            bird search '"Access Holdings" (NGX OR stock OR shares OR valuation OR dividend OR investor)' -n 50 --json || true
+            echo '=== FINANCE SEARCH 3: ACCESSCORP NGX ==='
+            bird search 'ACCESSCORP (NGX OR stock OR shares OR valuation OR dividend OR earnings)' -n 50 --json || true
+            echo '=== END SEARCHES ==='
             echo '=== AGENT REACH DOCTOR ==='
             agent-reach doctor --json || true
           } 2>&1 | tee agent_reach_output.txt
@@ -75,5 +67,5 @@ jobs:
           git config user.name 'agent-reach-sandbox'
           git config user.email 'actions@users.noreply.github.com'
           git add agent_reach_output.txt
-          git commit -m 'Save Agent Reach bird backend output [skip ci]' || exit 0
+          git commit -m 'Save targeted Access Holdings X search [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
