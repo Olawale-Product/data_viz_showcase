@@ -1,0 +1,1 @@
+Run Mansa API verification after adding MANSA_API_KEY.
