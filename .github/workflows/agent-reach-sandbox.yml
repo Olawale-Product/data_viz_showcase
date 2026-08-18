@@ -15,6 +15,9 @@ jobs:
   agent-reach-test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+      TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,13 +47,15 @@ jobs:
             echo '=== DOCTOR AFTER TWITTER CLI INSTALL ==='
             agent-reach doctor --json || true
             echo
-            echo '=== COMMANDS ==='
-            command -v agent-reach || true
-            command -v twitter || true
-            twitter --help 2>/dev/null | head -80 || true
+            echo '=== AUTH CHECK ==='
+            if [ -n "$TWITTER_AUTH_TOKEN" ] && [ -n "$TWITTER_CT0" ]; then
+              echo 'Twitter secrets detected.'
+            else
+              echo 'Twitter secrets missing.'
+            fi
             echo
             echo '=== ACCESSCORP SEARCH ==='
-            twitter search 'ACCESSCORP OR "Access Holdings" OR "Access Bank"' -n 20 || true
+            twitter search 'ACCESSCORP OR "Access Holdings" OR "Access Bank"' -n 50 || true
             echo '=== END SEARCH ==='
           } 2>&1 | tee agent_reach_output.txt
 
