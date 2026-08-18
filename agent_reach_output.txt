@@ -1,8 +1,8 @@
-=== INSTALL ===
+=== INSTALL AGENT REACH ===
 Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (26.2.1)
 Collecting git+https://github.com/Panniantong/Agent-Reach.git
-  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-0qgo5g2h
-  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-0qgo5g2h
+  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-kgh8_0qp
+  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-kgh8_0qp
   Resolved https://github.com/Panniantong/Agent-Reach.git to commit 93ae1d18c37b707dec053c7c4f9d91cd8ef8943d
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -55,7 +55,7 @@ Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl (11 kB)
 Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
 Downloading python_dotenv-1.2.3-py3-none-any.whl (22 kB)
 Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 40.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 55.7 MB/s  0:00:00
 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
 Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (248 kB)
 Downloading idna-3.18-py3-none-any.whl (65 kB)
@@ -63,32 +63,82 @@ Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
 Downloading rich-15.0.0-py3-none-any.whl (310 kB)
 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 73.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 104.9 MB/s  0:00:00
 Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
 Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
 Downloading yt_dlp-2026.7.4-py3-none-any.whl (3.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 194.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 160.6 MB/s  0:00:00
 Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl (53 kB)
 Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (220 kB)
 Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 216.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 247.0 MB/s  0:00:00
 Downloading mutagen-1.48.1-py3-none-any.whl (195 kB)
 Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 321.3 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 295.6 MB/s  0:00:00
 Building wheels for collected packages: agent-reach
   Building wheel for agent-reach (pyproject.toml): started
   Building wheel for agent-reach (pyproject.toml): finished with status 'done'
   Created wheel for agent-reach: filename=agent_reach-1.5.0-py3-none-any.whl size=129286 sha256=fe7cb407143628d724bafb40b04746f370ebaceaef2cd4296bb3129f7433a99a
-  Stored in directory: /tmp/pip-ephem-wheel-cache-43ib37s2/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-1yyu556e/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
 Successfully built agent-reach
 Installing collected packages: brotli, yt-dlp-ejs, yt-dlp, websockets, urllib3, pyyaml, python-dotenv, pygments, pycryptodomex, mutagen, mdurl, loguru, idna, feedparser-sgmllib, charset_normalizer, certifi, requests, markdown-it-py, feedparser, rich, agent-reach
 
 Successfully installed agent-reach-1.5.0 brotli-1.2.0 certifi-2026.7.22 charset_normalizer-3.5.1 feedparser-6.0.14 feedparser-sgmllib-2.1.0 idna-3.18 loguru-0.7.3 markdown-it-py-4.2.0 mdurl-0.1.2 mutagen-1.48.1 pycryptodomex-3.23.0 pygments-2.21.0 python-dotenv-1.2.3 pyyaml-6.0.3 requests-2.34.2 rich-15.0.0 urllib3-2.7.0 websockets-17.0.1 yt-dlp-2026.7.4 yt-dlp-ejs-0.8.0
 
+=== INSTALL TWITTER CLI ===
+Collecting twitter-cli
+  Downloading twitter_cli-0.8.5-py3-none-any.whl.metadata (22 kB)
+Collecting beautifulsoup4>=4.12 (from twitter-cli)
+  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting browser-cookie3>=0.19 (from twitter-cli)
+  Downloading browser_cookie3-0.20.1-py3-none-any.whl.metadata (713 bytes)
+Collecting click>=8.0 (from twitter-cli)
+  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting curl-cffi>=0.7 (from twitter-cli)
+  Downloading curl_cffi-0.16.0-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (17 kB)
+Requirement already satisfied: pyyaml>=6.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from twitter-cli) (6.0.3)
+Requirement already satisfied: rich>=13.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from twitter-cli) (15.0.0)
+Collecting xclienttransaction>=1.0.1 (from twitter-cli)
+  Downloading xclienttransaction-1.0.3-py3-none-any.whl.metadata (6.3 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4>=4.12->twitter-cli)
+  Downloading soupsieve-2.9.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4>=4.12->twitter-cli)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting lz4 (from browser-cookie3>=0.19->twitter-cli)
+  Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Requirement already satisfied: pycryptodomex in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from browser-cookie3>=0.19->twitter-cli) (3.23.0)
+Collecting jeepney (from browser-cookie3>=0.19->twitter-cli)
+  Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting cffi>=2.0.0 (from curl-cffi>=0.7->twitter-cli)
+  Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Requirement already satisfied: certifi>=2024.2.2 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from curl-cffi>=0.7->twitter-cli) (2026.7.22)
+Collecting pycparser (from cffi>=2.0.0->curl-cffi>=0.7->twitter-cli)
+  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from rich>=13.0->twitter-cli) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from rich>=13.0->twitter-cli) (2.21.0)
+Requirement already satisfied: mdurl~=0.1 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=13.0->twitter-cli) (0.1.2)
+Downloading twitter_cli-0.8.5-py3-none-any.whl (65 kB)
+Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Downloading browser_cookie3-0.20.1-py3-none-any.whl (17 kB)
+Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Downloading curl_cffi-0.16.0-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (13.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 188.2 MB/s  0:00:00
+Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Downloading soupsieve-2.9.2-py3-none-any.whl (37 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading xclienttransaction-1.0.3-py3-none-any.whl (10 kB)
+Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 247.9 MB/s  0:00:00
+Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Installing collected packages: typing-extensions, soupsieve, pycparser, lz4, jeepney, click, cffi, browser-cookie3, beautifulsoup4, xclienttransaction, curl-cffi, twitter-cli
+
+Successfully installed beautifulsoup4-4.15.0 browser-cookie3-0.20.1 cffi-2.1.1 click-8.4.2 curl-cffi-0.16.0 jeepney-0.9.0 lz4-4.4.5 pycparser-3.0 soupsieve-2.9.2 twitter-cli-0.8.5 typing-extensions-4.16.0 xclienttransaction-1.0.3
+
 === VERSION ===
 Agent Reach v1.5.0
 
-=== DOCTOR ===
+=== DOCTOR AFTER TWITTER CLI INSTALL ===
 {
   "github": {
     "status": "warn",
@@ -103,7 +153,7 @@ Agent Reach v1.5.0
   "twitter": {
     "status": "warn",
     "name": "Twitter/X 推文",
-    "message": "Twitter CLI 未安装。安装方式：\n  pipx install twitter-cli\n或：\n  uv tool install twitter-cli",
+    "message": "twitter-cli 已安装但没有完整的显式凭据。请用 Cookie-Editor 从 x.com 导出后运行：\n  agent-reach configure twitter-cookies\nDoctor 不会自动读取浏览器 Cookie。",
     "tier": 1,
     "backends": [
       "twitter-cli",
@@ -253,7 +303,61 @@ Agent Reach v1.5.0
 
 === COMMANDS ===
 /opt/hostedtoolcache/Python/3.12.13/x64/bin/agent-reach
+/opt/hostedtoolcache/Python/3.12.13/x64/bin/twitter
+Usage: twitter [OPTIONS] COMMAND [ARGS]...
+
+  twitter — Twitter/X CLI tool 🐦
+
+Options:
+  -v, --verbose  Enable debug logging.
+  -c, --compact  Compact output (minimal fields, LLM-friendly).
+  --version      Show the version and exit.
+  --help         Show this message and exit.
+
+Commands:
+  article     Fetch a Twitter Article.
+  bookmark    Bookmark a tweet.
+  bookmarks   Fetch bookmarked tweets, or manage bookmark folders.
+  delete      Delete a tweet.
+  favorite    Bookmark (favorite) a tweet.
+  favorites   Fetch bookmarked (favorite) tweets.
+  feed        Fetch home timeline with optional filtering.
+  follow      Follow a user.
+  followers   List followers of a user.
+  following   List accounts a user is following.
+  like        Like a tweet.
+  likes       Show tweets liked by a user.
+  list        Fetch tweets from a Twitter List.
+  post        Post a new tweet.
+  quote       Quote-tweet a tweet.
+  reply       Reply to a tweet.
+  retweet     Retweet a tweet.
+  search      Search tweets by QUERY string with optional advanced filters.
+  show        View tweet #INDEX from the last feed/search results.
+  status      Check whether the current Twitter/X session is authenticated.
+  tweet       View a tweet and its replies.
+  unbookmark  Remove a tweet from bookmarks.
+  unfavorite  Remove a tweet from bookmarks (unfavorite).
+  unfollow    Unfollow a user.
+  unlike      Unlike a tweet.
+  unretweet   Undo a retweet.
+  user        View a user's profile.
+  user-posts  List a user's tweets.
+  whoami      Show the currently authenticated user's profile.
 
 === ACCESSCORP SEARCH ===
-/home/runner/work/_temp/f677a38c-e4f1-461d-836f-a03b188703c4.sh: line 19: twitter: command not found
+WARNING twitter_cli.auth: Twitter cookie extraction failed in both in-process and subprocess modes
+ok: false
+schema_version: '1'
+error:
+  code: not_authenticated
+  message: 'No Twitter cookies found.
+
+    Option 1: Set TWITTER_AUTH_TOKEN and TWITTER_CT0 environment variables
+
+    Option 2: Make sure you are logged into x.com in your browser (Arc/Chrome/Edge/Firefox/Brave)
+
+
+    Run ''twitter -v <command>'' for debug diagnostics.'
+
 === END SEARCH ===
