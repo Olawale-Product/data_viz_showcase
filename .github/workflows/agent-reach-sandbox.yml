@@ -20,6 +20,7 @@ jobs:
       TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
       AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
       CT0: ${{ secrets.TWITTER_CT0 }}
+      NGXPULSE_API_KEY: ${{ secrets.NGXPULSE_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,7 +37,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install and test Agent Reach Twitter backends
+      - name: Install and test market/social backends
         shell: bash
         run: |
           set +e
@@ -46,17 +47,27 @@ jobs:
             pip install 'git+https://github.com/Panniantong/Agent-Reach.git' >/dev/null
             echo '=== INSTALL BIRD ==='
             npm install -g @steipete/bird >/dev/null
-            echo '=== AUTH CHECK ==='
+
+            echo '=== SECRET CHECKS ==='
             if [ -n "$TWITTER_AUTH_TOKEN" ] && [ -n "$TWITTER_CT0" ]; then echo 'Twitter secrets detected.'; else echo 'Twitter secrets missing.'; fi
+            if [ -n "$NGXPULSE_API_KEY" ]; then echo 'NGX Pulse secret detected.'; else echo 'NGX Pulse secret missing.'; fi
+
+            echo '=== NGX PULSE ALL STOCKS TEST ==='
+            curl -sS -w '\nHTTP_STATUS:%{http_code}\n' \
+              -H "X-API-Key: $NGXPULSE_API_KEY" \
+              -H 'Content-Type: application/json' \
+              'https://www.ngxpulse.ng/api/ngxdata/stocks' | python -c "import sys,json; raw=sys.stdin.read(); print(raw[:6000])" || true
+
+            echo '=== NGX PULSE ACCESSCORP TEST ==='
+            curl -sS -w '\nHTTP_STATUS:%{http_code}\n' \
+              -H "X-API-Key: $NGXPULSE_API_KEY" \
+              -H 'Content-Type: application/json' \
+              'https://www.ngxpulse.ng/api/ngxdata/prices/ACCESSCORP' | python -c "import sys; print(sys.stdin.read()[:6000])" || true
+
             echo '=== BIRD WHOAMI ==='
             bird whoami --plain || true
             echo '=== FINANCE SEARCH 1: ACCESSCORP ==='
-            bird search 'ACCESSCORP' -n 50 --json || true
-            echo '=== FINANCE SEARCH 2: ACCESS HOLDINGS ==='
-            bird search '"Access Holdings" (NGX OR stock OR shares OR valuation OR dividend OR investor)' -n 50 --json || true
-            echo '=== FINANCE SEARCH 3: ACCESSCORP NGX ==='
-            bird search 'ACCESSCORP (NGX OR stock OR shares OR valuation OR dividend OR earnings)' -n 50 --json || true
-            echo '=== END SEARCHES ==='
+            bird search 'ACCESSCORP' -n 20 --json || true
             echo '=== AGENT REACH DOCTOR ==='
             agent-reach doctor --json || true
           } 2>&1 | tee agent_reach_output.txt
@@ -67,5 +78,5 @@ jobs:
           git config user.name 'agent-reach-sandbox'
           git config user.email 'actions@users.noreply.github.com'
           git add agent_reach_output.txt
-          git commit -m 'Save targeted Access Holdings X search [skip ci]' || exit 0
+          git commit -m 'Test NGX Pulse and social backends [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
