@@ -18,6 +18,8 @@ jobs:
     env:
       TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
       TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+      AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+      CT0: ${{ secrets.TWITTER_CT0 }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,7 +31,12 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install and run Agent Reach
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install and test Agent Reach Twitter backends
         shell: bash
         run: |
           set +e
@@ -38,14 +45,8 @@ jobs:
             python -m pip install --upgrade pip
             pip install 'git+https://github.com/Panniantong/Agent-Reach.git'
             echo
-            echo '=== INSTALL TWITTER CLI ==='
-            pip install twitter-cli
-            echo
-            echo '=== VERSION ==='
-            agent-reach --version || true
-            echo
-            echo '=== DOCTOR AFTER TWITTER CLI INSTALL ==='
-            agent-reach doctor --json || true
+            echo '=== INSTALL BIRD ==='
+            npm install -g @steipete/bird
             echo
             echo '=== AUTH CHECK ==='
             if [ -n "$TWITTER_AUTH_TOKEN" ] && [ -n "$TWITTER_CT0" ]; then
@@ -54,9 +55,18 @@ jobs:
               echo 'Twitter secrets missing.'
             fi
             echo
-            echo '=== ACCESSCORP SEARCH ==='
-            twitter search 'ACCESSCORP OR "Access Holdings" OR "Access Bank"' -n 50 || true
-            echo '=== END SEARCH ==='
+            echo '=== BIRD VERSION ==='
+            bird --version || true
+            echo
+            echo '=== BIRD WHOAMI ==='
+            bird whoami --plain || true
+            echo
+            echo '=== BIRD ACCESSCORP SEARCH ==='
+            bird search 'ACCESSCORP OR "Access Holdings" OR "Access Bank"' -n 50 --json || true
+            echo '=== END BIRD SEARCH ==='
+            echo
+            echo '=== AGENT REACH DOCTOR ==='
+            agent-reach doctor --json || true
           } 2>&1 | tee agent_reach_output.txt
 
       - name: Commit sandbox output
@@ -65,7 +75,5 @@ jobs:
           git config user.name 'agent-reach-sandbox'
           git config user.email 'actions@users.noreply.github.com'
           git add agent_reach_output.txt
-          git commit -m 'Save Agent Reach sandbox output [skip ci]' || exit 0
+          git commit -m 'Save Agent Reach bird backend output [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
-
-# Triggered after Twitter secrets were configured on 2026-08-18.
