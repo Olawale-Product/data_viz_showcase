@@ -1,8 +1,8 @@
 === INSTALL AGENT REACH ===
 Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (26.2.1)
 Collecting git+https://github.com/Panniantong/Agent-Reach.git
-  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-qx9nh2ng
-  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-qx9nh2ng
+  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-fetgf8bj
+  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-fetgf8bj
   Resolved https://github.com/Panniantong/Agent-Reach.git to commit 93ae1d18c37b707dec053c7c4f9d91cd8ef8943d
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -55,7 +55,7 @@ Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl (11 kB)
 Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
 Downloading python_dotenv-1.2.3-py3-none-any.whl (22 kB)
 Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 59.4 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 77.7 MB/s  0:00:00
 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
 Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (248 kB)
 Downloading idna-3.18-py3-none-any.whl (65 kB)
@@ -63,82 +63,723 @@ Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
 Downloading rich-15.0.0-py3-none-any.whl (310 kB)
 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 74.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 134.3 MB/s  0:00:00
 Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
 Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
 Downloading yt_dlp-2026.7.4-py3-none-any.whl (3.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 171.7 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 214.4 MB/s  0:00:00
 Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl (53 kB)
 Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (220 kB)
 Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 225.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 193.9 MB/s  0:00:00
 Downloading mutagen-1.48.1-py3-none-any.whl (195 kB)
 Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 244.1 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 205.9 MB/s  0:00:00
 Building wheels for collected packages: agent-reach
   Building wheel for agent-reach (pyproject.toml): started
   Building wheel for agent-reach (pyproject.toml): finished with status 'done'
   Created wheel for agent-reach: filename=agent_reach-1.5.0-py3-none-any.whl size=129286 sha256=fe7cb407143628d724bafb40b04746f370ebaceaef2cd4296bb3129f7433a99a
-  Stored in directory: /tmp/pip-ephem-wheel-cache-_texqtma/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-c324s5kw/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
 Successfully built agent-reach
 Installing collected packages: brotli, yt-dlp-ejs, yt-dlp, websockets, urllib3, pyyaml, python-dotenv, pygments, pycryptodomex, mutagen, mdurl, loguru, idna, feedparser-sgmllib, charset_normalizer, certifi, requests, markdown-it-py, feedparser, rich, agent-reach
 
 Successfully installed agent-reach-1.5.0 brotli-1.2.0 certifi-2026.7.22 charset_normalizer-3.5.1 feedparser-6.0.14 feedparser-sgmllib-2.1.0 idna-3.18 loguru-0.7.3 markdown-it-py-4.2.0 mdurl-0.1.2 mutagen-1.48.1 pycryptodomex-3.23.0 pygments-2.21.0 python-dotenv-1.2.3 pyyaml-6.0.3 requests-2.34.2 rich-15.0.0 urllib3-2.7.0 websockets-17.0.1 yt-dlp-2026.7.4 yt-dlp-ejs-0.8.0
 
-=== INSTALL TWITTER CLI ===
-Collecting twitter-cli
-  Downloading twitter_cli-0.8.5-py3-none-any.whl.metadata (22 kB)
-Collecting beautifulsoup4>=4.12 (from twitter-cli)
-  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
-Collecting browser-cookie3>=0.19 (from twitter-cli)
-  Downloading browser_cookie3-0.20.1-py3-none-any.whl.metadata (713 bytes)
-Collecting click>=8.0 (from twitter-cli)
-  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
-Collecting curl-cffi>=0.7 (from twitter-cli)
-  Downloading curl_cffi-0.16.0-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (17 kB)
-Requirement already satisfied: pyyaml>=6.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from twitter-cli) (6.0.3)
-Requirement already satisfied: rich>=13.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from twitter-cli) (15.0.0)
-Collecting xclienttransaction>=1.0.1 (from twitter-cli)
-  Downloading xclienttransaction-1.0.3-py3-none-any.whl.metadata (6.3 kB)
-Collecting soupsieve>=1.6.1 (from beautifulsoup4>=4.12->twitter-cli)
-  Downloading soupsieve-2.9.2-py3-none-any.whl.metadata (4.6 kB)
-Collecting typing-extensions>=4.0.0 (from beautifulsoup4>=4.12->twitter-cli)
-  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
-Collecting lz4 (from browser-cookie3>=0.19->twitter-cli)
-  Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
-Requirement already satisfied: pycryptodomex in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from browser-cookie3>=0.19->twitter-cli) (3.23.0)
-Collecting jeepney (from browser-cookie3>=0.19->twitter-cli)
-  Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
-Collecting cffi>=2.0.0 (from curl-cffi>=0.7->twitter-cli)
-  Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
-Requirement already satisfied: certifi>=2024.2.2 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from curl-cffi>=0.7->twitter-cli) (2026.7.22)
-Collecting pycparser (from cffi>=2.0.0->curl-cffi>=0.7->twitter-cli)
-  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
-Requirement already satisfied: markdown-it-py>=2.2.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from rich>=13.0->twitter-cli) (4.2.0)
-Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from rich>=13.0->twitter-cli) (2.21.0)
-Requirement already satisfied: mdurl~=0.1 in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=13.0->twitter-cli) (0.1.2)
-Downloading twitter_cli-0.8.5-py3-none-any.whl (65 kB)
-Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
-Downloading browser_cookie3-0.20.1-py3-none-any.whl (17 kB)
-Downloading click-8.4.2-py3-none-any.whl (119 kB)
-Downloading curl_cffi-0.16.0-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (13.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 197.3 MB/s  0:00:00
-Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
-Downloading soupsieve-2.9.2-py3-none-any.whl (37 kB)
-Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
-Downloading xclienttransaction-1.0.3-py3-none-any.whl (10 kB)
-Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
-Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 235.5 MB/s  0:00:00
-Downloading pycparser-3.0-py3-none-any.whl (48 kB)
-Installing collected packages: typing-extensions, soupsieve, pycparser, lz4, jeepney, click, cffi, browser-cookie3, beautifulsoup4, xclienttransaction, curl-cffi, twitter-cli
+=== INSTALL BIRD ===
+npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-Successfully installed beautifulsoup4-4.15.0 browser-cookie3-0.20.1 cffi-2.1.1 click-8.4.2 curl-cffi-0.16.0 jeepney-0.9.0 lz4-4.4.5 pycparser-3.0 soupsieve-2.9.2 twitter-cli-0.8.5 typing-extensions-4.16.0 xclienttransaction-1.0.3
+added 5 packages in 957ms
 
-=== VERSION ===
-Agent Reach v1.5.0
+=== AUTH CHECK ===
+Twitter secrets detected.
 
-=== DOCTOR AFTER TWITTER CLI INSTALL ===
+=== BIRD VERSION ===
+0.8.0
+
+=== BIRD WHOAMI ===
+source: env AUTH_TOKEN
+user: @letterbytes1 (Ola)
+user_id: 1926028714594222081
+engine: graphql
+credentials: env AUTH_TOKEN
+
+=== BIRD ACCESSCORP SEARCH ===
+[
+  {
+    "id": "2089527547721646187",
+    "text": "Access bank , you can do better 😁😂 https://t.co/bTDoyjZxIZ",
+    "createdAt": "Tue Aug 18 01:39:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089527547721646187",
+    "author": {
+      "username": "Cxkhristopher",
+      "name": "Cxkhristopher"
+    },
+    "authorId": "1155057335414468609",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9-OVqWwAATU3y.jpg",
+        "width": 1036,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HP9-OVqWwAATU3y.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089525636239151458",
+    "text": "@thekeeperoftale Hi thekeeperoftale, thank you for reaching out. Your DM has been responded to. ^Beth.",
+    "createdAt": "Tue Aug 18 01:31:47 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2085776888551575619",
+    "inReplyToStatusId": "2089417775433306127",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089521960854188530",
+    "text": "@Degeneral_HQ Am.atill mu h here with you.\n0033825516 access bank plc. Ademola Alabi. \nThanks  brother",
+    "createdAt": "Tue Aug 18 01:17:11 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089521663800918365",
+    "inReplyToStatusId": "2089521663800918365",
+    "author": {
+      "username": "AAlabi97",
+      "name": "Ademola Alabi"
+    },
+    "authorId": "2413242989"
+  },
+  {
+    "id": "2089521730821759019",
+    "text": "@Jowizazaa_gives Precious Osigwe, 0606582226 Access Bank https://t.co/LdA6b9Vlol",
+    "createdAt": "Tue Aug 18 01:16:16 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089515793667031420",
+    "inReplyToStatusId": "2089515793667031420",
+    "author": {
+      "username": "PreciousOsigwe3",
+      "name": "Prestige Citizen HQ"
+    },
+    "authorId": "1551162993416851457",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP947rEXUAAve0X.jpg",
+        "width": 720,
+        "height": 1600,
+        "previewUrl": "https://pbs.twimg.com/media/HP947rEXUAAve0X.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089517696702624127",
+    "text": "@_The_VALOR @Com_Obicubana Am with you sure 0033825516 access bank plc. Ademola Alabi",
+    "createdAt": "Tue Aug 18 01:00:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089514388533158287",
+    "inReplyToStatusId": "2089514388533158287",
+    "author": {
+      "username": "AAlabi97",
+      "name": "Ademola Alabi"
+    },
+    "authorId": "2413242989"
+  },
+  {
+    "id": "2089517695729619256",
+    "text": "@Ibrahimskrr Hi Ibrahimskrr, thank you for reaching out. Your DM has been responded to. ^Beth.",
+    "createdAt": "Tue Aug 18 01:00:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089412012707033222",
+    "inReplyToStatusId": "2089451285724467229",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089517243595940208",
+    "text": "Any good Samaritan should pls help me with anything 🙏 0105805408 access bank i need help",
+    "createdAt": "Tue Aug 18 00:58:26 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089517243595940208",
+    "author": {
+      "username": "Triple2066654",
+      "name": "Remy🥰"
+    },
+    "authorId": "1784879729566154752"
+  },
+  {
+    "id": "2089512926051021001",
+    "text": "@Dhereigningking Hi Dhereigningking,thank you for reaching out. I am sorry to learn of your experience with your transaction. your DM has been responded to. ^Beth.",
+    "createdAt": "Tue Aug 18 00:41:17 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2084714636574674993",
+    "inReplyToStatusId": "2089492026756681999",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089512661340082670",
+    "text": "@Luminnnni Hi Luminnnni, thank you for reaching out. I am sorry to learn of your experience with your transaction. Your DM has been responded to. ^Beth.",
+    "createdAt": "Tue Aug 18 00:40:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2084714636574674993",
+    "inReplyToStatusId": "2089491826180780425",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089511807128096920",
+    "text": "@OLA_manny75 Hi OLA_manny75, you're welcome! We truly appreciate your feedback, and we will continue to explore new ways to improve our customer experience. ^Beth.",
+    "createdAt": "Tue Aug 18 00:36:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089488504396931439",
+    "inReplyToStatusId": "2089488504396931439",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089505884007444656",
+    "text": "Condiments trash medicine that doesn’t work; thanks @elonmusk do u think the rckts are God zoning those that abandoned us when they had $ to help. Do we get to watch divinity? @FBIDirectorKash praying for account access BANK STATEMENT FORENSIC AUDIT @POTUS 🙏@BarackObama @levie https://t.co/hWdDjJy2Zi",
+    "createdAt": "Tue Aug 18 00:13:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 1,
+    "conversationId": "2089505884007444656",
+    "author": {
+      "username": "JacobSmithvuuq",
+      "name": "Jacob Smith"
+    },
+    "authorId": "2064109779597791232",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9qg-0asAATSDj.jpg",
+        "width": 1536,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HP9qg-0asAATSDj.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9qg-8aEAAuGbB.jpg",
+        "width": 1536,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HP9qg-8aEAAuGbB.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9qg-1bcAAuJuS.jpg",
+        "width": 1536,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HP9qg-1bcAAuJuS.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9qg-0bYAAXUT1.jpg",
+        "width": 1536,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HP9qg-0bYAAXUT1.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089498830509134235",
+    "text": "Funny how he tell  the girl say he screenshot am to report to access bank🤣🤣🤣",
+    "createdAt": "Mon Aug 17 23:45:16 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089498830509134235",
+    "author": {
+      "username": "onlymrpeee",
+      "name": "MR PEE"
+    },
+    "authorId": "1989555655544639495",
+    "quotedTweet": {
+      "id": "2089359966381416626",
+      "text": "“Oh yh yh” 😭😭 https://t.co/H8g2LYSE0n",
+      "createdAt": "Mon Aug 17 14:33:29 +0000 2026",
+      "replyCount": 788,
+      "retweetCount": 1825,
+      "likeCount": 13148,
+      "conversationId": "2089359966381416626",
+      "author": {
+        "username": "Fakaofwest1",
+        "name": "Faka001🦅"
+      },
+      "authorId": "1935311515072217091",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HP7lyZNX0AAp1fh.jpg",
+          "width": 723,
+          "height": 1597,
+          "previewUrl": "https://pbs.twimg.com/media/HP7lyZNX0AAp1fh.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2089494906121412634",
+    "text": "@AkiodeQ Hi AkiodeQ, thank you for reaching out to us. I apologize for any inconvenience this has caused you. kindly reach out to us via DM for further assistance. ^Beth.",
+    "createdAt": "Mon Aug 17 23:29:41 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089433912762093989",
+    "inReplyToStatusId": "2089433912762093989",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089494163587055706",
+    "text": "@extratime131 Hi extratime131, thank you for reaching out. I apologize for any inconvenience this has caused you. kindly reach out to us with your account details via DM for further assistance. ^Beth.",
+    "createdAt": "Mon Aug 17 23:26:44 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089439180195590457",
+    "inReplyToStatusId": "2089439180195590457",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089493558646780033",
+    "text": "@ummish3 Hi ummish3, thank you for reaching out. Kindly follow the page and state your complaint/request via DM, I'll be glad to help.  ^Beth.",
+    "createdAt": "Mon Aug 17 23:24:19 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089439195651506335",
+    "inReplyToStatusId": "2089439195651506335",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089492618556350936",
+    "text": "@Whotfisayo Hi Whotfisayo, thank you for reaching out to us. I apologize for any issues encountered using your debit card. Kindly reach out to us with your account details via DM for further assistance. ^Beth.",
+    "createdAt": "Mon Aug 17 23:20:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089449873460298060",
+    "inReplyToStatusId": "2089449873460298060",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089491416187859333",
+    "text": "@Abbajibrinpsfm Hi Abbajibrinpsfm, thank you for reaching out. Kindly reach out to us via DM for further assistance. ^Beth.",
+    "createdAt": "Mon Aug 17 23:15:49 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089465169772528003",
+    "inReplyToStatusId": "2089465169772528003",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089490670096695317",
+    "text": "@Dhereigningking Hi Dhereigningking, I am sorry to learn about your experience with this transaction. Kindly provide this transaction details via DM to enable us assist further. ^Beth.",
+    "createdAt": "Mon Aug 17 23:12:51 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2084714636574674993",
+    "inReplyToStatusId": "2089466002320904268",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089490478890696773",
+    "text": "@Fakaofwest1 Access Bank accidentally shipped a feature that protects your friends from lunch requests.",
+    "createdAt": "Mon Aug 17 23:12:05 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089359966381416626",
+    "inReplyToStatusId": "2089359966381416626",
+    "author": {
+      "username": "Clinton_feyi",
+      "name": "Clinton Feyisitan"
+    },
+    "authorId": "1345253438"
+  },
+  {
+    "id": "2089490425119940800",
+    "text": "@kollins_salam Hi kollins_salam, I am sorry to learn about your experience with your mobile app. kindly reach out to us via DM for further assistance. ^Beth.",
+    "createdAt": "Mon Aug 17 23:11:52 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "1845172328675643473",
+    "inReplyToStatusId": "2089472447645130966",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089489562452246605",
+    "text": "@bukar_yusu26561 Hi bukar_yusu26561, I apologize for any inconvenience this experience has caused you. kindly reach out to us via DM for further assistance. ^Beth.",
+    "createdAt": "Mon Aug 17 23:08:27 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089480609097773419",
+    "inReplyToStatusId": "2089480609097773419",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089488521555775885",
+    "text": "@Confidence_HQ 1934085853\nAccess bank\nZainab Aliyu Danjuma",
+    "createdAt": "Mon Aug 17 23:04:19 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089427043154809026",
+    "inReplyToStatusId": "2089427043154809026",
+    "author": {
+      "username": "ZainabAliy38207",
+      "name": "Zainab Aliyu"
+    },
+    "authorId": "1676285459691872259"
+  },
+  {
+    "id": "2089487559646720430",
+    "text": "@gustavoinsol why access bank gate men never win since ?",
+    "createdAt": "Mon Aug 17 23:00:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089450602270974410",
+    "inReplyToStatusId": "2089450602270974410",
+    "author": {
+      "username": "VictorWithAV",
+      "name": "VICTOR"
+    },
+    "authorId": "1511497800038727684"
+  },
+  {
+    "id": "2089487297226092580",
+    "text": "@anslemhills Hi anslemhills, thank you for reaching out.  I apologize for any inconvenience this data transaction may have caused. Kindly delete your account number and phone number on timeline for security reasons and send us a DM.^ Beth.",
+    "createdAt": "Mon Aug 17 22:59:27 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089423436229853480",
+    "inReplyToStatusId": "2089423436229853480",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089486095197331820",
+    "text": "@DeMan_S_K_D 0038484758\nAccess bank\nOkonji Nnamdi\nThank you.",
+    "createdAt": "Mon Aug 17 22:54:40 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089485194239615156",
+    "inReplyToStatusId": "2089485194239615156",
+    "author": {
+      "username": "jude_nnam1",
+      "name": "Okonji Nnamdi"
+    },
+    "authorId": "612363086"
+  },
+  {
+    "id": "2089485106385912270",
+    "text": "@AgwunchaC Hi AgwunchaC, thank you for reaching out to us. I am sorry to learn of this erroneous transaction. Kindly delete your details from TL and you have been responded to via DM, please check. ^Beth.",
+    "createdAt": "Mon Aug 17 22:50:44 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089460582504169743",
+    "inReplyToStatusId": "2089460582504169743",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089478102900511188",
+    "text": "why is access bank choosing the exact moment i’m genuinely starving to start acting like this 😭 i’m not even asking for much, i just need to access my own money.",
+    "createdAt": "Mon Aug 17 22:22:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 9,
+    "conversationId": "2089478102900511188",
+    "author": {
+      "username": "tobiiswago",
+      "name": "tobi⁷⁷"
+    },
+    "authorId": "1525115795012993024"
+  },
+  {
+    "id": "2089478094264635692",
+    "text": "@Hes_Rry Hi Hes_Rry, thank you for reaching out. Kindly state your request or complaint via DM. ^Beth.",
+    "createdAt": "Mon Aug 17 22:22:52 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089347993363157185",
+    "inReplyToStatusId": "2089455691224289732",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089477359606833440",
+    "text": "ah access bank. 😭😭😭",
+    "createdAt": "Mon Aug 17 22:19:57 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2089477359606833440",
+    "author": {
+      "username": "tobiiswago",
+      "name": "tobi⁷⁷"
+    },
+    "authorId": "1525115795012993024"
+  },
+  {
+    "id": "2089477256796393662",
+    "text": "@BullockPag74171 Hi BullockPag74171, I am sorry to learn about your experience with your mobile app. Kindly provide your account details via DM to enable us assist further. ^Beth.",
+    "createdAt": "Mon Aug 17 22:19:33 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "1974141463316582785",
+    "inReplyToStatusId": "2089458503622770823",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089476155191840912",
+    "text": "@NakawuSani18032 Hi NakawuSani18032, thank you for reaching out. Kindly provide your account details via DM to enable us assist further. ^Beth.",
+    "createdAt": "Mon Aug 17 22:15:10 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2062836867196756294",
+    "inReplyToStatusId": "2089426819409744336",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089475989990453481",
+    "text": "i’m hungry and i just need 2k to sort out my food and my access bank decided to start misbehaving. i might just pass out atp. this is actually sick. 😭😭",
+    "createdAt": "Mon Aug 17 22:14:31 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 1,
+    "likeCount": 24,
+    "conversationId": "2089475989990453481",
+    "author": {
+      "username": "tobiiswago",
+      "name": "tobi⁷⁷"
+    },
+    "authorId": "1525115795012993024"
+  },
+  {
+    "id": "2089474465637757438",
+    "text": "Make person help me run 1100 go my access bank i wan go house tomorrow abeg 1490122467 access bank💐💐💐",
+    "createdAt": "Mon Aug 17 22:08:27 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089474465637757438",
+    "author": {
+      "username": "rio_milley",
+      "name": "RIDWAN"
+    },
+    "authorId": "1190549520083509248"
+  },
+  {
+    "id": "2089474330271121548",
+    "text": "@SamuelSamwyne Hi SamuelSamwyne, thank you for reaching out to us.  I'm sorry about the inconvenience the USSD channel may have caused you. Kindly provide this transaction details via DM to enable us assist further. ^Beth.",
+    "createdAt": "Mon Aug 17 22:07:55 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089417805770723665",
+    "inReplyToStatusId": "2089417805770723665",
+    "author": {
+      "username": "myaccessbank",
+      "name": "Access Bank Plc"
+    },
+    "authorId": "190615522"
+  },
+  {
+    "id": "2089474095461077120",
+    "text": "Access bank network this days 😂😂😂 https://t.co/T8MHaBjq0q",
+    "createdAt": "Mon Aug 17 22:06:59 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089474095461077120",
+    "author": {
+      "username": "xXclusive1408",
+      "name": "Makaveli👻👨🏻‍🍳🧑‍💻"
+    },
+    "authorId": "395000830",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9NnArWQAA9Oik.jpg",
+        "width": 419,
+        "height": 900,
+        "previewUrl": "https://pbs.twimg.com/media/HP9NnArWQAA9Oik.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089473339857199562",
+    "text": "@inuhimself God will reward you in million folds sir @inuhimself \n\n1625013332   Access bank, \n\nmotunrayo bello…",
+    "createdAt": "Mon Aug 17 22:03:59 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089466167685534117",
+    "inReplyToStatusId": "2089466167685534117",
+    "author": {
+      "username": "__Motunrayor__",
+      "name": "Rayo"
+    },
+    "authorId": "1963981429966278656"
+  },
+  {
+    "id": "2089473320857264623",
+    "text": "@CalistaAta64767 Hi CalistaAta64767, I am sorry to learn about your experience with this transaction. Kindly provide this transaction details via DM to enable us assist further. ^Beth.",
+    "createdAt": "Mon Aug 17 22:03:54 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089416484934259113",
+    "inReplyToStatusId": "2089416484934259113",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089473086777409886",
+    "text": "@inuhimself God bless you ❤️\n\n1486816354 \nAccess Bank \nHANNATU NMA \n\nThanks in advance 🤲🏼",
+    "createdAt": "Mon Aug 17 22:02:59 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089466167685534117",
+    "inReplyToStatusId": "2089466167685534117",
+    "author": {
+      "username": "MissHannatu",
+      "name": "Hannatu💫"
+    },
+    "authorId": "1212332871907606528"
+  },
+  {
+    "id": "2089472496944959602",
+    "text": "@Batou_ssai Hi Batou_ssai, I am sorry to learn about your experience with your mobile app. Kindly provide your account details amd a screenshot of the error message encountered via DM to enable us assist further. ^Beth",
+    "createdAt": "Mon Aug 17 22:00:38 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "1974141463316582785",
+    "inReplyToStatusId": "2089413184381673625",
+    "author": {
+      "username": "accessbank_help",
+      "name": "Access Bank Help"
+    },
+    "authorId": "2164455380"
+  },
+  {
+    "id": "2089472447645130966",
+    "text": "@myaccessbank I could not login to my access bank app coz I changed my phone",
+    "createdAt": "Mon Aug 17 22:00:26 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "1845172328675643473",
+    "inReplyToStatusId": "1845172328675643473",
+    "author": {
+      "username": "kollins_salam",
+      "name": "Kollins Omo Hassan"
+    },
+    "authorId": "2575464388"
+  }
+]
+=== END BIRD SEARCH ===
+
+=== AGENT REACH DOCTOR ===
 {
   "github": {
     "status": "warn",
@@ -153,7 +794,7 @@ Agent Reach v1.5.0
   "twitter": {
     "status": "warn",
     "name": "Twitter/X 推文",
-    "message": "twitter-cli 已安装，且 Cookie-Editor 凭据已配置；Doctor 不会执行 `twitter status`，因为上游在验证失败时会自动读取浏览器 Cookie。请在你明确同意时手动验证。",
+    "message": "bird 已安装且显式环境凭据存在；Doctor 为避免上游浏览器 Cookie 回退，不执行 `check`，未实时验证。",
     "tier": 1,
     "backends": [
       "twitter-cli",
@@ -300,16 +941,3 @@ Agent Reach v1.5.0
     "active_backend": "Jina Reader"
   }
 }
-
-=== AUTH CHECK ===
-Twitter secrets detected.
-
-=== ACCESSCORP SEARCH ===
-WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'
-ok: false
-schema_version: '1'
-error:
-  code: not_found
-  message: 'Twitter API error (HTTP 404): Twitter API error 404: '
-
-=== END SEARCH ===
