@@ -53,13 +53,13 @@ jobs:
             if [ -n "$NGXPULSE_API_KEY" ]; then echo 'NGX Pulse secret detected.'; else echo 'NGX Pulse secret missing.'; fi
 
             echo '=== NGX PULSE ALL STOCKS TEST ==='
-            curl -sS -w '\nHTTP_STATUS:%{http_code}\n' \
+            curl -sSL -w '\nHTTP_STATUS:%{http_code}\n' \
               -H "X-API-Key: $NGXPULSE_API_KEY" \
               -H 'Content-Type: application/json' \
-              'https://www.ngxpulse.ng/api/ngxdata/stocks' | python -c "import sys,json; raw=sys.stdin.read(); print(raw[:6000])" || true
+              'https://www.ngxpulse.ng/api/ngxdata/stocks' | python -c "import sys; print(sys.stdin.read()[:6000])" || true
 
             echo '=== NGX PULSE ACCESSCORP TEST ==='
-            curl -sS -w '\nHTTP_STATUS:%{http_code}\n' \
+            curl -sSL -w '\nHTTP_STATUS:%{http_code}\n' \
               -H "X-API-Key: $NGXPULSE_API_KEY" \
               -H 'Content-Type: application/json' \
               'https://www.ngxpulse.ng/api/ngxdata/prices/ACCESSCORP' | python -c "import sys; print(sys.stdin.read()[:6000])" || true
