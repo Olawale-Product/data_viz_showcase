@@ -1,0 +1,55 @@
+name: NGX Report Snapshot
+
+on:
+  push:
+    branches:
+      - agent-reach-sandbox
+    paths:
+      - run_ngx_snapshot.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      NGXPULSE_API_KEY: ${{ secrets.NGXPULSE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent-reach-sandbox
+      - name: Fetch NGX Pulse snapshot
+        shell: bash
+        run: |
+          set -e
+          curl -sSL -H "X-API-Key: $NGXPULSE_API_KEY" 'https://ngxpulse.ng/api/ngxdata/stocks' -o /tmp/stocks.json
+          python - <<'PY'
+          import json
+          wanted = [
+            'ARADEL','HBMNG','NASCON','BUACEMENT','MTNN','ETI','NAHCO','DANGCEM','GTCO','CUSTODIAN',
+            'NGXGROUP','PZ','NESTLE','ZENITHBANK','ACCESSCORP','OKOMUOIL','VITAFOAM','CWG','FCMB','BUAFOODS',
+            'BETAGLAS','ETERNA','STANBIC','GUINNESS','FIDSON','WEMABANK','AIICO','FIDELITYBK','MECURE','FIRSTHOLDCO',
+            'UNILEVER','PRESCO','CADBURY','TRANSCORP','UACN','JAIZBANK','JBERGER'
+          ]
+          data=json.load(open('/tmp/stocks.json'))
+          rows={r.get('symbol'): r for r in data.get('stocks',[]) if r.get('symbol') in wanted}
+          out={'as_of': None, 'stocks': []}
+          for s in wanted:
+              if s in rows:
+                  out['stocks'].append(rows[s])
+                  if not out['as_of'] and rows[s].get('trade_date'):
+                      out['as_of']=rows[s]['trade_date']
+          json.dump(out, open('ngx_analysis_snapshot.json','w'), indent=2)
+          print(json.dumps(out, indent=2))
+          PY
+      - name: Commit snapshot
+        shell: bash
+        run: |
+          git config user.name 'ngx-report-snapshot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add ngx_analysis_snapshot.json
+          git commit -m 'Refresh NGX report snapshot [skip ci]' || exit 0
+          git push origin HEAD:agent-reach-sandbox
