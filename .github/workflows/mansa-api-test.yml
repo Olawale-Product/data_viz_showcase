@@ -1,0 +1,57 @@
+name: Mansa API Test
+
+on:
+  push:
+    branches:
+      - agent-reach-sandbox
+    paths:
+      - mansa_test_trigger.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mansa-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      MANSA_API_KEY: ${{ secrets.MANSA_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: agent-reach-sandbox
+
+      - name: Test Mansa API
+        shell: bash
+        run: |
+          set +e
+          {
+            echo '=== SECRET CHECK ==='
+            if [ -n "$MANSA_API_KEY" ]; then echo 'Mansa API secret detected.'; else echo 'Mansa API secret missing.'; fi
+            echo '=== HEALTH ==='
+            curl -sS 'https://mansaapi.com/health'
+            echo
+            echo '=== NGX STOCKS SAMPLE ==='
+            curl -sS -H "Authorization: Bearer $MANSA_API_KEY" 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks?limit=5&sort_by=volume&order=desc'
+            echo
+            echo '=== ARADEL QUOTE ==='
+            curl -sS -H "Authorization: Bearer $MANSA_API_KEY" 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ARADEL'
+            echo
+            echo '=== NGX INDICES ==='
+            curl -sS -H "Authorization: Bearer $MANSA_API_KEY" 'https://mansaapi.com/api/v1/markets/exchanges/NGX/indices'
+            echo
+            echo '=== NIGERIA MACRO ==='
+            curl -sS -H "Authorization: Bearer $MANSA_API_KEY" 'https://mansaapi.com/api/v1/macro/indicators?country=NG'
+            echo
+          } 2>&1 | tee mansa_output.txt
+
+      - name: Commit test output
+        shell: bash
+        run: |
+          git config user.name 'mansa-api-test'
+          git config user.email 'actions@users.noreply.github.com'
+          git add mansa_output.txt
+          git commit -m 'Save Mansa API test output [skip ci]' || exit 0
+          git push origin HEAD:agent-reach-sandbox
