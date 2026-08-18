@@ -1,784 +1,2342 @@
 === INSTALL AGENT REACH ===
-Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (26.2.1)
-Collecting git+https://github.com/Panniantong/Agent-Reach.git
-  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-fetgf8bj
-  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-fetgf8bj
-  Resolved https://github.com/Panniantong/Agent-Reach.git to commit 93ae1d18c37b707dec053c7c4f9d91cd8ef8943d
-  Installing build dependencies: started
-  Installing build dependencies: finished with status 'done'
-  Getting requirements to build wheel: started
-  Getting requirements to build wheel: finished with status 'done'
-  Preparing metadata (pyproject.toml): started
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Collecting feedparser>=6.0 (from agent-reach==1.5.0)
-  Downloading feedparser-6.0.14-py3-none-any.whl.metadata (2.7 kB)
-Collecting loguru>=0.7 (from agent-reach==1.5.0)
-  Downloading loguru-0.7.3-py3-none-any.whl.metadata (22 kB)
-Collecting python-dotenv>=1.0 (from agent-reach==1.5.0)
-  Downloading python_dotenv-1.2.3-py3-none-any.whl.metadata (29 kB)
-Collecting pyyaml>=6.0 (from agent-reach==1.5.0)
-  Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
-Collecting requests>=2.28 (from agent-reach==1.5.0)
-  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
-Collecting rich>=13.0 (from agent-reach==1.5.0)
-  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
-Collecting yt-dlp>=2026.07.04 (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
-  Downloading yt_dlp-2026.7.4-py3-none-any.whl.metadata (183 kB)
-Collecting feedparser-sgmllib<3,>=2 (from feedparser>=6.0->agent-reach==1.5.0)
-  Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl.metadata (926 bytes)
-Collecting charset_normalizer<4,>=2 (from requests>=2.28->agent-reach==1.5.0)
-  Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)
-Collecting idna<4,>=2.5 (from requests>=2.28->agent-reach==1.5.0)
-  Downloading idna-3.18-py3-none-any.whl.metadata (6.1 kB)
-Collecting urllib3<3,>=1.26 (from requests>=2.28->agent-reach==1.5.0)
-  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
-Collecting certifi>=2023.5.7 (from requests>=2.28->agent-reach==1.5.0)
-  Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
-Collecting markdown-it-py>=2.2.0 (from rich>=13.0->agent-reach==1.5.0)
-  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.0->agent-reach==1.5.0)
-  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.0->agent-reach==1.5.0)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Collecting brotli (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
-  Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
-Collecting mutagen (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
-  Downloading mutagen-1.48.1-py3-none-any.whl.metadata (1.8 kB)
-Collecting pycryptodomex (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
-  Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.4 kB)
-Collecting websockets>=13.0 (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
-  Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.3 kB)
-Collecting yt-dlp-ejs==0.8.0 (from yt-dlp[default]>=2026.07.04->agent-reach==1.5.0)
-  Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl.metadata (3.5 kB)
-Downloading feedparser-6.0.14-py3-none-any.whl (80 kB)
-Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl (11 kB)
-Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
-Downloading python_dotenv-1.2.3-py3-none-any.whl (22 kB)
-Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 77.7 MB/s  0:00:00
-Downloading requests-2.34.2-py3-none-any.whl (73 kB)
-Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (248 kB)
-Downloading idna-3.18-py3-none-any.whl (65 kB)
-Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
-Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
-Downloading rich-15.0.0-py3-none-any.whl (310 kB)
-Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 134.3 MB/s  0:00:00
-Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Downloading yt_dlp-2026.7.4-py3-none-any.whl (3.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 214.4 MB/s  0:00:00
-Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl (53 kB)
-Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (220 kB)
-Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 193.9 MB/s  0:00:00
-Downloading mutagen-1.48.1-py3-none-any.whl (195 kB)
-Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 205.9 MB/s  0:00:00
-Building wheels for collected packages: agent-reach
-  Building wheel for agent-reach (pyproject.toml): started
-  Building wheel for agent-reach (pyproject.toml): finished with status 'done'
-  Created wheel for agent-reach: filename=agent_reach-1.5.0-py3-none-any.whl size=129286 sha256=fe7cb407143628d724bafb40b04746f370ebaceaef2cd4296bb3129f7433a99a
-  Stored in directory: /tmp/pip-ephem-wheel-cache-c324s5kw/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
-Successfully built agent-reach
-Installing collected packages: brotli, yt-dlp-ejs, yt-dlp, websockets, urllib3, pyyaml, python-dotenv, pygments, pycryptodomex, mutagen, mdurl, loguru, idna, feedparser-sgmllib, charset_normalizer, certifi, requests, markdown-it-py, feedparser, rich, agent-reach
-
-Successfully installed agent-reach-1.5.0 brotli-1.2.0 certifi-2026.7.22 charset_normalizer-3.5.1 feedparser-6.0.14 feedparser-sgmllib-2.1.0 idna-3.18 loguru-0.7.3 markdown-it-py-4.2.0 mdurl-0.1.2 mutagen-1.48.1 pycryptodomex-3.23.0 pygments-2.21.0 python-dotenv-1.2.3 pyyaml-6.0.3 requests-2.34.2 rich-15.0.0 urllib3-2.7.0 websockets-17.0.1 yt-dlp-2026.7.4 yt-dlp-ejs-0.8.0
-
+  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-qrpznyb1
 === INSTALL BIRD ===
 npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-
-added 5 packages in 957ms
-
 === AUTH CHECK ===
 Twitter secrets detected.
-
-=== BIRD VERSION ===
-0.8.0
-
 === BIRD WHOAMI ===
 source: env AUTH_TOKEN
 user: @letterbytes1 (Ola)
 user_id: 1926028714594222081
 engine: graphql
 credentials: env AUTH_TOKEN
-
-=== BIRD ACCESSCORP SEARCH ===
+=== FINANCE SEARCH 1: ACCESSCORP ===
 [
   {
-    "id": "2089527547721646187",
-    "text": "Access bank , you can do better 😁😂 https://t.co/bTDoyjZxIZ",
-    "createdAt": "Tue Aug 18 01:39:23 +0000 2026",
+    "id": "2089381541210124795",
+    "text": "Useful compendium as always. \n\nGood to see ACCESSCORP still broadly BUY-rated across the board, and ARADEL's Strong Buy consensus lines up with the fundamentals from the H1 numbers. \n\nGTCO and Zenith showing more split calls (REDUCE next to BUY) is a reminder that even \"consensus\" isn't consensus.\n\n worth digging into which broker's thesis actually matches your own read on each name rather than following the majority rating blind.",
+    "createdAt": "Mon Aug 17 15:59:12 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 0,
-    "conversationId": "2089527547721646187",
+    "conversationId": "2089345188837638236",
+    "inReplyToStatusId": "2089345188837638236",
     "author": {
-      "username": "Cxkhristopher",
-      "name": "Cxkhristopher"
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
     },
-    "authorId": "1155057335414468609",
+    "authorId": "2045922582839345152"
+  },
+  {
+    "id": "2089378965085438331",
+    "text": "*ACCESSCORP: Potential delay in H1 2026 audited results as Access Holdings awaits completion of the audit process and required CBN approval. NGX has approved an extension to 30 September 2026, subject to regulatory approval.* https://t.co/FcOY2vnLVZ",
+    "createdAt": "Mon Aug 17 15:48:58 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2089378965085438331",
+    "author": {
+      "username": "raw_sunday",
+      "name": "FINANCIAL FREEDOM/MoneySense"
+    },
+    "authorId": "1389022830252249088",
     "media": [
       {
         "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP9-OVqWwAATU3y.jpg",
-        "width": 1036,
-        "height": 2048,
-        "previewUrl": "https://pbs.twimg.com/media/HP9-OVqWwAATU3y.jpg:small"
+        "url": "https://pbs.twimg.com/media/HP73FdRWwAA6ioR.jpg",
+        "width": 928,
+        "height": 1280,
+        "previewUrl": "https://pbs.twimg.com/media/HP73FdRWwAA6ioR.jpg:small"
       }
     ]
   },
   {
-    "id": "2089525636239151458",
-    "text": "@thekeeperoftale Hi thekeeperoftale, thank you for reaching out. Your DM has been responded to. ^Beth.",
-    "createdAt": "Tue Aug 18 01:31:47 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2085776888551575619",
-    "inReplyToStatusId": "2089417775433306127",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089521960854188530",
-    "text": "@Degeneral_HQ Am.atill mu h here with you.\n0033825516 access bank plc. Ademola Alabi. \nThanks  brother",
-    "createdAt": "Tue Aug 18 01:17:11 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089521663800918365",
-    "inReplyToStatusId": "2089521663800918365",
-    "author": {
-      "username": "AAlabi97",
-      "name": "Ademola Alabi"
-    },
-    "authorId": "2413242989"
-  },
-  {
-    "id": "2089521730821759019",
-    "text": "@Jowizazaa_gives Precious Osigwe, 0606582226 Access Bank https://t.co/LdA6b9Vlol",
-    "createdAt": "Tue Aug 18 01:16:16 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089515793667031420",
-    "inReplyToStatusId": "2089515793667031420",
-    "author": {
-      "username": "PreciousOsigwe3",
-      "name": "Prestige Citizen HQ"
-    },
-    "authorId": "1551162993416851457",
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP947rEXUAAve0X.jpg",
-        "width": 720,
-        "height": 1600,
-        "previewUrl": "https://pbs.twimg.com/media/HP947rEXUAAve0X.jpg:small"
-      }
-    ]
-  },
-  {
-    "id": "2089517696702624127",
-    "text": "@_The_VALOR @Com_Obicubana Am with you sure 0033825516 access bank plc. Ademola Alabi",
-    "createdAt": "Tue Aug 18 01:00:14 +0000 2026",
+    "id": "2089377938412085332",
+    "text": "Two straight months of easing, core down to 14.97% too. \n\nThis is the kind of print that matters for GTCO, ACCESSCORP, UBA, Zenith and Stanbic,  lower inflation gives CBN room to eventually ease, and that's a real tailwind for bank earnings and valuations on top of the FTSE reinstatement thesis already in play.",
+    "createdAt": "Mon Aug 17 15:44:53 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 1,
-    "conversationId": "2089514388533158287",
-    "inReplyToStatusId": "2089514388533158287",
+    "conversationId": "2089248109175959643",
+    "inReplyToStatusId": "2089369817627189288",
     "author": {
-      "username": "AAlabi97",
-      "name": "Ademola Alabi"
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
     },
-    "authorId": "2413242989"
+    "authorId": "2045922582839345152"
   },
   {
-    "id": "2089517695729619256",
-    "text": "@Ibrahimskrr Hi Ibrahimskrr, thank you for reaching out. Your DM has been responded to. ^Beth.",
-    "createdAt": "Tue Aug 18 01:00:14 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089412012707033222",
-    "inReplyToStatusId": "2089451285724467229",
-    "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
-    },
-    "authorId": "2164455380"
-  },
-  {
-    "id": "2089517243595940208",
-    "text": "Any good Samaritan should pls help me with anything 🙏 0105805408 access bank i need help",
-    "createdAt": "Tue Aug 18 00:58:26 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089517243595940208",
-    "author": {
-      "username": "Triple2066654",
-      "name": "Remy🥰"
-    },
-    "authorId": "1784879729566154752"
-  },
-  {
-    "id": "2089512926051021001",
-    "text": "@Dhereigningking Hi Dhereigningking,thank you for reaching out. I am sorry to learn of your experience with your transaction. your DM has been responded to. ^Beth.",
-    "createdAt": "Tue Aug 18 00:41:17 +0000 2026",
-    "replyCount": 1,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2084714636574674993",
-    "inReplyToStatusId": "2089492026756681999",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089512661340082670",
-    "text": "@Luminnnni Hi Luminnnni, thank you for reaching out. I am sorry to learn of your experience with your transaction. Your DM has been responded to. ^Beth.",
-    "createdAt": "Tue Aug 18 00:40:14 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2084714636574674993",
-    "inReplyToStatusId": "2089491826180780425",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089511807128096920",
-    "text": "@OLA_manny75 Hi OLA_manny75, you're welcome! We truly appreciate your feedback, and we will continue to explore new ways to improve our customer experience. ^Beth.",
-    "createdAt": "Tue Aug 18 00:36:50 +0000 2026",
+    "id": "2089369541394464845",
+    "text": "That whipsaw is exactly why I stay away from trying to time ACCESSCORP day to day,  I hold it as a long-term position and let the volatility be noise, not signal. \n\nLiquid stocks like this reward traders with the discipline to actually trade the range, and punish everyone else who tries to guess it.",
+    "createdAt": "Mon Aug 17 15:11:31 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 1,
-    "conversationId": "2089488504396931439",
-    "inReplyToStatusId": "2089488504396931439",
+    "conversationId": "2089272416094560714",
+    "inReplyToStatusId": "2089272416094560714",
     "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
     },
-    "authorId": "2164455380"
+    "authorId": "2045922582839345152"
   },
   {
-    "id": "2089505884007444656",
-    "text": "Condiments trash medicine that doesn’t work; thanks @elonmusk do u think the rckts are God zoning those that abandoned us when they had $ to help. Do we get to watch divinity? @FBIDirectorKash praying for account access BANK STATEMENT FORENSIC AUDIT @POTUS 🙏@BarackObama @levie https://t.co/hWdDjJy2Zi",
-    "createdAt": "Tue Aug 18 00:13:18 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 1,
-    "likeCount": 1,
-    "conversationId": "2089505884007444656",
-    "author": {
-      "username": "JacobSmithvuuq",
-      "name": "Jacob Smith"
-    },
-    "authorId": "2064109779597791232",
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP9qg-0asAATSDj.jpg",
-        "width": 1536,
-        "height": 2048,
-        "previewUrl": "https://pbs.twimg.com/media/HP9qg-0asAATSDj.jpg:small"
-      },
-      {
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP9qg-8aEAAuGbB.jpg",
-        "width": 1536,
-        "height": 2048,
-        "previewUrl": "https://pbs.twimg.com/media/HP9qg-8aEAAuGbB.jpg:small"
-      },
-      {
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP9qg-1bcAAuJuS.jpg",
-        "width": 1536,
-        "height": 2048,
-        "previewUrl": "https://pbs.twimg.com/media/HP9qg-1bcAAuJuS.jpg:small"
-      },
-      {
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP9qg-0bYAAXUT1.jpg",
-        "width": 1536,
-        "height": 2048,
-        "previewUrl": "https://pbs.twimg.com/media/HP9qg-0bYAAXUT1.jpg:small"
-      }
-    ]
-  },
-  {
-    "id": "2089498830509134235",
-    "text": "Funny how he tell  the girl say he screenshot am to report to access bank🤣🤣🤣",
-    "createdAt": "Mon Aug 17 23:45:16 +0000 2026",
+    "id": "2089273925347746291",
+    "text": "ACCESSCORP \n\n+5.5% ✅ \n\n😎😊🎊",
+    "createdAt": "Mon Aug 17 08:51:35 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 0,
-    "conversationId": "2089498830509134235",
+    "conversationId": "2089273925347746291",
     "author": {
-      "username": "onlymrpeee",
-      "name": "MR PEE"
+      "username": "stockyvest",
+      "name": "Stockyvest"
     },
-    "authorId": "1989555655544639495",
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2089273174588338605",
+    "text": "📊 Market update: \n\nTRANSEXPR is still leading the upside, +9.86% at ₦3.12 and on a 4-day uptrend.\n\nLEGENDINT follows at +8.75% (₦4.35), while ACCESSCORP has climbed 5.55% to ₦28.55, bouncing strongly from the day’s low.\n\nOn the other side, RTBRISCOE is down 9.91% at ₦10.45, with VFDGROUP also lower at -4.84%.\n\nThe leaders are extending their runs, while ACCESSCORP is showing a notable intraday expansion. 📈",
+    "createdAt": "Mon Aug 17 08:48:36 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089273174588338605",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
     "quotedTweet": {
-      "id": "2089359966381416626",
-      "text": "“Oh yh yh” 😭😭 https://t.co/H8g2LYSE0n",
-      "createdAt": "Mon Aug 17 14:33:29 +0000 2026",
-      "replyCount": 788,
-      "retweetCount": 1825,
-      "likeCount": 13148,
-      "conversationId": "2089359966381416626",
+      "id": "2089270214512746611",
+      "text": "🔔 Market open\n \n🟢TRANSEXPR continues its resurgence from last week, up 9.86% at ₦3.12.\nACCESSCORP is also slightly green at ₦27.07 (+0.18%), while PRESCO is up 0.09%.\n\n🔴At the other end, RTBRISCOE is down 9.91% at ₦5.00.\n\nEarly in the session, the gap between the leaders and laggards is already wide. 📊",
+      "createdAt": "Mon Aug 17 08:36:50 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 1,
+      "likeCount": 2,
+      "conversationId": "2089270214512746611",
       "author": {
-        "username": "Fakaofwest1",
-        "name": "Faka001🦅"
+        "username": "stockbubblesNG",
+        "name": "StockBubbles Updates x HISA"
       },
-      "authorId": "1935311515072217091",
+      "authorId": "1304036016957915136",
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HP7lyZNX0AAp1fh.jpg",
-          "width": 723,
-          "height": 1597,
-          "previewUrl": "https://pbs.twimg.com/media/HP7lyZNX0AAp1fh.jpg:small"
+          "url": "https://pbs.twimg.com/media/HP6TnQXWYAAvIQQ.png",
+          "width": 666,
+          "height": 661,
+          "previewUrl": "https://pbs.twimg.com/media/HP6TnQXWYAAvIQQ.png:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP6WKJrWsAArvvu.jpg",
+        "width": 1034,
+        "height": 1107,
+        "previewUrl": "https://pbs.twimg.com/media/HP6WKJrWsAArvvu.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089270214512746611",
+    "text": "🔔 Market open\n \n🟢TRANSEXPR continues its resurgence from last week, up 9.86% at ₦3.12.\nACCESSCORP is also slightly green at ₦27.07 (+0.18%), while PRESCO is up 0.09%.\n\n🔴At the other end, RTBRISCOE is down 9.91% at ₦5.00.\n\nEarly in the session, the gap between the leaders and laggards is already wide. 📊",
+    "createdAt": "Mon Aug 17 08:36:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2089270214512746611",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP6TnQXWYAAvIQQ.png",
+        "width": 666,
+        "height": 661,
+        "previewUrl": "https://pbs.twimg.com/media/HP6TnQXWYAAvIQQ.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2089247027926286375",
+    "text": "Financial adviser : you should consider buying ACCESScorp because it currently undervalued \n\nNGX investor : \n https://t.co/atlUDiK4kx",
+    "createdAt": "Mon Aug 17 07:04:42 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2089247027926286375",
+    "author": {
+      "username": "AdeyefaPeter",
+      "name": "ADEYEFA PETERS 📸📸📸"
+    },
+    "authorId": "1336992891584073728",
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/HP1MZDEWUAAYbhE.jpg",
+        "width": 240,
+        "height": 320,
+        "previewUrl": "https://pbs.twimg.com/tweet_video_thumb/HP1MZDEWUAAYbhE.jpg:small",
+        "videoUrl": "https://video.twimg.com/tweet_video/HP1MZDEWUAAYbhE.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2089050446736265371",
+    "text": "🤡The  pillars of NGX\n\nAIRTELAFRI\nMTNN\nDANGCEM\nBUAFOODS\nBUACEMENT\n\nARADEL\nSEPLAT\nFIRSTHOLDCO\nGTCO\n\nZENITHBANK\nACCESSCORP\nUBA\nPRESCO\n\nWAPCO\nGEREGU",
+    "createdAt": "Sun Aug 16 18:03:33 +0000 2026",
+    "replyCount": 6,
+    "retweetCount": 2,
+    "likeCount": 8,
+    "conversationId": "2089050446736265371",
+    "author": {
+      "username": "stethandstocks",
+      "name": "DrBeRich"
+    },
+    "authorId": "1937177677581930496"
+  },
+  {
+    "id": "2088631226659668027",
+    "text": "@jideflash I meant accesscorp 23 naira 2024.\nAccesscorp with such a massive liquidity is ment for traders.",
+    "createdAt": "Sat Aug 15 14:17:43 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088331779048399135",
+    "inReplyToStatusId": "2088331779048399135",
+    "author": {
+      "username": "GilbertLak86879",
+      "name": "Lakpama Gilbert l investor and ngx reasercher."
+    },
+    "authorId": "1754408202911817728"
+  },
+  {
+    "id": "2088479378674004164",
+    "text": "@the_goodfemi 😋😋😋😋Wetin  Accesscorp do you?",
+    "createdAt": "Sat Aug 15 04:14:20 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088328061729005797",
+    "inReplyToStatusId": "2088448226953183414",
+    "author": {
+      "username": "FEhiagwina",
+      "name": "Engr Dr F. O. Ehiagwina, mnse, miaeng, mnieee"
+    },
+    "authorId": "872162985564917760"
+  },
+  {
+    "id": "2088366737133903961",
+    "text": "@jideflash I held Accesscorp for ½ a year, the moment I sold to sort some things, it started showing momentum 😕",
+    "createdAt": "Fri Aug 14 20:46:44 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2088331779048399135",
+    "inReplyToStatusId": "2088331779048399135",
+    "author": {
+      "username": "kingofkalah",
+      "name": "King of Kalahari"
+    },
+    "authorId": "1436442574856851458"
+  },
+  {
+    "id": "2088331779048399135",
+    "text": "Still buying Accesscorp, I wish it takes a further dip nextweek. Won't mind seeing it at 22naira again. https://t.co/Yaku10LfSc",
+    "createdAt": "Fri Aug 14 18:27:50 +0000 2026",
+    "replyCount": 8,
+    "retweetCount": 3,
+    "likeCount": 26,
+    "conversationId": "2088331779048399135",
+    "author": {
+      "username": "jideflash",
+      "name": "Jide Flash"
+    },
+    "authorId": "37940402",
+    "quotedTweet": {
+      "id": "2088287728202866948",
+      "text": "my purchases today: ucap @17.65naira &amp; Universal Insur @ 77kobo https://t.co/UQXbCTN1O5",
+      "createdAt": "Fri Aug 14 15:32:47 +0000 2026",
+      "replyCount": 10,
+      "retweetCount": 2,
+      "likeCount": 51,
+      "conversationId": "2088287728202866948",
+      "author": {
+        "username": "jideflash",
+        "name": "Jide Flash"
+      },
+      "authorId": "37940402",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPsWHsyWsAAuvST.jpg",
+          "width": 1269,
+          "height": 269,
+          "previewUrl": "https://pbs.twimg.com/media/HPsWHsyWsAAuvST.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPs-rplWUAA-Lqp.jpg",
+        "width": 1843,
+        "height": 1055,
+        "previewUrl": "https://pbs.twimg.com/media/HPs-rplWUAA-Lqp.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088244344880832895",
+    "text": "ACCESSCORP 💥 \n\nUp (+4.91%) ke 😊",
+    "createdAt": "Fri Aug 14 12:40:24 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 13,
+    "conversationId": "2088244344880832895",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2088236266827423758",
+    "text": "🏦 ACCESSCORP is gaining momentum into the close\n\nThe stock has accelerated from +0.75% earlier in the session to +4.91%, trading at ₦27.80 (+₦1.30 price gain).\n\n📈 It is currently the best-performing FUGAZ stock this week, with +3.15% WoW, ahead of UBA, ZENITHBANK, GTCO and FIRSTHOLDCO.",
+    "createdAt": "Fri Aug 14 12:08:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2088236266827423758",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPrnhS7WMAAb-JZ.png",
+        "width": 326,
+        "height": 320,
+        "previewUrl": "https://pbs.twimg.com/media/HPrnhS7WMAAb-JZ.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2088200010781368788",
+    "text": "It's 5 banks but they're not redundant, UBA/Zenith/ACCESSCORP/GTCO all play different roles in the portfolio (dividend yield, earnings growth, balance sheet strength), and Stanbic gives exposure to the wealth-management side banks like the others don't do as much.\n\nConcentration risk is real though, worth watching.",
+    "createdAt": "Fri Aug 14 09:44:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087984062338334726",
+    "inReplyToStatusId": "2088197811686760797",
+    "author": {
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
+    },
+    "authorId": "2045922582839345152"
+  },
+  {
+    "id": "2088169869896237314",
+    "text": "$NU share price movements like $SOFI have both been a drag...\n\nHian \n\n Awon family AccessCorp 🤣🤣🤣",
+    "createdAt": "Fri Aug 14 07:44:27 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088169869896237314",
+    "author": {
+      "username": "oluwadamisi",
+      "name": "Seye Ogun"
+    },
+    "authorId": "98791962",
+    "quotedTweet": {
+      "id": "2088016653585915986",
+      "text": "$NU Nubank posted a nice beat and is climbing in the after hours. They are growing revenue 50% Y/Y!\n\n🟢Revenue: $5.51B (vs $5.23B expected) \n🟢 EPS: $0.216 (vs $0.20 expected).\n\nThe fears of Super El Niño crushing Brazil's economy appear to have been overstated. The BRL is holding up nicely to a strong USD.\n\nIn Mexico, they became the largest digital bank in August.\n\nAnd of course they are coming to the United States. There are no mentions of this in the earnings presentation, but I'm curious if they'll get asked about it in the earnings call. \n\nThey're still plenty of TAM in their primary (Brazilian) market, Colombia is doing well.\n\nAnd the market is loving it.",
+      "createdAt": "Thu Aug 13 21:35:38 +0000 2026",
+      "replyCount": 12,
+      "retweetCount": 8,
+      "likeCount": 146,
+      "conversationId": "2088016653585915986",
+      "author": {
+        "username": "Dr_Crossroads",
+        "name": "Crossroads"
+      },
+      "authorId": "865651271193116673",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPogFFFWQAA5Y9J.jpg",
+          "width": 1080,
+          "height": 1386,
+          "previewUrl": "https://pbs.twimg.com/media/HPogFFFWQAA5Y9J.jpg:small"
         }
       ]
     }
   },
   {
-    "id": "2089494906121412634",
-    "text": "@AkiodeQ Hi AkiodeQ, thank you for reaching out to us. I apologize for any inconvenience this has caused you. kindly reach out to us via DM for further assistance. ^Beth.",
-    "createdAt": "Mon Aug 17 23:29:41 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089433912762093989",
-    "inReplyToStatusId": "2089433912762093989",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089494163587055706",
-    "text": "@extratime131 Hi extratime131, thank you for reaching out. I apologize for any inconvenience this has caused you. kindly reach out to us with your account details via DM for further assistance. ^Beth.",
-    "createdAt": "Mon Aug 17 23:26:44 +0000 2026",
+    "id": "2088005113713467857",
+    "text": "🟢 NGX BUY CALLS\n\n1. ACCESSCORP — ₦27.40 → ₦36.00 (+31.4%) | Fell 3.01% on no news. Cheapest tier-1 vs the 17.59% OMO hurdle.\n2. ZENITHBANK — ₦124.80 → ₦158.00 (+26.6%) | Recap fully cleared, no dilution overhang, NIM peak still ahead\n3. GEREGU — ~₦1,150 → ₦1,450 (+26.1%) | Tariff-indexed capacity payments = revenue reprices WITH inflation\n4. SEPLAT — ~₦7,200 → ₦9,000 (+25.0%) | H1 PAT $164m, +498%, on $1.82bn revenue. USD revenue, Naira costs.\n5. GTCO — ₦128.50 → ₦156.00 (+21.4%) | Raised 2.28bn shares at ₦70 to offshore institutions — pre-positioned for FTSE flows\n\nBanks fell 0.30% while the index fell 1.12%. They're being accumulated on weakness.",
+    "createdAt": "Thu Aug 13 20:49:47 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
     "likeCount": 0,
-    "conversationId": "2089439180195590457",
-    "inReplyToStatusId": "2089439180195590457",
+    "conversationId": "2088005106947981507",
+    "inReplyToStatusId": "2088005112396415160",
     "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
+      "username": "splashstarx",
+      "name": "Chinawarauzo"
     },
-    "authorId": "2164455380"
+    "authorId": "70986620"
   },
   {
-    "id": "2089493558646780033",
-    "text": "@ummish3 Hi ummish3, thank you for reaching out. Kindly follow the page and state your complaint/request via DM, I'll be glad to help.  ^Beth.",
-    "createdAt": "Mon Aug 17 23:24:19 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089439195651506335",
-    "inReplyToStatusId": "2089439195651506335",
-    "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
-    },
-    "authorId": "2164455380"
-  },
-  {
-    "id": "2089492618556350936",
-    "text": "@Whotfisayo Hi Whotfisayo, thank you for reaching out to us. I apologize for any issues encountered using your debit card. Kindly reach out to us with your account details via DM for further assistance. ^Beth.",
-    "createdAt": "Mon Aug 17 23:20:35 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089449873460298060",
-    "inReplyToStatusId": "2089449873460298060",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089491416187859333",
-    "text": "@Abbajibrinpsfm Hi Abbajibrinpsfm, thank you for reaching out. Kindly reach out to us via DM for further assistance. ^Beth.",
-    "createdAt": "Mon Aug 17 23:15:49 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089465169772528003",
-    "inReplyToStatusId": "2089465169772528003",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089490670096695317",
-    "text": "@Dhereigningking Hi Dhereigningking, I am sorry to learn about your experience with this transaction. Kindly provide this transaction details via DM to enable us assist further. ^Beth.",
-    "createdAt": "Mon Aug 17 23:12:51 +0000 2026",
+    "id": "2087988361508352138",
+    "text": "Fair question. On the banks, I don't see them as one bet, UBA, Zenith, ACCESSCORP, GTCO, and Stanbic each have different strengths liquidity profile, dividend history, recap position. \n\nSector-wide risk still applies, that part's real.\n\nOn cement, similar logic, Dangote, BUA, and WAPCO aren't identical businesses even in the same sector. \n\nBut you're right that if cement or banking as a sector gets hit, I'm more exposed than someone spread across sectors.\n\nNot a perfect answer, more concentrated than textbook diversification says I should be. \n\nI stayed with it because I understand these businesses well enough to hold through volatility, that's worth something to me even if it's not optimal on paper.",
+    "createdAt": "Thu Aug 13 19:43:12 +0000 2026",
     "replyCount": 1,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2084714636574674993",
-    "inReplyToStatusId": "2089466002320904268",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089490478890696773",
-    "text": "@Fakaofwest1 Access Bank accidentally shipped a feature that protects your friends from lunch requests.",
-    "createdAt": "Mon Aug 17 23:12:05 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089359966381416626",
-    "inReplyToStatusId": "2089359966381416626",
-    "author": {
-      "username": "Clinton_feyi",
-      "name": "Clinton Feyisitan"
-    },
-    "authorId": "1345253438"
-  },
-  {
-    "id": "2089490425119940800",
-    "text": "@kollins_salam Hi kollins_salam, I am sorry to learn about your experience with your mobile app. kindly reach out to us via DM for further assistance. ^Beth.",
-    "createdAt": "Mon Aug 17 23:11:52 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "1845172328675643473",
-    "inReplyToStatusId": "2089472447645130966",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089489562452246605",
-    "text": "@bukar_yusu26561 Hi bukar_yusu26561, I apologize for any inconvenience this experience has caused you. kindly reach out to us via DM for further assistance. ^Beth.",
-    "createdAt": "Mon Aug 17 23:08:27 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089480609097773419",
-    "inReplyToStatusId": "2089480609097773419",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089488521555775885",
-    "text": "@Confidence_HQ 1934085853\nAccess bank\nZainab Aliyu Danjuma",
-    "createdAt": "Mon Aug 17 23:04:19 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089427043154809026",
-    "inReplyToStatusId": "2089427043154809026",
-    "author": {
-      "username": "ZainabAliy38207",
-      "name": "Zainab Aliyu"
-    },
-    "authorId": "1676285459691872259"
-  },
-  {
-    "id": "2089487559646720430",
-    "text": "@gustavoinsol why access bank gate men never win since ?",
-    "createdAt": "Mon Aug 17 23:00:29 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089450602270974410",
-    "inReplyToStatusId": "2089450602270974410",
-    "author": {
-      "username": "VictorWithAV",
-      "name": "VICTOR"
-    },
-    "authorId": "1511497800038727684"
-  },
-  {
-    "id": "2089487297226092580",
-    "text": "@anslemhills Hi anslemhills, thank you for reaching out.  I apologize for any inconvenience this data transaction may have caused. Kindly delete your account number and phone number on timeline for security reasons and send us a DM.^ Beth.",
-    "createdAt": "Mon Aug 17 22:59:27 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089423436229853480",
-    "inReplyToStatusId": "2089423436229853480",
-    "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
-    },
-    "authorId": "2164455380"
-  },
-  {
-    "id": "2089486095197331820",
-    "text": "@DeMan_S_K_D 0038484758\nAccess bank\nOkonji Nnamdi\nThank you.",
-    "createdAt": "Mon Aug 17 22:54:40 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 1,
-    "conversationId": "2089485194239615156",
-    "inReplyToStatusId": "2089485194239615156",
-    "author": {
-      "username": "jude_nnam1",
-      "name": "Okonji Nnamdi"
-    },
-    "authorId": "612363086"
-  },
-  {
-    "id": "2089485106385912270",
-    "text": "@AgwunchaC Hi AgwunchaC, thank you for reaching out to us. I am sorry to learn of this erroneous transaction. Kindly delete your details from TL and you have been responded to via DM, please check. ^Beth.",
-    "createdAt": "Mon Aug 17 22:50:44 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089460582504169743",
-    "inReplyToStatusId": "2089460582504169743",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089478102900511188",
-    "text": "why is access bank choosing the exact moment i’m genuinely starving to start acting like this 😭 i’m not even asking for much, i just need to access my own money.",
-    "createdAt": "Mon Aug 17 22:22:55 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 2,
-    "likeCount": 9,
-    "conversationId": "2089478102900511188",
-    "author": {
-      "username": "tobiiswago",
-      "name": "tobi⁷⁷"
-    },
-    "authorId": "1525115795012993024"
-  },
-  {
-    "id": "2089478094264635692",
-    "text": "@Hes_Rry Hi Hes_Rry, thank you for reaching out. Kindly state your request or complaint via DM. ^Beth.",
-    "createdAt": "Mon Aug 17 22:22:52 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089347993363157185",
-    "inReplyToStatusId": "2089455691224289732",
-    "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
-    },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089477359606833440",
-    "text": "ah access bank. 😭😭😭",
-    "createdAt": "Mon Aug 17 22:19:57 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 5,
-    "conversationId": "2089477359606833440",
-    "author": {
-      "username": "tobiiswago",
-      "name": "tobi⁷⁷"
-    },
-    "authorId": "1525115795012993024"
-  },
-  {
-    "id": "2089477256796393662",
-    "text": "@BullockPag74171 Hi BullockPag74171, I am sorry to learn about your experience with your mobile app. Kindly provide your account details via DM to enable us assist further. ^Beth.",
-    "createdAt": "Mon Aug 17 22:19:33 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 1,
-    "conversationId": "1974141463316582785",
-    "inReplyToStatusId": "2089458503622770823",
-    "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
-    },
-    "authorId": "2164455380"
-  },
-  {
-    "id": "2089476155191840912",
-    "text": "@NakawuSani18032 Hi NakawuSani18032, thank you for reaching out. Kindly provide your account details via DM to enable us assist further. ^Beth.",
-    "createdAt": "Mon Aug 17 22:15:10 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2062836867196756294",
-    "inReplyToStatusId": "2089426819409744336",
-    "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
-    },
-    "authorId": "2164455380"
-  },
-  {
-    "id": "2089475989990453481",
-    "text": "i’m hungry and i just need 2k to sort out my food and my access bank decided to start misbehaving. i might just pass out atp. this is actually sick. 😭😭",
-    "createdAt": "Mon Aug 17 22:14:31 +0000 2026",
-    "replyCount": 2,
     "retweetCount": 1,
-    "likeCount": 24,
-    "conversationId": "2089475989990453481",
+    "likeCount": 3,
+    "conversationId": "2087984062338334726",
+    "inReplyToStatusId": "2087987362689437958",
     "author": {
-      "username": "tobiiswago",
-      "name": "tobi⁷⁷"
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
     },
-    "authorId": "1525115795012993024"
+    "authorId": "2045922582839345152"
   },
   {
-    "id": "2089474465637757438",
-    "text": "Make person help me run 1100 go my access bank i wan go house tomorrow abeg 1490122467 access bank💐💐💐",
-    "createdAt": "Mon Aug 17 22:08:27 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 1,
-    "conversationId": "2089474465637757438",
+    "id": "2087984062338334726",
+    "text": "Just wrapped something I've been building since July: \n\nA full \"Why I'm Holding\" breakdown for every single stock in my portfolio.\n\nUBA, Zenith, ACCESSCORP, BUA Cement, NGX Group, Stanbic IBTC, NASCON, Dangote Cement, MTNN, ARADEL, Transcorp Power, Julius Berger, Seplat, NAHCO, GTCO, WAPCO.\n\nEvery position, the actual numbers behind it, and the honest reasoning, including the risks I don't love.\n\nNo stock added to this portfolio without a reason I could defend in public. \n\nThat was the whole point of writing these out.\n\nNot financial advice - just sharing my personal investing journey.\n\nEvery naira is a brick 🧱",
+    "createdAt": "Thu Aug 13 19:26:07 +0000 2026",
+    "replyCount": 7,
+    "retweetCount": 4,
+    "likeCount": 48,
+    "conversationId": "2087984062338334726",
     "author": {
-      "username": "rio_milley",
-      "name": "RIDWAN"
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
     },
-    "authorId": "1190549520083509248"
+    "authorId": "2045922582839345152"
   },
   {
-    "id": "2089474330271121548",
-    "text": "@SamuelSamwyne Hi SamuelSamwyne, thank you for reaching out to us.  I'm sorry about the inconvenience the USSD channel may have caused you. Kindly provide this transaction details via DM to enable us assist further. ^Beth.",
-    "createdAt": "Mon Aug 17 22:07:55 +0000 2026",
+    "id": "2087899429797806351",
+    "text": "📊 Today’s session is being summed up by the money flow.\n\nOut of the top 10 stocks by value traded, none is in the green.\n\n🔴Zenith Bank: -2.24% \n🔴 GTCO: -0.39% \n🔴 AccessCorp: -0.73%\n\nThe biggest turnover names... FIRSTHOLDCO (₦3.38B), SEPLAT (₦2.50B), MTNN (₦1.29B) and HBMNG (₦818.69M) are all flat.\n\nWhen the heaviest money is either sitting on the sidelines or flowing through stocks that remain weak, it tells you today’s market lacks broad buying conviction so far.",
+    "createdAt": "Thu Aug 13 13:49:50 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 1,
-    "conversationId": "2089417805770723665",
-    "inReplyToStatusId": "2089417805770723665",
+    "likeCount": 7,
+    "conversationId": "2087899429797806351",
     "author": {
-      "username": "myaccessbank",
-      "name": "Access Bank Plc"
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
     },
-    "authorId": "190615522"
-  },
-  {
-    "id": "2089474095461077120",
-    "text": "Access bank network this days 😂😂😂 https://t.co/T8MHaBjq0q",
-    "createdAt": "Mon Aug 17 22:06:59 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089474095461077120",
-    "author": {
-      "username": "xXclusive1408",
-      "name": "Makaveli👻👨🏻‍🍳🧑‍💻"
-    },
-    "authorId": "395000830",
+    "authorId": "1304036016957915136",
     "media": [
       {
         "type": "photo",
-        "url": "https://pbs.twimg.com/media/HP9NnArWQAA9Oik.jpg",
-        "width": 419,
-        "height": 900,
-        "previewUrl": "https://pbs.twimg.com/media/HP9NnArWQAA9Oik.jpg:small"
+        "url": "https://pbs.twimg.com/media/HPm0Z8qWQAAQLAF.jpg",
+        "width": 2048,
+        "height": 1111,
+        "previewUrl": "https://pbs.twimg.com/media/HPm0Z8qWQAAQLAF.jpg:small"
       }
     ]
   },
   {
-    "id": "2089473339857199562",
-    "text": "@inuhimself God will reward you in million folds sir @inuhimself \n\n1625013332   Access bank, \n\nmotunrayo bello…",
-    "createdAt": "Mon Aug 17 22:03:59 +0000 2026",
+    "id": "2087851131355451436",
+    "text": "ZENITHBANK  (-1.28%) 🔻\nACCESSCORP (-1.46%) 🔻\nFIDELITY (-2.09%) 🔻\nFCMB (-7.66%) 🔻\n\nThe Bank boys seems to be going through a lot today.",
+    "createdAt": "Thu Aug 13 10:37:54 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087851131355451436",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2087823779703517491",
+    "text": "🔔 Market update\n\nBreadth is still narrow... only a handful of stocks are driving the green side of the board.\n\nCMFC is attracting the heaviest attention among the gainers, with ₦66.57M in value traded.\n\nACCESSCORP is barely positive (+0.36%) despite ₦18.41M traded.\n\nFCMB and Fidelity are both under pressure, while ACCESSCORP is struggling to build momentum.\n\nStill early...",
+    "createdAt": "Thu Aug 13 08:49:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 7,
+    "conversationId": "2087823779703517491",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPlwEr6XoAAlSMX.jpg",
+        "width": 878,
+        "height": 1346,
+        "previewUrl": "https://pbs.twimg.com/media/HPlwEr6XoAAlSMX.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087808138363769321",
+    "text": "Nigeria’s equities sustain bearish run as BUA Foods, AccessCorp sell-off drags index 1.12% lower https://t.co/ZnD6Tmk8tH",
+    "createdAt": "Thu Aug 13 07:47:04 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 0,
-    "conversationId": "2089466167685534117",
-    "inReplyToStatusId": "2089466167685534117",
+    "conversationId": "2087808138363769321",
     "author": {
-      "username": "__Motunrayor__",
-      "name": "Rayo"
+      "username": "olumidagreat",
+      "name": "Oludare Mayowa"
     },
-    "authorId": "1963981429966278656"
+    "authorId": "502052332"
   },
   {
-    "id": "2089473320857264623",
-    "text": "@CalistaAta64767 Hi CalistaAta64767, I am sorry to learn about your experience with this transaction. Kindly provide this transaction details via DM to enable us assist further. ^Beth.",
-    "createdAt": "Mon Aug 17 22:03:54 +0000 2026",
+    "id": "2087806998699975072",
+    "text": "Nigeria’s equities sustain bearish run as BUA Foods, AccessCorp sell-off drags index 1.12% lower https://t.co/4eVpqmjSSk",
+    "createdAt": "Thu Aug 13 07:42:32 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 0,
-    "conversationId": "2089416484934259113",
-    "inReplyToStatusId": "2089416484934259113",
+    "conversationId": "2087806998699975072",
     "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
+      "username": "globalfinanci14",
+      "name": "Global Financial Digest"
     },
-    "authorId": "2164455380"
+    "authorId": "1126076540750528512"
   },
   {
-    "id": "2089473086777409886",
-    "text": "@inuhimself God bless you ❤️\n\n1486816354 \nAccess Bank \nHANNATU NMA \n\nThanks in advance 🤲🏼",
-    "createdAt": "Mon Aug 17 22:02:59 +0000 2026",
+    "id": "2087601411664064945",
+    "text": "Market breadth was actually balanced today. Here is what that really means.\n\n28 stocks gained and 28 stocks declined on Wednesday, an even split. Yet the index still fell 1.12% because the losses were concentrated in heavyweight names like BUAFOODS, UNILEVER, ACCESSCORP and UBA.\n\nThis confirms it again. A handful of big stocks can outweigh dozens of smaller ones.",
+    "createdAt": "Wed Aug 12 18:05:36 +0000 2026",
     "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "2089466167685534117",
-    "inReplyToStatusId": "2089466167685534117",
+    "retweetCount": 2,
+    "likeCount": 13,
+    "conversationId": "2087601411664064945",
     "author": {
-      "username": "MissHannatu",
-      "name": "Hannatu💫"
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
     },
-    "authorId": "1212332871907606528"
+    "authorId": "1481516152727691267",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPimZTRXAAEhobH.jpg",
+        "width": 2048,
+        "height": 1156,
+        "previewUrl": "https://pbs.twimg.com/media/HPimZTRXAAEhobH.jpg:small"
+      }
+    ]
   },
   {
-    "id": "2089472496944959602",
-    "text": "@Batou_ssai Hi Batou_ssai, I am sorry to learn about your experience with your mobile app. Kindly provide your account details amd a screenshot of the error message encountered via DM to enable us assist further. ^Beth",
-    "createdAt": "Mon Aug 17 22:00:38 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 0,
-    "conversationId": "1974141463316582785",
-    "inReplyToStatusId": "2089413184381673625",
-    "author": {
-      "username": "accessbank_help",
-      "name": "Access Bank Help"
-    },
-    "authorId": "2164455380"
-  },
-  {
-    "id": "2089472447645130966",
-    "text": "@myaccessbank I could not login to my access bank app coz I changed my phone",
-    "createdAt": "Mon Aug 17 22:00:26 +0000 2026",
+    "id": "2087518232752091283",
+    "text": "@stockyvest The S.I units for Patience is Accesscorp Shareholders. 😹😹",
+    "createdAt": "Wed Aug 12 12:35:05 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
     "likeCount": 0,
-    "conversationId": "1845172328675643473",
-    "inReplyToStatusId": "1845172328675643473",
+    "conversationId": "2087101195013837265",
+    "inReplyToStatusId": "2087101195013837265",
     "author": {
-      "username": "kollins_salam",
-      "name": "Kollins Omo Hassan"
+      "username": "Serial_Gigolo",
+      "name": "Ufedojo 💕 💙"
     },
-    "authorId": "2575464388"
+    "authorId": "2538438291"
+  },
+  {
+    "id": "2087485515939414380",
+    "text": "@_aaadedapo What did you Broker set Accesscorp as please? Asking respectfully 😊",
+    "createdAt": "Wed Aug 12 10:25:05 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2087146139086672088",
+    "inReplyToStatusId": "2087146139086672088",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2087278804238762203",
+    "text": "Major deals of the day for the 11th of August 2026 @ngxgrp \n\n30m units of ACCESSCORP crossed at 28.15\n47.2m units of CONHALLPLC crossed at 6.98\n13.5m units of FIDELITYBK crossed at 22.00\n2.3b units of FTGINSURE crossed 2.87\n100m units of FTGINSURE crossed at 2.98\n868.6m units of FTGINSURE crossed at 3.00\n450k units of MTNN crossed at 805.0\n317.6k units of NESTLE crossed at 2750.0\n1.9m units of UACN crossed at 178.0",
+    "createdAt": "Tue Aug 11 20:43:41 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 1,
+    "likeCount": 18,
+    "conversationId": "2087278804238762203",
+    "author": {
+      "username": "bivins1",
+      "name": "charles bivins"
+    },
+    "authorId": "104371488"
+  },
+  {
+    "id": "2087275126760808892",
+    "text": "@yinkarianstocks Who is the Whale trying to snap up Accesscorp?",
+    "createdAt": "Tue Aug 11 20:29:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087263829562392810",
+    "inReplyToStatusId": "2087263829562392810",
+    "author": {
+      "username": "cesiumplutonium",
+      "name": "Cesiumplutonium"
+    },
+    "authorId": "1047141736546537473"
+  },
+  {
+    "id": "2087169355171705026",
+    "text": "Bank stocks are the most liquid stocks on the NGX. Every serious investor has at least one. Here are all of them and their current prices. 🇳🇬\n\n1. FIRSTHOLDCO — ₦140\n2. STANBIC — ₦161.20\n3. GTCO — ₦129\n4. ZENITHBANK — ₦127\n5. ETI — ₦64.95\n6. UBA — ₦46.95\n7. ACCESSCORP — ₦28.35\n8. WEMABANK — ₦28.90\n9. FIDELITYBK — ₦21.90\n10. STERLINGNG — ₦7.55\n11. JAIZBANK — ₦8.60\n12. FCMB — listed\n13. NPFMCRFBK — ₦4.20\n14. UNITYBNK — ₦1.51\n\nAll 14 of these bank stocks are available to trade on @hisanigeria Nigeria right now.\n\nYou use a bank every day. The question is whether you are a customer or a shareholder. 🇳🇬\n\nNot financial advice. Do your own research.",
+    "createdAt": "Tue Aug 11 13:28:46 +0000 2026",
+    "replyCount": 4,
+    "retweetCount": 9,
+    "likeCount": 75,
+    "conversationId": "2087169355171705026",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2087103710346318015",
+    "text": "💰 30 mins into trading, the top-10 turnover board is still largely neutral.\n\nFIRSTHOLDCO dominates value traded with ₦845.98m but is trading -1.41%, while AVACAP is down -9.09%.\n\nThe key twist: ACCESSCORP (+3.21%) is currently the only green stock among the top-10 turnover names.\n\nMeanwhile MTNN, GTCO, ZENITHBANK, DANGCEM, TRANSEXPR and HBMNG are all holding flat despite meaningful value traded.",
+    "createdAt": "Tue Aug 11 09:07:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 6,
+    "conversationId": "2087103710346318015",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPbgKimWsAAU-jU.jpg",
+        "width": 2048,
+        "height": 1109,
+        "previewUrl": "https://pbs.twimg.com/media/HPbgKimWsAAU-jU.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087101195013837265",
+    "text": "Once I see ACCESSCORP in your NGX portfolio I just know you are a very patient person 😊",
+    "createdAt": "Tue Aug 11 08:57:56 +0000 2026",
+    "replyCount": 16,
+    "retweetCount": 3,
+    "likeCount": 50,
+    "conversationId": "2087101195013837265",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2087100447190384675",
+    "text": "@Rxbremen ACCESSCORP behaving like a stablecoin 😅",
+    "createdAt": "Tue Aug 11 08:54:57 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087070834259026333",
+    "inReplyToStatusId": "2087070834259026333",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136"
+  },
+  {
+    "id": "2086914333762609506",
+    "text": "@jociefer @abujaipaul1 I just made research and it’s true, I also hope for growth tbh because I also have shares at accesscorp",
+    "createdAt": "Mon Aug 10 20:35:24 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2086771440938820029",
+    "inReplyToStatusId": "2086886792456782081",
+    "author": {
+      "username": "DANSEMIRULES",
+      "name": "D RULEZ🦍"
+    },
+    "authorId": "1208058314745163776"
+  },
+  {
+    "id": "2086872983348339024",
+    "text": "Banking stocks are quietly doing all the heavy lifting.\n\nACCESSCORP gained 4.08%, UBA rose 3.01%, GTCO added 1.56%, and ZENITHBANK closed up 0.71%.\n\nWhen the banking sector moves together like this, it usually signals broader investor confidence returning to the market.",
+    "createdAt": "Mon Aug 10 17:51:06 +0000 2026",
+    "replyCount": 4,
+    "retweetCount": 3,
+    "likeCount": 25,
+    "conversationId": "2086872983348339024",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2086872900384993393",
+    "text": "More stocks fell today, yet the market still closed green. Here is why.\n\n37 equities declined while only 23 gained on Monday. But strength in heavyweight names like NAHCO, AIRTELAFRI, ACCESSCORP and UBA was enough to push the whole index higher.\n\nLesson: a handful of big names can carry an entire market on their back.",
+    "createdAt": "Mon Aug 10 17:50:46 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 5,
+    "likeCount": 38,
+    "conversationId": "2086872900384993393",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2086825240043081763",
+    "text": "The most liquid stocks on the Nigerian Exchange (NGX) are currently dominated by tier-1 banking institutions.\n\nWith First HoldCo Plc (FIRSTHOLDCO), Access Holdings Plc (ACCESSCORP), &amp; FCMB Group Plc (FCMB) leading the market in daily traded volume.\n\nNot All NGX stocks are liquid.",
+    "createdAt": "Mon Aug 10 14:41:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2086825240043081763",
+    "author": {
+      "username": "Michealekes",
+      "name": "BÌG~MÍKÉ🛡️"
+    },
+    "authorId": "1290425576340299777"
+  },
+  {
+    "id": "2086761477361320079",
+    "text": "NGX stocks still fairly priced even at the current market price;\n\nZENITH AND GTCO \nDANGCEM \nMTNN\nHBMNG\nARADEL \nPRESCO\nACCESSCORP\nUBA\n\nAdd yours if you must 😎",
+    "createdAt": "Mon Aug 10 10:28:01 +0000 2026",
+    "replyCount": 13,
+    "retweetCount": 5,
+    "likeCount": 76,
+    "conversationId": "2086761477361320079",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2086756195826597939",
+    "text": "ACCESSCORP is quietly becoming one of the strongest large-cap moves on the NGX today. 📈\n\n🟢 +6.86% to ₦28.80   \n🟢 3 straight green sessions   \n🟢 ₦258.06M traded\n\nWhile FIRSTHOLDCO stays red (-3.68%), money appears to be rotating into ACCESSCORP. https://t.co/NUqRLcGVQk",
+    "createdAt": "Mon Aug 10 10:07:01 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "2086756195826597939",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPWlOM6X0AAuROH.png",
+        "width": 294,
+        "height": 302,
+        "previewUrl": "https://pbs.twimg.com/media/HPWlOM6X0AAuROH.png:small"
+      }
+    ]
   }
 ]
-=== END BIRD SEARCH ===
-
+=== FINANCE SEARCH 2: ACCESS HOLDINGS ===
+[
+  {
+    "id": "2089442836903039206",
+    "text": "Twitter/X (short)\n🚨 Weekly Stock Picks 🇳🇬📊\nMTN Nigeria • Access Holdings • Dangote Cement • Transcorp • UBA • Nigerian Breweries\n\nNot investment advice, just a starting point for your research.\n\n🌐 https://t.co/d4LAGTdved\n#NGX #NigerianStocks #CapitalMarket https://t.co/s68F2g7yXu",
+    "createdAt": "Mon Aug 17 20:02:46 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089442836903039206",
+    "author": {
+      "username": "speakwithdines",
+      "name": "Mary Geraldine"
+    },
+    "authorId": "849047603593576450",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8xK4iXkAEo3cD.jpg",
+        "width": 1024,
+        "height": 1176,
+        "previewUrl": "https://pbs.twimg.com/media/HP8xK4iXkAEo3cD.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089409316436562364",
+    "text": "Ahead of the deadline, Access Holdings Plc has announced a potential delay in the group’s first-half 2026 earnings release, according to an official statement posted on the Nigerian Exchange (NGX).\n\nhttps://t.co/2RUSR84Nb6\n\n@myaccessbank",
+    "createdAt": "Mon Aug 17 17:49:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089409316436562364",
+    "author": {
+      "username": "MarketforcesA",
+      "name": "MarketForces Africa ®"
+    },
+    "authorId": "1122476550883020802"
+  },
+  {
+    "id": "2089409183141535992",
+    "text": "Ahead of the deadline, Access Holdings Plc has announced a potential delay in the group’s first-half 2026 earnings release, according to an official statement posted on the Nigerian Exchange (NGX).\n\nhttps://t.co/keUM56APS5\n\n#AccessBank",
+    "createdAt": "Mon Aug 17 17:49:03 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089409183141535992",
+    "author": {
+      "username": "TrichOgo",
+      "name": "Ogochi Ndubuisi"
+    },
+    "authorId": "1767217367757504512"
+  },
+  {
+    "id": "2089402169107583028",
+    "text": "Access Holdings Extends H1 2026 Audited Results Deadline to September 30, 2026\n\nhttps://t.co/0Y0IzL7A5J",
+    "createdAt": "Mon Aug 17 17:21:10 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 4,
+    "likeCount": 5,
+    "conversationId": "2089402169107583028",
+    "author": {
+      "username": "proshare",
+      "name": "Proshare"
+    },
+    "authorId": "33545237"
+  },
+  {
+    "id": "2089378965085438331",
+    "text": "*ACCESSCORP: Potential delay in H1 2026 audited results as Access Holdings awaits completion of the audit process and required CBN approval. NGX has approved an extension to 30 September 2026, subject to regulatory approval.* https://t.co/FcOY2vnLVZ",
+    "createdAt": "Mon Aug 17 15:48:58 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2089378965085438331",
+    "author": {
+      "username": "raw_sunday",
+      "name": "FINANCIAL FREEDOM/MoneySense"
+    },
+    "authorId": "1389022830252249088",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP73FdRWwAA6ioR.jpg",
+        "width": 928,
+        "height": 1280,
+        "previewUrl": "https://pbs.twimg.com/media/HP73FdRWwAA6ioR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087782301073588346",
+    "text": "Largest Assets, Lowest Valuation: Access Holdings Long-Suffering Shareholders Seek Turnaround in 2026 - https://t.co/cZnmGkt7kc",
+    "createdAt": "Thu Aug 13 06:04:24 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087782301073588346",
+    "author": {
+      "username": "Moneycentral4",
+      "name": "Moneycentral"
+    },
+    "authorId": "1257420434947149824"
+  },
+  {
+    "id": "2087758074681368917",
+    "text": "Largest by Assets, Lowest by Valuation: Access Holdings Long-Suffering Shareholders Seek Turnaround in 2026\n@myaccessbank",
+    "createdAt": "Thu Aug 13 04:28:08 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087758074681368917",
+    "author": {
+      "username": "Moneycentral4",
+      "name": "Moneycentral"
+    },
+    "authorId": "1257420434947149824"
+  },
+  {
+    "id": "2087521536542413151",
+    "text": "Fortis Global Insurance alone traded N2.6 billion today, more than the next 4 most traded stocks combined. Here is today's NGX snapshot.\n\nTOP GAINERS\nInternational Energy Insurance: N4.4, +10.00%\nCWG Plc: N21.4, +9.74%\nGuinea Insurance: N0.78, +5.41%\nVFD Group: N12.75, +4.94%\nVeritas Kapital Assurance: N1.34, +4.69%\n\nTOP LOSERS\nJohn Holt: N9.1, -9.90%\nNeimeth International: N8.05, -6.40%\nFTN Cocoa Processors: N8.35, -6.18%\nAva Capital: N8.4, -6.15%\nChampion Breweries: N10, -4.76%\n\nMOST TRADED BY VALUE\nFortis Global Insurance: N2.6B, 851.5M units\nZenith Bank: N552.3M\nHBM Nigeria: N487.9M\nGTCO: N415.5M\nAccess Holdings: N315.1M\n\nSource: NGX market data.",
+    "createdAt": "Wed Aug 12 12:48:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2087521536542413151",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2087458076676755806",
+    "text": "“I Didn’t Just Buy Shares Today…”\nToday, I made another move in my investment journey.\nI bought some shares in First Holdings and Access Holdings Plc.\nWas it a huge investment? No.\nBut that’s not the point.\nThe point is that I’m gradually moving https://t.co/bMdFeno6t1",
+    "createdAt": "Wed Aug 12 08:36:03 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087458076676755806",
+    "author": {
+      "username": "Godswillokpako1",
+      "name": "Godswill Okpako, ACA"
+    },
+    "authorId": "1630138275196174337",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPgkDcDW8AAbiCG.jpg",
+        "width": 1024,
+        "height": 1536,
+        "previewUrl": "https://pbs.twimg.com/media/HPgkDcDW8AAbiCG.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087267940970492063",
+    "text": "📊 UZEE STOCKS UPDATE | NGX MARKET CLOSE — TUESDAY, AUGUST 11, 2026\n\nThe NGX had a red day today, but the bigger picture is more interesting than simply saying “the market fell.”\n\nThe NGX All-Share Index closed at 246,723.57, down 0.73% for the day. Yet the market remains strongly positive for the year, with the ASI up 58.55% YTD based on today’s figures.\n\nSo, what happened?\n\n🔴 TODAY'S MARKET MOVERS\n\nFBN Holdings\n₦140.00 | -1.41%\nBut still up an impressive 329.45% YoY.\n\nMTN Nigeria\n₦805.00 | -4.73%\nDespite today's decline, MTNN remains 75% higher YoY.\n\nAccess Holdings\n₦28.25 | +0.71%\nTrading volume was particularly strong at about 66 million shares.\n\n🚀 TOP GAINERS\n\nUPDC REIT — ₦14.85 | +10.00%\nC&I Leasing — ₦5.90 | +8.26%\nSovereign Trust — ₦1.90 | +6.74%\n\n🔻 TOP LOSERS\n\nThomas — ₦2.89 | -9.97%\nInternational Energy Insurance — ₦4.00 | -6.32%\nInternational Breweries — ₦11.00 | -5.98%\n\n🏦 SECTOR CHECK\n\nBanking remained one of the strongest stories of the year, with the NGX Banking Index up 69.43% YTD, although it fell 0.46% today.\n\nOil & Gas was relatively resilient, edging up 0.03% today and showing very strong YTD performance.\n\nMeanwhile, the NGX Insurance Index gained 0.24% today but remains down 3.81% YTD.\n\n🧠 WHAT SHOULD INVESTORS TAKE FROM THIS?\n\nToday's decline doesn't automatically mean the bull market is over.\n\nAnd yesterday's gains didn't mean every stock was a good buy.\n\nThe numbers tell us something important:\n\nThe Nigerian market can remain strongly positive on a YTD basis while individual stocks experience sharp daily corrections.\n\nThat's why we don't invest based on one day's price movement.\n\nWe look at:\n\n📌 Fundamentals\n📌 Earnings & cash flow\n📌 Valuation\n📌 Dividend potential\n📌 Momentum\n📌 Sector outlook\n📌 Risk\n\nPrice tells you what the market is doing.\nFundamentals help you understand why.\n\nAt UZEE STOCKS Update LTD, we believe investors should understand what they're buying before they put their money behind it.\n\nFundamentals First. Always.\n\nUnderstand → Innerstand → Overstand → Outstanding.\n\n🌐 https://t.co/QhkkrPQLlF\n\nWe look before we leap. 📈\n\nSource: AfricanFinancials NGX market update, Tuesday, August 11, 2026. Figures are reproduced from the supplied market report and are for educational purposes only, not personalized investment advice.",
+    "createdAt": "Tue Aug 11 20:00:31 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087267940970492063",
+    "author": {
+      "username": "UpdateUzee",
+      "name": "UZEE STOCKS UPDATE LTD"
+    },
+    "authorId": "2042572789966630912"
+  },
+  {
+    "id": "2087100253694529799",
+    "text": "NGX Performance For 10th August 2026: Composite Index Remains Resilient Amid Mixed Sentiment\n\n​Market Overview:\n\n​Trend: Strongly Bullish \n\n​Pressure: 95% Buy vs. 5% Sell\n\n​Top Performers (100% Buy Sentiment):\n\nAfropro, Chams, Ella, FCMBB, GTCO, Guinea, Prestige, VFD, and Zenit.\n\n​Banking Sector Strength:\n\n​WEMA: 89%\n\n​Access Holdings: 87%\n\n​Fidelity: 81%\n\n​Sterling: 71%\n\n​Heavy Sell Pressure:\n\nF10 (94%), Eenna (90%), CHH (88%), and Jagold (83%).\n\n​Key Technicals:\n\n​FTG: Led the market with a Money Flow Index of 99.17 and a volume index of 7.76.\n\n​Investor Advice: Overall sentiment is bullish, but individual stocks remain mixed. Carefully check money flow and selling indicators before trading!\n\nhttps://t.co/T6Is44vGJY",
+    "createdAt": "Tue Aug 11 08:54:11 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087100253694529799",
+    "author": {
+      "username": "joininvestdata",
+      "name": "InvestData Consulting Limited"
+    },
+    "authorId": "2725171066"
+  },
+  {
+    "id": "2087087953176629523",
+    "text": "NGX Daily Sentiment Report for August 10, 2026, without timestamps:\n\n​Market Sentiment: Strongly Bullish\n\n​Overall: The market showed 95% buy pressure compared to 5% sell pressure.\n\n​Strongest Buy Interest: Stocks including Afropro, Chams, Ella, FCMBB, GTCO, Guinea, Prestige, VFD, and Zenit all recorded 100% buy sentiment. Banking stocks also performed well, with WEMA at 89%, Access Holdings at 87%, Fidelity at 81%, and Sterling at 71%.\n\n​Selling Pressure: Heavy sell pressure was observed in F10 (94%), Eenna (90%), CHH (88%), and Jagold (83%).\n\n​Key Indicators: FTG led the market with a Money Flow Index of 99.17 and a volume index of 7.76. Conversely, Jagold, FHC, and MPFMC showed weak money flow readings.\n\n​Investor Advice: While the overall market sentiment is bullish, the performance remains mixed at the individual stock level. Investors are encouraged to carefully evaluate money flow and selling pressure indicators before making investment decisions.\n\n​Click on the below link to watch the full update.\n\nhttps://t.co/yZLRtlvbJv",
+    "createdAt": "Tue Aug 11 08:05:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087087953176629523",
+    "author": {
+      "username": "joininvestdata",
+      "name": "InvestData Consulting Limited"
+    },
+    "authorId": "2725171066"
+  },
+  {
+    "id": "2086825240043081763",
+    "text": "The most liquid stocks on the Nigerian Exchange (NGX) are currently dominated by tier-1 banking institutions.\n\nWith First HoldCo Plc (FIRSTHOLDCO), Access Holdings Plc (ACCESSCORP), &amp; FCMB Group Plc (FCMB) leading the market in daily traded volume.\n\nNot All NGX stocks are liquid.",
+    "createdAt": "Mon Aug 10 14:41:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2086825240043081763",
+    "author": {
+      "username": "Michealekes",
+      "name": "BÌG~MÍKÉ🛡️"
+    },
+    "authorId": "1290425576340299777"
+  },
+  {
+    "id": "2086396764223852987",
+    "text": "Stocks good for investing:\n\n1. GTCO Strong capital base and one of the highest consistent dividend yields among tier-1 banks. Institutions keep buying it for steady income and long-term compounding.\n\n2. Zenith Bank Delivers reliable profitability and regular dividends year after year. Brokers keep giving it Buy ratings because the numbers hold up through different market cycles.\n\n3. Dangote Cement Controls a massive share of the cement market with pricing power and steady demand from infrastructure. Pays solid dividends and sits as a core defensive holding.\n\n4. MTN Nigeria Dominant telecom player with recovering earnings and strong cash generation after the FX pain. Scale and subscriber base support multi-year growth.\n\n5. Seplat Energy Earns mostly in dollars and pays quarterly dividends. Gives natural protection against naira weakness while the gas business expands.\n\n6. UBA Pan-African footprint plus solid banking fundamentals. Benefits from the same high-rate and recapitalisation tailwinds as the other big banks.\n\nStocks good for trading:\n\n1. FCMB Regularly ranks among the highest volume stocks on the exchange. Easy to get in and out, and it moves enough on sector news for short-term trades.\n\n2. Aradel Holdings High beta and sharp reactions to oil price changes. Pullbacks and recoveries create clear short-term opportunities when crude moves.\n\n3. Fidelity Bank High daily turnover and sensitive to banking sector momentum. Traders use the liquidity for quick swings around earnings or rate news.\n\n4. AIICO Insurance Insurance names like this see big percentage moves and heavy retail volume. Volatility is higher than the big banks, which suits active trading.\n\n5. CWG ICT stock that shows up often on volatility and volume screens. Moves hard on tech and market sentiment, giving room for short holds.\n\n6. Access Holdings Still trades actively enough for momentum plays even though fundamentals are solid. Price swings around results and capital news create trading windows.",
+    "createdAt": "Sun Aug 09 10:18:46 +0000 2026",
+    "replyCount": 13,
+    "retweetCount": 52,
+    "likeCount": 271,
+    "conversationId": "2086396764223852987",
+    "author": {
+      "username": "TomolaGroup",
+      "name": "Toby"
+    },
+    "authorId": "1482246507806011394",
+    "quotedTweet": {
+      "id": "2086345074560876815",
+      "text": "Don’t hold stocks that are meant for trading and don’t trade stocks meant for holding.",
+      "createdAt": "Sun Aug 09 06:53:22 +0000 2026",
+      "replyCount": 10,
+      "retweetCount": 21,
+      "likeCount": 95,
+      "conversationId": "2086345074560876815",
+      "author": {
+        "username": "AlfaAdam001",
+        "name": "Ola Adams"
+      },
+      "authorId": "1544359550484193280"
+    }
+  },
+  {
+    "id": "2086387484682797161",
+    "text": "25 companies now control more than 90% of the entire NGX. Here is the full trillion naira club.\n\nOut of over 150 listed companies on the Nigerian Exchange, only 25 have crossed a market capitalisation of N1 trillion, as at August 7, 2026.\n\nAirtel Africa: N21.8 trillion\nMTN Nigeria: N17.7 trillion\nDangote Cement: N17.4 trillion\nBUA Foods: N15.2 trillion\nBUA Cement: N10.7 trillion\nSeplat Energy: N6.8 trillion\nAradel Holdings: N6.6 trillion\nFirst HoldCo: N6.6 trillion\nHBM Nigeria: N5.8 trillion\nZenith Bank: N5.2 trillion\nGTCO: N4.7 trillion\nStanbic IBTC: N2.6 trillion\nTranscorp Hotels: N2.5 trillion\nPresco: N2.4 trillion\nNigerian Breweries: N2.2 trillion\nNestle Nigeria: N2.2 trillion\nGeregu Power: N2.1 trillion\nUBA: N2 trillion\nInternational Breweries: N1.9 trillion\nTranscorp Power: N1.65 trillion\nAccess Holdings: N1.5 trillion\nOkomu Oil Palm: N1.35 trillion\nETI: N1.3 trillion\nWema Bank: N1.20 trillion\nFidelity Bank: N1.08 trillion\n\nTelecoms, banking, cement, and consumer goods dominate this list, industries investors clearly believe will anchor Nigeria's long-term economic growth. A handful of sectors carrying the weight of an entire exchange.\n\nSource: BusinessDay.",
+    "createdAt": "Sun Aug 09 09:41:54 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 17,
+    "likeCount": 65,
+    "conversationId": "2086387484682797161",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2086058846628250082",
+    "text": "Do your own investigation, consult your financial adviser. \nRanking for best value for money (blend of capital appreciation potential + future dividends), based on current valuations (P/E and P/B), earnings quality, ROE sustainability, scale/diversification, and sector context:\n\n1)Access Holdings\nDeepest value (lowest P/E ~1.9x and P/B ~0.32x), solid ROE (~19%), massive scale, and pan-African diversification. Highest projected upside in recent analyst views despite integration risks. Strong for medium- to long-term capital gains plus improving dividends.\n\n2)FCMB\nVery attractive multiples (P/E ~3.0x, P/B ~0.7x) with currently high ROE (~25%). Laggard in the recent rally, offering classic catch-up potential. Suitable for medium- to long-term (as noted in the original thread reply), though smaller franchise than the leaders.\n\n3)UBA\nCheap on book value (P/B ~0.46x) with reasonable P/E (~5.6x), good geographic diversification across Africa, and consistent dividend history. Solid earnings quality supports both capital appreciation and income.\n\n4)Zenith Bank\nExcellent earnings quality (ROE ~22%), strong scale, reliable high dividend capacity, and reasonable valuation (P/E ~4.9x, P/B ~1.0x). Momentum leader with lower downside risk—best balance of quality and value for short- to medium-term.\n\n5)GTCO\nHighest earnings quality (consistent ROE ~25%, efficiency, and capital strength). Valuation is fair-to-full (P/E ~5.4x, P/B ~1.3x) after solid performance, so less pure “value” but excellent for lower-risk long-term compounding and dividends.\n\n6)Fidelity Bank\nDecent quality (competitive ROE) and fair valuation (P/E ~6.0x, P/B ~1.0x). Growth focus on SMEs/exports is positive, but it trails the top names on scale and pure cheapness.\n\n7)FirstHoldCo\nStrong recent momentum and market-cap leadership, but now the most expensive (P/E ~16x, P/B ~1.8x) with more moderate current ROE (~12%). Higher risk of mean-reversion after the sharp rally; better for short-term momentum than pure value.",
+    "createdAt": "Sat Aug 08 11:56:00 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 16,
+    "conversationId": "2086058846628250082",
+    "author": {
+      "username": "FEhiagwina",
+      "name": "Engr Dr F. O. Ehiagwina, mnse, miaeng, mnieee"
+    },
+    "authorId": "872162985564917760",
+    "quotedTweet": {
+      "id": "2086042753813598352",
+      "text": "With N500B+ capitalisation of the following Tier 1 Banks on the #NGX, which of them presents the best value for money in the short, medium and long term, considering a blend of capital appreciation and future dividend based on share prices at the end of trading on 7th August 2026\n\nFirstHoldCo      - N145.40\nUBA                     - N44.90\nGTCO                  - N128\nAccess               - N26.95\nZenith                 - N126\nFCMB                  - N12.95\nFIDELITY            - N21.55",
+      "createdAt": "Sat Aug 08 10:52:03 +0000 2026",
+      "replyCount": 12,
+      "retweetCount": 0,
+      "likeCount": 23,
+      "conversationId": "2086042753813598352",
+      "author": {
+        "username": "dobmarch8",
+        "name": "Idowu Anthony-Ajileye"
+      },
+      "authorId": "281183285"
+    }
+  },
+  {
+    "id": "2085736931845906874",
+    "text": "Nigeria's banking sector has been one of the standout performers on the Nigerian Exchange this year, with the NGX Banking Index gaining 65.86% year-to-date, outperforming the broader market's 57.32% return.\n\nYet not every lender has shared equally in the rally. While tier-1 banks have helped drive the sector's gains, FCMB Group, United Bank for Africa, Fidelity Bank, Sterling Financial Holdings and Access Holdings have all underperformed the banking index, with FCMB Group posting the only negative year-to-date return among the five.\n\nRead the full story here: https://t.co/mfTj1MnjGt",
+    "createdAt": "Fri Aug 07 14:36:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 4,
+    "conversationId": "2085736931845906874",
+    "author": {
+      "username": "BusinessDayNg",
+      "name": "BusinessDayNG"
+    },
+    "authorId": "217456838",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPIGqNcWkAAA4Vy.jpg",
+        "width": 864,
+        "height": 1080,
+        "previewUrl": "https://pbs.twimg.com/media/HPIGqNcWkAAA4Vy.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2085660571328749612",
+    "text": "@richestflexx I’ve FOMO on Access Holdings and lost 150k in two weeks. Nothing will make me run after a moving stock again, never.",
+    "createdAt": "Fri Aug 07 09:33:24 +0000 2026",
+    "replyCount": 6,
+    "retweetCount": 0,
+    "likeCount": 10,
+    "conversationId": "2085655789511872564",
+    "inReplyToStatusId": "2085655789511872564",
+    "author": {
+      "username": "JubrilZakariyau",
+      "name": "Jubril, Zakariyau Ishola (RTP)"
+    },
+    "authorId": "614473774"
+  },
+  {
+    "id": "2085431240644001867",
+    "text": "📈 NGX Extends Winning Streak as FIRSTHOLDCO and ETERNA Shine\n\nThe Nigerian stock market closed higher for the second consecutive day, with the NGX All Share Index rising 0.12% to 245,209.34 points. Investors added about ₦191.77 billion, bringing the market's year-to-date return to 57.58%.\n\nAlthough more stocks fell than gained (35 losers compared to 24 gainers), strong performances from a few large companies pushed the overall market higher.\n\nThe day's top performers included ETERNA (+10%), PZ Cussons (+7.02%), Wema Bank (+6.23%), and FIRSTHOLDCO (+2.19%). Other major gainers included Stanbic IBTC, Zenith Bank, Oando, Transcorp, and Access Holdings.\n\nFIRSTHOLDCO remained the market's most actively traded stock by value, accounting for almost 30% of all trading as investors continued to respond to its strong financial results and positive sentiment around the company.\n\nTrading activity slowed, with investors exchanging 531.77 million shares worth ₦20.46 billion. Outside the NGX, the NASD OTC market gained 2.05%.\n\nThe naira remained stable around ₦1,420/$ in the official market, while oil prices rose on renewed tensions in the Middle East. Gold also climbed to another record high as investors sought safer investments.\n\nOverall, it was another positive day for the Nigerian stock market, with gains driven mainly by a few large companies. The market has now returned nearly 58% so far this year.\n\nNot investment advice.",
+    "createdAt": "Thu Aug 06 18:22:07 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 4,
+    "likeCount": 19,
+    "conversationId": "2085431240644001867",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2085313666841293093",
+    "text": "1. Zenith Bank \nStrong ROE above 21%, PE near 5x, solid dividends and high liquidity after recapitalisation.\n\n2. UBA\nPan-African reach cushions local risks. Attractive upside and improving dividend support from current levels.\n\n3. Access Holdings\nTrades at PE under 2x with strong-buy consensus and targets near N39, offering clear re-rating potential.\n\n4. NAHCO\nH1 profit up 22% on higher volumes. Reliable dividend payer in a growing aviation and logistics sector.\n\n5. NGXGroup \nDirect play on rising market activity. H1 pre-tax profit jumped 170% with a fresh interim dividend.",
+    "createdAt": "Thu Aug 06 10:34:56 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 11,
+    "likeCount": 64,
+    "conversationId": "2085313666841293093",
+    "author": {
+      "username": "TomolaGroup",
+      "name": "Toby"
+    },
+    "authorId": "1482246507806011394",
+    "quotedTweet": {
+      "id": "2085281849102799145",
+      "text": "Hey, collect this 5M.\n\nTell me the 5 stocks you are buying- don’t include; MTNN, HBMNG,DANGCEM, GTCO, ARADEL and PRESCO. \n\nLet’s go! 🤓",
+      "createdAt": "Thu Aug 06 08:28:30 +0000 2026",
+      "replyCount": 34,
+      "retweetCount": 7,
+      "likeCount": 53,
+      "conversationId": "2085281849102799145",
+      "author": {
+        "username": "stockyvest",
+        "name": "Stockyvest"
+      },
+      "authorId": "2028543236403556352"
+    }
+  },
+  {
+    "id": "2084255870410493987",
+    "text": "My Top ones to watch for potential outperformance this month of August \n\n1.  Aradel Holdings (ARADEL) Strong Q1 2026 results (revenue already beat full-year 2025). Oil-price support from global tensions + attractive valuation. Many see it as a re-entry opportunity after earlier pullbacks.\n\n2.  Zenith Bank (ZENITHBANK) Unanimous “Buy” ratings from multiple brokers. Solid earnings, good dividend yield, and benefits from the high interest-rate environment (MPR still at 26.5%). Frequently cited as one of the strongest consensus picks.\n\n3.  Access Holdings (ACCESSCORP) Still trading at a discount despite recent gains. Rising revenue EPS forecasts and potential dividend restoration after regulatory progress.\n\n4.  Dangote Cement (DANGCEM) Favourable earnings outlook, cost efficiencies, and infrastructure demand. Industrial sector still has catch up room after the July recovery.\n\n5.  Others\n•  Custodian Investment\n•  CWG Plc\n•  PZ Cussons\n\nMy favourites that could also do well in August include MTN Nigeria , GTCO, FCMB, and Transcorp.",
+    "createdAt": "Mon Aug 03 12:31:37 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2084255870410493987",
+    "author": {
+      "username": "officialdada001",
+      "name": "Dada📈📊"
+    },
+    "authorId": "851088518390657024"
+  },
+  {
+    "id": "2084255329492091327",
+    "text": "In 2024, NGX Group delivered a record performance:\n\nRevenue & other income: ₦23.99 billion\n\nProfit before tax: ₦13.58 billion\n\nProfit after tax: ₦9.92 billion\n\nThe exchange lists over 150 companies, including Dangote Cement, MTN Nigeria, GTCO, Zenith Bank, Access Holdings, BUA Cement, Seplat Energy, and Airtel Africa, with a total market capitalization of around ₦131 trillion.",
+    "createdAt": "Mon Aug 03 12:29:28 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 4,
+    "likeCount": 16,
+    "conversationId": "2084255329492091327",
+    "author": {
+      "username": "Mansaah_Musa",
+      "name": "Mohammed"
+    },
+    "authorId": "1538173421611274240",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOzDKCXW8AEbVVb.jpg",
+        "width": 1825,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HOzDKCXW8AEbVVb.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2083610800959414326",
+    "text": "The three most-active stocks by volume—First Holdco Plc, AVA Capital Plc, and Access Holdings Plc—accounted for 2.308 billion shares worth ₦224.773 billion in 27,359 deals, contributing 45.09% of total volume and 55.53% of total value. https://t.co/S9ifh58YE3",
+    "createdAt": "Sat Aug 01 17:48:21 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2083610796903547107",
+    "inReplyToStatusId": "2083610798958723151",
+    "author": {
+      "username": "bivins1",
+      "name": "charles bivins"
+    },
+    "authorId": "104371488",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOpwLJebgAAvWT6.png",
+        "width": 732,
+        "height": 545,
+        "previewUrl": "https://pbs.twimg.com/media/HOpwLJebgAAvWT6.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2083478122620432538",
+    "text": "NGX Names That Took a Beating This Week:\n\n🔴 TIP -12.50%\n🔴 TransPower -10.00%\n🔴 CAP -9.97%\n🔴 MeCure -9.94%\n🔴 Access Holdings -9.93%\n🔴 NAHCO -8.82%\n🔴 Oando -8.50%\n\n56 stocks declined — broad-based profit-taking. #NGXstocks",
+    "createdAt": "Sat Aug 01 09:01:08 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 4,
+    "likeCount": 35,
+    "conversationId": "2083478122620432538",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2083245185790521643",
+    "text": "Access Holdings says Access Bank not ceasing operations \n\nAccess Holdings has dismissed a social media publication claiming that its banking subsidiary, Access Bank, will cease operations, describing the report as false.\n\nIn a statement filed with the Nigerian Exchange (NGX) Limited on Friday, the company said the publication was neither issued nor authorised by Access Holdings or Access Bank.\n\nhttps://t.co/a68Jpbpuk2",
+    "createdAt": "Fri Jul 31 17:35:31 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 1,
+    "likeCount": 6,
+    "conversationId": "2083245185790521643",
+    "author": {
+      "username": "thecableng",
+      "name": "TheCable"
+    },
+    "authorId": "1954402777",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOksb_cWAAAzwLn.jpg",
+        "width": 1374,
+        "height": 770,
+        "previewUrl": "https://pbs.twimg.com/media/HOksb_cWAAAzwLn.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2083202271593296076",
+    "text": "📈 FUGAZ BANKS BY MARKET VALUE AS AT 30TH OF JULY 2026\n\nBank — Market cap:\n🏦 First HoldCo — ₦5.45tn\n🏦 Zenith Bank — ₦4.94tn\n🏦 GTCO — ₦4.71tn\n🏦 UBA — ₦2.03tn\n🏦 Access Holdings — ₦1.42tn\n\n📊 First HoldCo is Nigeria's most valuable FUGAZ bank by market value.\n\n#Statisense\n(NGX)",
+    "createdAt": "Fri Jul 31 14:45:00 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 5,
+    "likeCount": 29,
+    "conversationId": "2083202271593296076",
+    "author": {
+      "username": "StatiSense",
+      "name": "StatiSense"
+    },
+    "authorId": "2317053331"
+  },
+  {
+    "id": "2082948754613715343",
+    "text": "Introduction to Stock Investing in Nigeria\n\nStock investing involves purchasing shares of companies listed on the Nigerian Exchange (NGX). The NGX is Nigeria’s official stock exchange, where companies list their shares to raise capital for expanding their operations.\n\nCompanies from different sectors are listed on the NGX. For example:\n\nTelecommunications: MTN Nigeria and Airtel Africa\nBanking: GTCO, Zenith Bank, UBA, Access Holdings\nOil and Gas: Oando and Seplat Energy\nManufacturing: Dangote Cement, BUA Cement, and many others\n\nAs an investor, you can buy shares of these companies and become a part-owner of the business.\n\nHow to Buy Shares\n\nTo invest in the stock market, you need to open a brokerage account through a licensed stockbroker or a brokerage app. Today, there are several investment apps that make this process very easy.\n\nPersonally, I use Bamboo for my Nigerian stock investments. Opening an account is straightforward—you simply register using your BVN and NIN, verify your identity, fund your account, and start investing. You can begin with as little as ₦5,000, depending on the stock you want to buy.\n\nKnowing What to Buy\n\nThe most important part of investing is not just buying shares—it is knowing which company to buy.\n\nBefore investing in any company, you should understand what the business does. You should be able to explain in simple terms how the company makes its money. For example, MTN generates revenue by providing telecommunications services such as voice calls, data, and digital services.\n\nNext, ask yourself these questions:\n\nIs the company consistently making profits?\nIs the business likely to continue making profits in the future?\nDoes the company have a competitive advantage over its competitors?\n\nTo answer these questions, you need to study the company’s financial statements. Every quarter, companies listed on the NGX publish their financial reports, including:\n\nIncome Statement\nBalance Sheet\nCash Flow Statement\n\nThese reports are available on the NGX website and on the companies’ investor relations pages. They help investors understand the company’s financial performance and overall health.\n\nCompetitive Advantage\n\nAnother important factor is the company’s competitive advantage because investing is about the future, not just today.\n\nA company may be profitable now, but the question is whether it can remain profitable over the next five or ten years.\n\nSome things that create a competitive advantage include:\n\nA strong and trusted brand\nA large customer base and network effect\nHigh switching costs, making it difficult for customers to move to competitors\nEfficient operations\nStrong management\nUnique products or services\n\nCompanies with strong competitive advantages are generally more likely to sustain their earnings over the long term.\n\nInvesting Is a Long-Term Game\n\nOne important thing to understand is that stock investing is not a get-rich-quick scheme.\n\nSuccessful investing requires patience and a long-term mindset. Ideally, you should be investing money that you will not need anytime soon. Many investors have an investment horizon of two to five years or even longer.\n\nDon’t Panic When Prices Fall\n\nThe stock market does not move in a straight line.\n\nShare prices rise and fall every day. There will be periods when your portfolio is showing losses, and you may see your investments “in the red.”\n\nThis is completely normal.\n\nIf you have invested in a fundamentally strong company, temporary price declines are not necessarily a reason to panic. In fact, experienced long-term investors often see market dips as opportunities to buy more shares at lower prices.\n\nThe key is to remain focused on the long-term value of the business rather than short-term price movements.",
+    "createdAt": "Thu Jul 30 21:57:37 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 10,
+    "likeCount": 19,
+    "conversationId": "2082948754613715343",
+    "author": {
+      "username": "peteradewale02",
+      "name": "Peter Ogundiran"
+    },
+    "authorId": "1538598353524731907"
+  },
+  {
+    "id": "2082938315804721643",
+    "text": "Zenith  Bank, Access Holdings, FirstHoldco, among others, dragged the Nigerian Exchange (NGX) down by more than N1 trillion, further reducing year-to-date returns.Nigeria exchange updates\n\nhttps://t.co/2fA2aAauaS\n\n#Stockmarket #NGX",
+    "createdAt": "Thu Jul 30 21:16:08 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2082938315804721643",
+    "author": {
+      "username": "MarketforcesA",
+      "name": "MarketForces Africa ®"
+    },
+    "authorId": "1122476550883020802"
+  },
+  {
+    "id": "2082917558676496518",
+    "text": "Fun fact: 🤯\n\nAccess Holdings' share price is just 1 kobo higher than MTNN's interim dividend per share.\n\nIf you hold 1,000 MTNN shares, your interim dividend alone is enough to buy a decent number of Access Holdings shares.\n\nGood night",
+    "createdAt": "Thu Jul 30 19:53:39 +0000 2026",
+    "replyCount": 11,
+    "retweetCount": 9,
+    "likeCount": 64,
+    "conversationId": "2082917558676496518",
+    "author": {
+      "username": "the_goodfemi",
+      "name": "FéMi | NGX BUFF"
+    },
+    "authorId": "1252517048397312001"
+  },
+  {
+    "id": "2082602358261911842",
+    "text": "Why I Continue to Buy Access Bank\n\nWhen I buy a stock, I don't start with the share price, I start with the business.\n\nAccess Holdings is one of the few Nigerian companies that continues to strengthen its fundamentals while expanding across Africa and internationally.\n\nHere is why I remain bullish on Accessbank.\n\n1. The largest banking franchise in Nigeria: Access has built one of the biggest banking networks in Africa through strategic acquisitions and organic growth. Scale matters in banking because it attracts more deposits, creates more lending opportunities, and spreads costs across a larger customer base. \n\n2. Record profitability: The company delivered over ₦1 trillion in Profit Before Tax for FY2025, the highest in its history. Strong earnings are what ultimately support long-term share price appreciation and dividend payments. \n\n3. Massive balance sheet: Access now has over ₦51 trillion in total assets, making it one of Africa's largest financial institutions. Large balance sheets allow banks to finance bigger projects and generate more income over time. \n\n4. Diversified income: Access is no longer relying only on interest from loans. Fee income, transaction banking, investment banking, asset management, digital banking and international operations all contribute meaningfully to earnings. That diversification makes the business more resilient. \n\n5. Strong customer base: Millions of retail customers, SMEs, corporates and governments use Access Bank every day. A strong deposit base provides relatively stable funding, which is one of the biggest competitive advantages a bank can have. \n\n6. Growth beyond Nigeria: Accessbank has operations across Africa, the UK and other international markets. As those businesses mature, they have the potential to diversify earnings beyond the Nigerian economy, although they also introduce additional regulatory and execution risks. \n\n7. Long-term earnings potential. Analysts expect funding costs to improve and net interest income to continue growing. One recent research report maintained a Buy rating and increased its target price, reflecting confidence in the group's earnings outlook. That said, no investment is without risks. Access is currently working through regulatory matters related to its foreign banking investments, and management has indicated this could affect the timing of interim dividends while the issues are resolved. Investors should monitor these developments closely. \n\nFor me, my Investment strategy is simple. I want to own businesses that continue to grow assets, profits, customers and earnings over many years. Access Holdings checks many of those boxes. Short-term price movements don't concern me. If the fundamentals keep improving, I am happy to keep accumulating and let compounding do the heavy lifting.\n\nNFA \nDYOR \nLiSo Angel ®",
+    "createdAt": "Wed Jul 29 23:01:09 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 4,
+    "conversationId": "2082602358261911842",
+    "author": {
+      "username": "Li_So_Angel",
+      "name": "LiSo ₳ηꁅєℓ 📈Investor"
+    },
+    "authorId": "1500833349224517632",
+    "quotedTweet": {
+      "id": "2082015901025755556",
+      "text": "@Li_So_Angel What convinced you to hold access bank?",
+      "createdAt": "Tue Jul 28 08:10:47 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2081968488827007270",
+      "inReplyToStatusId": "2081968488827007270",
+      "author": {
+        "username": "Abdrahman460",
+        "name": "Legend001😎"
+      },
+      "authorId": "1697656200110743552"
+    }
+  },
+  {
+    "id": "2082189418136252586",
+    "text": "Access Holdings Moved 87 Million Shares Today\n\nAccess Holdings dominated Tuesday's trading floor with 87.54m units, nearly 13% of total market volume. FCMB and Chams together added another 14.7% of the day's activity.\n\nTotal volume hit 637.96m units worth N57.20bn across 71,240 deals.\n\n#NGXVolume",
+    "createdAt": "Tue Jul 28 19:40:17 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 6,
+    "conversationId": "2082189418136252586",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2081860870439858359",
+    "text": "Investors lost N76.56 billion today, and it is still a good year to be in the Nigerian market. Here is why.\n\nThe NGX All Share Index dipped 0.05% on Monday, July 27, closing at 247,238.74 points as profit-taking hit stocks that had rallied hard in recent weeks. Transpower fell 10%, Fidson dropped 9%, NEM lost 8.52%, and Access Holdings slid 7.53%.\n\n32 stocks declined against 28 advancers, a mild pullback rather than a rout.\n\nHere is the number that matters more than today's dip: the market's year-to-date return still sits at 58.88%.\n\nTrading activity actually picked up, with N57.20 billion changing hands across 71,240 deals. Aradel Holdings alone accounted for nearly half of the day's total value traded, at N27.57 billion.\n\nA single red day does not undo months of gains. This is what profit taking after a strong run looks like.\n\nSource: Proshare Research, NGX daily market report, July 27, 2026. Not financial advice.",
+    "createdAt": "Mon Jul 27 21:54:45 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 12,
+    "conversationId": "2081860870439858359",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2081817088272863599",
+    "text": "The Nigerian Exchange (NGX) All-Share Index (ASI) fell due to sell pressure in mid- and large-cap stocks, including Access Holdings (-7.53%), Transcorp Power (-10%), Oando (-4.25%) and BUA Cement (-2.47%)\n\nhttps://t.co/EaoMLKSPjY\n\n#NGX #Stockmarket",
+    "createdAt": "Mon Jul 27 19:00:46 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2081817088272863599",
+    "author": {
+      "username": "MarketforcesA",
+      "name": "MarketForces Africa ®"
+    },
+    "authorId": "1122476550883020802"
+  },
+  {
+    "id": "2081785405490307136",
+    "text": "NGX Market Wrap – July 27, 2026\n\nThe Nigerian Exchange (NGX) delivered another mixed trading session as investors rotated into fundamentally strong counters while profit-taking persisted in select large-cap and speculative stocks.\n\nMarket Highlights\n\n🔹 NGX Group (NGXGROUP) surged 6.96% to close at ₦158.30, extending its bullish momentum and remaining one of today's standout performers.\n🔹 First HoldCo gained 4.56% to ₦126.00, reflecting sustained buying interest in the banking sector.\n🔹 Lafarge Africa advanced 4.43% to ₦365.00, continuing to attract investors following renewed optimism in the industrial goods space.\n🔹 MTN Nigeria added 0.94% to ₦858.00, while Zenith Bank edged higher by 0.32% to ₦126.90.\n🔹 GTCO, Aradel Holdings, Presco, and Nascon closed unchanged, suggesting a temporary pause after recent price movements.\n\nTop Gainers\n\nThomas Wyatt: +9.92%\nLasaco Assurance: +9.89%\nChapel Hill Denham Money Market Fund: +9.98%\nCritical Metals: +9.18%\nChams: +7.78%\nNGX Group: +6.96%\n\nTop Losers\n\nSelling pressure dominated a few names:\nTranscorp Power: -10.00%\nSunu Assurances: -10.00%\nInternational Breweries: -9.85%\nNeimeth: -9.78%\nAustin Laz: -9.64%\nAccess Holdings: -7.53%\n\nMarket Insight\n\nToday's session reinforced a familiar theme on the NGX: investors continue to reward quality earnings and fundamentally strong companies while taking profits in stocks that have experienced significant rallies.\nThe resilience in banking stocks, NGX Group, and Lafarge Africa suggests institutional investors remain selective rather than broadly bullish. Meanwhile, the sharp declines in Transcorp Power and several smaller-cap stocks highlight the volatility that accompanies profit-taking.\n\nFor long-term investors, daily price movements should remain secondary to business performance. Companies with strong earnings growth, healthy cash flows, and sustainable dividend policies are still likely to outperform over time, even if short-term volatility persists.\n\nThe market continues to rotate toward fundamentally sound businesses. Patient investors focused on quality are likely to be better positioned than those chasing short-term momentum.",
+    "createdAt": "Mon Jul 27 16:54:53 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 2,
+    "likeCount": 16,
+    "conversationId": "2081785405490307136",
+    "author": {
+      "username": "EniolaStocks",
+      "name": "Eniola | Markets • Football • Politics"
+    },
+    "authorId": "460874117",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOP8tpEXMAAitSk.jpg",
+        "width": 1408,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HOP8tpEXMAAitSk.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOP8vfyXcAAcEB8.jpg",
+        "width": 1440,
+        "height": 1965,
+        "previewUrl": "https://pbs.twimg.com/media/HOP8vfyXcAAcEB8.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOP8x1VXoAA94K7.jpg",
+        "width": 1439,
+        "height": 1472,
+        "previewUrl": "https://pbs.twimg.com/media/HOP8x1VXoAA94K7.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2081701388799594568",
+    "text": "🇳🇬 NGX Weekly Market Wrap (Week Ended Friday, 24 July 2026)\n\nThe Nigerian stock market closed the week on a strong footing as investors positioned ahead of more half-year earnings releases and interim dividend announcements. Buying interest remained concentrated in fundamentally strong companies, particularly banking, consumer goods, industrials, and insurance stocks.\n\nThe NGX Banking Index led sectoral performance, gaining 5.05% for the week, reflecting renewed confidence in the banking sector as investors anticipate stronger earnings and the benefits of ongoing recapitalisation efforts.\n\n📊 Key Highlights\n\n🏦 Banking stocks dominated trading activity.\n\n- First HoldCo (FBN) gained 14.22% for the week.\n- Access Holdings advanced 14.51%.\n- Zenith Bank added 8.40%.\n- GTCO also finished higher, reinforcing investors' preference for quality financial institutions.\n\n🏭 Corporate earnings remained impressive.\nSeveral companies released strong H1 2026 results:\n\n- BUA Cement reported:\n  \n  - Revenue up to ₦728.9 billion\n  - Profit after tax surged to ₦324.9 billion\n  - EPS increased to ₦9.59\n\n- Fidson Healthcare posted:\n  \n  - Revenue growth of nearly 19%\n  - Profit after tax increased to ₦7.72 billion\n  - Strong operating cash flow of ₦28.09 billion\n\n- Guinness Nigeria\n  \n  - Revenue reached ₦265.04 billion\n  - Profit after tax rose over 53%\n  - Declared an interim dividend of ₦7.00 per share\n\n💰 Dividend Season Has Begun\n\nSeveral companies rewarded shareholders during the week:\n\n- Guinness Nigeria — ₦7.00 interim dividend\n- Transcorp Plc — ₦0.40 interim dividend\n- Unilever Nigeria — ₦2.00 interim dividend\n- Transcorp Power — ₦1.50 dividend\n- Fidson Healthcare — ₦1.50 final dividend\n- Africa Prudential — ₦0.10 dividend\n\nThis reinforces an important lesson:\n\n«Strong businesses don't only create wealth through share price appreciation—they can also reward patient investors with consistent dividend income.»\n\n📈 Top Weekly Gainers\n\n- UPDC REIT: +33.33%\n- Cadbury Nigeria: +18.42%\n- Unilever Nigeria: +18.36%\n- AXA Mansard: +17.86%\n- C&I Leasing: +15.45%\n\n📉 Top Weekly Losers\n\n- MeCure Industries: -26.97%\n- BUA Foods: -10.00%\n- Nestlé Nigeria: -10.00%\n- HMCALL: -9.86%\n- Trans Express: -9.03%\n\nA weekly decline does not necessarily indicate a weak company. Markets often experience profit-taking after strong rallies, and prices can also react to valuation concerns, earnings expectations, or broader market sentiment.\n\n🧠 UZEE Insight\n\nThe market is sending a clear message:\n\nInvestors are increasingly rewarding companies with strong earnings, healthy cash flows, and shareholder-friendly dividend policies—not speculation or hype.\n\nAs more H1 results are released over the coming weeks, expect greater volatility. Some companies may exceed expectations, while others may disappoint. This is why successful investing starts with fundamental analysis, not emotions or rumors.\n\nRemember:\n\n- Don't chase every stock making headlines.\n- Read the financial statements.\n- Understand the business.\n- Pay attention to valuation.\n- Invest with a long-term mindset.\n\nAt UZEE STOCKS UPDATE LTD, we believe in one principle:\n\n\"Build Wealth with Clarity. Not Guesswork.\"",
+    "createdAt": "Mon Jul 27 11:21:01 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2081701388799594568",
+    "author": {
+      "username": "UpdateUzee",
+      "name": "UZEE STOCKS UPDATE LTD"
+    },
+    "authorId": "2042572789966630912"
+  },
+  {
+    "id": "2081654183959163372",
+    "text": "NGX stocks to buy in August 2026 amid oil, rate pressures",
+    "createdAt": "Mon Jul 27 08:13:27 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 5,
+    "likeCount": 19,
+    "conversationId": "2081654183959163372",
+    "author": {
+      "username": "Nairametrics",
+      "name": "Nairametrics"
+    },
+    "authorId": "1427565012",
+    "article": {
+      "title": "NGX stocks to buy in August 2026 amid oil, rate pressures",
+      "previewText": "The Nigerian equities market is entering August with oil and gas stocks, banks and a handful of undervalued companies likely to remain in focus.\nAfter reviewing share-price performance, valuations,"
+    }
+  },
+  {
+    "id": "2081375395174088942",
+    "text": "I buy stock at every opportunity. 🤌😩\n\nMoney I go use follow woman, I go use am buy Stock. 😌\n\nThe way I go use avoid woman and billing for 2026. You go send person 20k, e go Dey like say no be anything.\n\nThat 20k go buy me good access holdings oou! 😂",
+    "createdAt": "Sun Jul 26 13:45:38 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2081375395174088942",
+    "author": {
+      "username": "SmartContracteq",
+      "name": "StrokeOGenius 😎"
+    },
+    "authorId": "1590590941202628608"
+  },
+  {
+    "id": "2080973859382022211",
+    "text": "Before you buy your next iPhone, ask yourself this: What if Apple was paying me instead?\n\nThat's how wealthy people think. They don't just buy products.\nThey buy pieces of the companies behind those products.\n\nIn Nigeria, you can do exactly the same. You don't need to be a billionaire. You don't need insider connections. And you certainly don't need millions.\n\nLet's talk about the Nigerian Stock Exchange (NGX).\n\nMany Nigerians believe investing means forex, crypto, betting, or finding the next \"sure plug.\"\n\nMeanwhile, some of Nigeria's biggest companies have quietly rewarded patient investors for years.\n\nThe stock market isn't a get-rich-quick scheme. It's a machine that rewards patience.\n\nHere's how it works:\nWhen you buy a stock, you are buying a tiny ownership stake in a company.\n\nIf the company grows, the value of your shares increases. The company may also pay you dividends from its profits. In simple terms: You become a part-owner.\n\nImagine buying shares in a bank that keeps making billions every year. Every time that bank expands, earns more profits, and pays dividends, you are no longer just a customer. You are also an owner.\nThat's a different level of thinking.\n\n\"But where do I start?\"\nFirst, open an account with a licensed Nigerian stockbroker. Cowrywise and Bamboo are the most two reliable brokers at present. (We will talk about how to set up your account and make your first stock purchase at a later time).\n\nMost brokers now allow digital onboarding. Once your account is funded, you can begin investing with surprisingly modest amounts, as modest as 5k.\n\nNow the important question: Which stocks deserve attention?\nNo stock is guaranteed. But historically, some Nigerian companies have built reputations for strong earnings, resilient businesses, and consistent dividend payments. Examples of these companies and their present per share stock price include: GTCO (#132.00), Zenith Bank (#126.50), UBA (#46.00), Access Holdings (#29.20), Nigerian Breweries (#78.00), Dangote Cement (#1,034.00), BUA Cement (#324.00), Seplat Energy (#11,363.90), Airtel Africa (#5,801.40), and MTN Nigeria (#850.00).\n\nThese companies are popular not because they are \"magic stocks,\"\nbut because investors closely watch their financial performance, market position, and long-term prospects.\n\nHere's a mistake many beginners make: They ask, \"What stock will double next month?\" Wrong question. A better question is:\n\"Which businesses will probably still be thriving 5, 10 or 20 years from now?\"\n\nInvesting isn't gambling.\nIt's partnering with good businesses.\n\nAnother lesson: Don't invest because someone on WhatsApp said, \"Buy now before it explodes.\"\nRead the company's financial statements, understand its business, and know how it makes money. Patience beats hype.\n\nDiversification also matters. Don't put all your money into one company. Spread your investments across sectors such as: Banking, Telecommunications, Consumer goods, Energy, Manufacturing, etc. That way, one poor performing company won't sink your entire investment (portfolio).\n\nOne more thing.\nReinvest your dividends whenever possible.That's where compounding begins to work its quiet magic. Small investments. Repeated consistently. Over many years. That's how wealth is built.\n\nThe best time to start investing was years ago.\nThe second-best time is after you have educated yourself.\n\nMoney grows where knowledge leads.\n\nFollow The Advocate's Quill for more conversations where law, finance, business, technology, and everyday life intersect.",
+    "createdAt": "Sat Jul 25 11:10:05 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 2,
+    "likeCount": 16,
+    "conversationId": "2080973859382022211",
+    "author": {
+      "username": "AdvocatesQuill",
+      "name": "The Advocate's Quill"
+    },
+    "authorId": "1152485916881149953",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOEasDNWwAAaKbm.jpg",
+        "width": 1536,
+        "height": 1024,
+        "previewUrl": "https://pbs.twimg.com/media/HOEasDNWwAAaKbm.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2080875714174472297",
+    "text": "Trading in the top three equities, namely First Holdco Plc, Access Holdings Plc and Guaranty\nTrust Holding Company Plc (measured by volume), accounted for 2.151 billion shares worth\n₦170.793 billion in 44,768 deals, contributing 48.51% and 55.79% to the total equity turnover volume and value respectively.",
+    "createdAt": "Sat Jul 25 04:40:05 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2080875711062262050",
+    "inReplyToStatusId": "2080875711062262050",
+    "author": {
+      "username": "bivins1",
+      "name": "charles bivins"
+    },
+    "authorId": "104371488"
+  },
+  {
+    "id": "2080341907389956167",
+    "text": "Here are the top gainers and losers on the NGX for today (23 July 2026):\n\nTop Gainers\n\nGuinness Nigeria +10.00%\nZichis Agro Allied Industries +10.00%\nAccess Holdings +9.98%\nThomas Wyatt Nigeria +9.95%\nNASCON Allied Industries +8.89%\nUPL +8.16%\nPZ Cussons Nigeria +6.19%\nAXA Mansard +5.42% \n\nTop Losers\n\nMecure Industries -9.96%\nLegend Internet -9.89%\nInternational Energy Insurance -9.84%\nUAC of Nigeria -7.75%\nNeimeth International Pharmaceuticals -5.95%\nFTN Cocoa Processors -5.94% \n\nThis session saw the NGX All-Share Index (ASI) close up 0.98%, with 40 gainers, 31 losers, and 75 unchanged stocks, indicating broadly positive market sentiment.",
+    "createdAt": "Thu Jul 23 17:18:56 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 2,
+    "likeCount": 29,
+    "conversationId": "2080341907389956167",
+    "author": {
+      "username": "thatowerriboy",
+      "name": "👑 2sec"
+    },
+    "authorId": "1715430785262436352"
+  }
+]
+=== FINANCE SEARCH 3: ACCESSCORP NGX ===
+[
+  {
+    "id": "2089378965085438331",
+    "text": "*ACCESSCORP: Potential delay in H1 2026 audited results as Access Holdings awaits completion of the audit process and required CBN approval. NGX has approved an extension to 30 September 2026, subject to regulatory approval.* https://t.co/FcOY2vnLVZ",
+    "createdAt": "Mon Aug 17 15:48:58 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2089378965085438331",
+    "author": {
+      "username": "raw_sunday",
+      "name": "FINANCIAL FREEDOM/MoneySense"
+    },
+    "authorId": "1389022830252249088",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP73FdRWwAA6ioR.jpg",
+        "width": 928,
+        "height": 1280,
+        "previewUrl": "https://pbs.twimg.com/media/HP73FdRWwAA6ioR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089377938412085332",
+    "text": "Two straight months of easing, core down to 14.97% too. \n\nThis is the kind of print that matters for GTCO, ACCESSCORP, UBA, Zenith and Stanbic,  lower inflation gives CBN room to eventually ease, and that's a real tailwind for bank earnings and valuations on top of the FTSE reinstatement thesis already in play.",
+    "createdAt": "Mon Aug 17 15:44:53 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089248109175959643",
+    "inReplyToStatusId": "2089369817627189288",
+    "author": {
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
+    },
+    "authorId": "2045922582839345152"
+  },
+  {
+    "id": "2089247027926286375",
+    "text": "Financial adviser : you should consider buying ACCESScorp because it currently undervalued \n\nNGX investor : \n https://t.co/atlUDiK4kx",
+    "createdAt": "Mon Aug 17 07:04:42 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2089247027926286375",
+    "author": {
+      "username": "AdeyefaPeter",
+      "name": "ADEYEFA PETERS 📸📸📸"
+    },
+    "authorId": "1336992891584073728",
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/HP1MZDEWUAAYbhE.jpg",
+        "width": 240,
+        "height": 320,
+        "previewUrl": "https://pbs.twimg.com/tweet_video_thumb/HP1MZDEWUAAYbhE.jpg:small",
+        "videoUrl": "https://video.twimg.com/tweet_video/HP1MZDEWUAAYbhE.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2089228429505786344",
+    "text": "📊 NGX Morning \nThe Nigerian market remains earnings-driven, with investors closely watching H1 results, interim dividend announcements, and corporate actions for fresh direction.\n👀 Sectors to Watch 🏦 Banking\n🛢️ Oil & Gas\n📡 Telecommunications\n🏗️ Industrial Goods\n🏢 Financial Services\n🔎 Stocks on Watch $GTCO $ZENITHBANK $ACCESSCORP $UBA $FIRSTHOLDCO $FIDELITYBK $MTNN $ARADEL $NGXGROUP\n📈 Investor Sentiment Market sentiment remains cautiously positive as investors rotate into fundamentally strong companies with resilient earnings and attractive dividend potential. Corporate earnings and management guidance are expected to drive stock-specific opportunities.\n💬 Question: Which NGX stock do you expect to outperform in the second half of 2026 based on earnings and dividend prospects?\n#NGX #NigerianStocks #Investing #StockMarket #EarningsSeason #DividendInvesting #Nigeria",
+    "createdAt": "Mon Aug 17 05:50:48 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089228429505786344",
+    "author": {
+      "username": "Equity_Nexus",
+      "name": "The_Byte_Edge"
+    },
+    "authorId": "384715560"
+  },
+  {
+    "id": "2089050446736265371",
+    "text": "🤡The  pillars of NGX\n\nAIRTELAFRI\nMTNN\nDANGCEM\nBUAFOODS\nBUACEMENT\n\nARADEL\nSEPLAT\nFIRSTHOLDCO\nGTCO\n\nZENITHBANK\nACCESSCORP\nUBA\nPRESCO\n\nWAPCO\nGEREGU",
+    "createdAt": "Sun Aug 16 18:03:33 +0000 2026",
+    "replyCount": 6,
+    "retweetCount": 2,
+    "likeCount": 8,
+    "conversationId": "2089050446736265371",
+    "author": {
+      "username": "stethandstocks",
+      "name": "DrBeRich"
+    },
+    "authorId": "1937177677581930496"
+  },
+  {
+    "id": "2088631226659668027",
+    "text": "@jideflash I meant accesscorp 23 naira 2024.\nAccesscorp with such a massive liquidity is ment for traders.",
+    "createdAt": "Sat Aug 15 14:17:43 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088331779048399135",
+    "inReplyToStatusId": "2088331779048399135",
+    "author": {
+      "username": "GilbertLak86879",
+      "name": "Lakpama Gilbert l investor and ngx reasercher."
+    },
+    "authorId": "1754408202911817728"
+  },
+  {
+    "id": "2088236266827423758",
+    "text": "🏦 ACCESSCORP is gaining momentum into the close\n\nThe stock has accelerated from +0.75% earlier in the session to +4.91%, trading at ₦27.80 (+₦1.30 price gain).\n\n📈 It is currently the best-performing FUGAZ stock this week, with +3.15% WoW, ahead of UBA, ZENITHBANK, GTCO and FIRSTHOLDCO.",
+    "createdAt": "Fri Aug 14 12:08:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2088236266827423758",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPrnhS7WMAAb-JZ.png",
+        "width": 326,
+        "height": 320,
+        "previewUrl": "https://pbs.twimg.com/media/HPrnhS7WMAAb-JZ.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2088215186863775941",
+    "text": "💰 The stocks attracting the most money today are mostly not the ones rising.\n\nFTGINSURE is attracting the most money so far, with ₦2.37B traded at ₦2.61, down 10%, and nearly 873.5M shares exchanged.\n\nAmong the top 10 stocks by value traded, only ZENITHBANK (₦49.15, +0.74%) and ACCESSCORP (₦24.80, +0.19%) are in the green.\n\nThe pressure is coming mainly from DANGSUGAR (₦66.00, -7.79%) and NB (₦59.50, -2.44%), while FIRSTHOLDCO, MTNN, GTCO, HBMNG and AIRTELAFRI are mostly flat.",
+    "createdAt": "Fri Aug 14 10:44:32 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 8,
+    "conversationId": "2088215186863775941",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPrTla0XsAIbQkv.jpg",
+        "width": 2048,
+        "height": 1044,
+        "previewUrl": "https://pbs.twimg.com/media/HPrTla0XsAIbQkv.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088200010781368788",
+    "text": "It's 5 banks but they're not redundant, UBA/Zenith/ACCESSCORP/GTCO all play different roles in the portfolio (dividend yield, earnings growth, balance sheet strength), and Stanbic gives exposure to the wealth-management side banks like the others don't do as much.\n\nConcentration risk is real though, worth watching.",
+    "createdAt": "Fri Aug 14 09:44:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087984062338334726",
+    "inReplyToStatusId": "2088197811686760797",
+    "author": {
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
+    },
+    "authorId": "2045922582839345152"
+  },
+  {
+    "id": "2088127425150386334",
+    "text": "The Nigerian equities market extended its bearish run on Thursday as sustained profit-taking in large-cap stocks reduced market capitalisation by N613.08bn. The NGX All-Share Index declined by 0.39% to 243,017.38 points, moderating the year-to-date return to 56.17%. Losses in UNILEVER, ACCESSCORP, TRANSCORP, ZENITHBANK, OANDO, Nigerian Breweries and GTCO contributed to the decline.\n\nMarket breadth remained negative, with 41 decliners against 17 gainers, indicating that the pressure extended beyond the heavyweight stocks that influenced the benchmark index. Trading activity increased substantially, although the headline volume was concentrated in CORNERST, which accounted for 85.82% of the 4.24bn shares traded. The concentration limits the extent to which the higher turnover may be interpreted as evidence of broadly distributed market liquidity.\n\nThe Proshare market capitalisation-weighted and total-return float-adjusted indexes declined by 0.21% and 0.58%, respectively, reinforcing the broader weakness in quoted equities. The NASD OTC market moved in the opposite direction, gaining 0.27%.\n\nIn the foreign exchange market, the naira appreciated to N1,420/US$1 at the BDC segment and N1,357.65/US$1 at the NFEM window. The combination of weaker equities, narrow trading concentration and modest currency appreciation supports a more selective approach to portfolio positioning, with attention to earnings quality, valuation and available free float.\n\nRead the market report>>> https://t.co/Hk9m7FTBge via @proshare",
+    "createdAt": "Fri Aug 14 04:55:48 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 3,
+    "likeCount": 6,
+    "conversationId": "2088127425150386334",
+    "author": {
+      "username": "OlufemiAwoyemi",
+      "name": "Olufemi AWOYEMI"
+    },
+    "authorId": "52724525",
+    "quotedTweet": {
+      "id": "2087961324877730150",
+      "text": "Stock Market Extends Bearish Performance as Investors Lost N613.1bn; BDC Rate Appreciated to N1,420/US$1\n\nThe Nigerian stock market closed bearish on Thursday, August 13, 2026, extending losses from the previous session, as profit-taking in large-cap stocks dragged the benchmark index lower despite buying interest across several counters. INTENEGINS emerged as the session's top gainer, while UNILEVER recorded the steepest decline.\nhttps://t.co/qrnApT9rnW",
+      "createdAt": "Thu Aug 13 17:55:46 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 6,
+      "likeCount": 2,
+      "conversationId": "2087961324877730150",
+      "author": {
+        "username": "TheAnalystNG",
+        "name": "Investor Relations Service"
+      },
+      "authorId": "800819102"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPqEwHqXMAAX4AN.jpg",
+        "width": 2048,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HPqEwHqXMAAX4AN.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPqEz_yXIAA5-Wq.jpg",
+        "width": 2047,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HPqEz_yXIAA5-Wq.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088007133858037915",
+    "text": "🚀 10X OUTLOOK WATCHLIST\n\n🇺🇸 US PICKS:\n• NBIS — AI Cloud; Q2 rev $582M +454% YoY; EBITDA $236M; EU data sovereignty tailwind\n• PLTR — Govt AI OS; US commercial ARR compounding 40%+ annually\n• JOBY — Urban air mobility; FAA cert Q4 2026; Delta + Toyota backing\n\n🇳🇬 NGX PICKS:\n• GEREGU — Only listed IPP; Nigeria's 28tn power deficit megatrend\n• AIRTELAF — 14 African markets; Airtel Money IPO pipeline unlocks NAV\n• ACCESSCORP — Pan-Africa banking; 30M+ digital users; FTSE largest weight\n\nNot investment advice. Do your own research. 📋",
+    "createdAt": "Thu Aug 13 20:57:48 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088007124785782965",
+    "inReplyToStatusId": "2088007132624875607",
+    "author": {
+      "username": "splashstarx",
+      "name": "Chinawarauzo"
+    },
+    "authorId": "70986620"
+  },
+  {
+    "id": "2088007131173671190",
+    "text": "🇳🇬 NGX BUY RECOMMENDATIONS\n\n1. ZENITHBANK — ₦126.50 → ₦159.48 (+26%) | Top FTSE weight; 7.9% dividend yield\n2. GTCO — ₦68 → ₦88 (+29%) | Best ROE on NGX; Vetiva Q3 top pick\n3. SEPLAT — ₦4,200 → ₦5,500 (+31%) | USD earnings; gas expansion play\n4. GEREGU — ₦765 → ₦1,050 (+37%) | Power infra megatrend; only listed IPP\n5. ACCESSCORP — ₦25.50 → ₦33 (+29%) | Recapitalisation discount; pretax profit >₦1tn\n\nFTSE passive inflows will concentrate in ZENITHBANK, GTCO + SEPLAT — accumulate before Sep 21 ✅",
+    "createdAt": "Thu Aug 13 20:57:48 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088007124785782965",
+    "inReplyToStatusId": "2088007129856668004",
+    "author": {
+      "username": "splashstarx",
+      "name": "Chinawarauzo"
+    },
+    "authorId": "70986620"
+  },
+  {
+    "id": "2088005113713467857",
+    "text": "🟢 NGX BUY CALLS\n\n1. ACCESSCORP — ₦27.40 → ₦36.00 (+31.4%) | Fell 3.01% on no news. Cheapest tier-1 vs the 17.59% OMO hurdle.\n2. ZENITHBANK — ₦124.80 → ₦158.00 (+26.6%) | Recap fully cleared, no dilution overhang, NIM peak still ahead\n3. GEREGU — ~₦1,150 → ₦1,450 (+26.1%) | Tariff-indexed capacity payments = revenue reprices WITH inflation\n4. SEPLAT — ~₦7,200 → ₦9,000 (+25.0%) | H1 PAT $164m, +498%, on $1.82bn revenue. USD revenue, Naira costs.\n5. GTCO — ₦128.50 → ₦156.00 (+21.4%) | Raised 2.28bn shares at ₦70 to offshore institutions — pre-positioned for FTSE flows\n\nBanks fell 0.30% while the index fell 1.12%. They're being accumulated on weakness.",
+    "createdAt": "Thu Aug 13 20:49:47 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088005106947981507",
+    "inReplyToStatusId": "2088005112396415160",
+    "author": {
+      "username": "splashstarx",
+      "name": "Chinawarauzo"
+    },
+    "authorId": "70986620"
+  },
+  {
+    "id": "2088004712654106670",
+    "text": "🔴 NGX SELL CALLS\n\n1. BUAFOODS — ₦482.00 → ₦395.00 (-18.0%) | Price-led volumes hitting ceiling\nLead decliner in the 12 Aug rout. At 15.9% inflation the consumer is trading down, not absorbing more price.\n\n2. UNILEVER — ₦76.50 → ₦61.00 (-20.3%) | Dollar costs, naira pricing\nDollarised COGS against naira-capped pricing. The gap lands entirely in gross margin.\n\n3. MTNN — ₦805.00 → ₦690.00 (-14.3%) | Unhedged FX liability book\n-4.73% on 11 Aug, shedding ₦40. FX-denominated tower and equipment obligations against 100% naira revenue.\n\n4. SEPLAT — ₦11,363.90 → ₦9,700 (-14.6%) | Dividend cover tracks the barrel\nBrent -2.1% to $87.07. The payout thesis weakens exactly as realisations do.\n\n5. ACCESSCORP — ₦28.40 → ₦23.50 (-17.3%) | Recap dilution outruns earnings\nEnlarged share count plus pan-African integration and asset-quality risk per naira of new equity.",
+    "createdAt": "Thu Aug 13 20:48:11 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088004704039018839",
+    "inReplyToStatusId": "2088004711240671269",
+    "author": {
+      "username": "splashstarx",
+      "name": "Chinawarauzo"
+    },
+    "authorId": "70986620"
+  },
+  {
+    "id": "2087988361508352138",
+    "text": "Fair question. On the banks, I don't see them as one bet, UBA, Zenith, ACCESSCORP, GTCO, and Stanbic each have different strengths liquidity profile, dividend history, recap position. \n\nSector-wide risk still applies, that part's real.\n\nOn cement, similar logic, Dangote, BUA, and WAPCO aren't identical businesses even in the same sector. \n\nBut you're right that if cement or banking as a sector gets hit, I'm more exposed than someone spread across sectors.\n\nNot a perfect answer, more concentrated than textbook diversification says I should be. \n\nI stayed with it because I understand these businesses well enough to hold through volatility, that's worth something to me even if it's not optimal on paper.",
+    "createdAt": "Thu Aug 13 19:43:12 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 3,
+    "conversationId": "2087984062338334726",
+    "inReplyToStatusId": "2087987362689437958",
+    "author": {
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
+    },
+    "authorId": "2045922582839345152"
+  },
+  {
+    "id": "2087984062338334726",
+    "text": "Just wrapped something I've been building since July: \n\nA full \"Why I'm Holding\" breakdown for every single stock in my portfolio.\n\nUBA, Zenith, ACCESSCORP, BUA Cement, NGX Group, Stanbic IBTC, NASCON, Dangote Cement, MTNN, ARADEL, Transcorp Power, Julius Berger, Seplat, NAHCO, GTCO, WAPCO.\n\nEvery position, the actual numbers behind it, and the honest reasoning, including the risks I don't love.\n\nNo stock added to this portfolio without a reason I could defend in public. \n\nThat was the whole point of writing these out.\n\nNot financial advice - just sharing my personal investing journey.\n\nEvery naira is a brick 🧱",
+    "createdAt": "Thu Aug 13 19:26:07 +0000 2026",
+    "replyCount": 7,
+    "retweetCount": 4,
+    "likeCount": 48,
+    "conversationId": "2087984062338334726",
+    "author": {
+      "username": "WealthWithPro",
+      "name": "Wealth With Prosperity"
+    },
+    "authorId": "2045922582839345152"
+  },
+  {
+    "id": "2087830648878739737",
+    "text": "NGX BIG MOVERS YESTERDAY 📈📉\n\nThe NGX had a rough Wednesday, with the All-Share Index falling 1.12% and market capitalisation dropping by about ₦1.76 trillion.\n\nBut while the big names were under pressure, some stocks still found buyers. 👀\n\n🚀 INTENEGINS emerged as the biggest gainer.\n\n📉 On the other side, BUAFOODS (-10.00%) led the losers, followed closely by UNILEVER (-9.97%) and ACCESSCORP (-3.01%).\n\nOther notable decliners included UACN (-2.86%), HBMNG (-2.48%), FIDELITYBK (-2.27%), UBA (-2.15%) and ZENITHBANK (-1.34%).\n\nInterestingly, market breadth was perfectly balanced: 28 gainers vs 28 decliners.\n\nThe takeaway? Yesterday’s weakness was driven heavily by large-cap stocks—not a complete market-wide selloff.\n\nWhich NGX stock are you watching today? 👀",
+    "createdAt": "Thu Aug 13 09:16:31 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2087830648878739737",
+    "author": {
+      "username": "Infohubfacts",
+      "name": "Infohubfacts"
+    },
+    "authorId": "1768913835912499200"
+  },
+  {
+    "id": "2087267508910743685",
+    "text": "📊 UZEE STOCKS UPDATE | WHAT THE MARKET IS WATCHING TODAY\n\nThe market moved today. But before we rush to buy or sell, it’s worth asking a simple question:\n\nWhat is actually driving the move?\n\nToday’s InfoWARE IDIA alert highlighted several developments around stocks on our portfolio and watchlist, including names such as MTNN, GTCO, ZENITHBANK, ACCESSCORP, FCMB, FIDELITYBK, OANDO, SEPLAT, DANGCEM, BUACEMENT, BUAFOODS, LEARNAFRCA and many others.\n\n🔎 Some of today’s key alerts:\n\n• Unusual Volume Alert — unusual trading activity can be worth investigating, but volume alone doesn't make a stock a buy.\n\n• Market Making & Securities Lending Webinar — useful developments for investors who want to understand how liquidity and market structure work.\n\n• Daily Market Report — another view of how the broader market performed today.\n\n• ASI vs. Advance-Decline Line — because sometimes the index can tell one story while market breadth tells another.\n\nAnd that's the point.\n\nDon't just watch the price. Understand the story behind the price.\n\nA stock going up doesn't automatically make it a good investment.\n\nUnusual volume doesn't automatically mean \"BUY.\"\n\nAnd a rising market doesn't mean every stock deserves your money.\n\nBefore you make a decision, ask:\n\n👉 What is driving the move?\n👉 Are the company's fundamentals improving?\n👉 Is the valuation attractive or already stretched?\n👉 What could go wrong?\n👉 Does the price action support the fundamental story?\n\nAt UZEE STOCKS Update LTD, we believe investing should be about understanding — not guessing.\n\nFundamentals First. Always.\n\nUnderstand → Innerstand → Overstand → Outstanding. 📈\n\nWe look before we leap.\n\n🌐 https://t.co/QhkkrPQdw7\n\nSource: InfoWARE IDIA Investment News Service, August 11, 2026. For educational purposes only. This is not personalized investment advice.\n\nUZEE STOCKS UPDATE LTD\nBuilding Smarter Investors Through Financial Education.",
+    "createdAt": "Tue Aug 11 19:58:48 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087267508910743685",
+    "author": {
+      "username": "UpdateUzee",
+      "name": "UZEE STOCKS UPDATE LTD"
+    },
+    "authorId": "2042572789966630912"
+  },
+  {
+    "id": "2087267196057895035",
+    "text": "📊 UZEE STOCKS UPDATE | WHAT THE MARKET IS WATCHING TODAY\n\nToday’s InfoWARE IDIA alert flagged several developments affecting stocks on our portfolio and watchlist.\n\nThe watchlist covers major names across banking, telecoms, consumer goods, oil & gas, industrials, insurance, technology, and REITs — including MTNN, GTCO, ZENITHBANK, ACCESSCORP, FCMB, FIDELITYBK, OANDO, SEPLAT, DANGCEM, BUACEMENT, BUAFOODS, LEARNAFRCA and many others.\n\n🔎 Key alerts from today, August 11, 2026:\n\n• Unusual Volume Alert — a potential sign that trading activity in certain stocks deserves closer attention. Volume alone, however, is not a buy signal.\n\n• Market Making & Securities Lending Webinar — an important development for investors looking to better understand how market liquidity and securities lending work.\n\n• InfoWARE Daily Market Report — providing a broader view of today’s market performance.\n\n• ASI vs. Advance-Decline Line — today’s chart compares the NGX All-Share Index with market breadth, helping investors look beyond the headline index number.\n\nAnd this is exactly why we believe investors should look before they leap.\n\nA stock moving up is not enough.\n\nA stock trading with unusual volume is not enough.\n\nA market rally is not enough.\n\nYou still need to ask:\n\nWhat is driving the move?\nAre the fundamentals improving?\nIs the valuation reasonable?\nWhat are the risks?\nAnd does the price action confirm or contradict the underlying story?\n\nAt UZEE Stocks Update, we don't chase noise.\n\nWe Fundamentals First. Always.\n\nUnderstand → Innerstand → Overstand → Outstanding. 📈\n\nSource: InfoWARE IDIA Investment News Service, August 11, 2026. This is educational information, not personalized investment advice.\n\nWe look before we leap.",
+    "createdAt": "Tue Aug 11 19:57:33 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087267196057895035",
+    "author": {
+      "username": "UpdateUzee",
+      "name": "UZEE STOCKS UPDATE LTD"
+    },
+    "authorId": "2042572789966630912"
+  },
+  {
+    "id": "2087263829562392810",
+    "text": "SIGNIFICANT BLOC TRADE EXECUTED ON NGX ON 11/08/26 \n\nFTGINSURE: Three (3) transactions involving 2.30 billion shares were executed at a price of ₦2.87 per share, forging a total trade value of ₦6.60 billion.\n\nNESTLE: A single transaction involving 317,580 shares was executed at a price of ₦2,750.00 per share, forging a total trade value of ₦873.34 million.\n\nACCESSCORP: A single transaction involving 26.00 million shares was executed at a price of ₦28.15 per share, forging a total trade value of ₦731.90 million.\n\nMTNN: A single transaction involving 450,000 shares was executed at a price of ₦805.00 per share, forging a total trade value of ₦362.25 million.\n\nUACN: Two (2) transactions involving 1.88 million shares were executed at a price of ₦178.00 per share, forging a total trade value of ₦334.09 million.\n\nCONHALLPLC: A single transaction involving 47.16 million shares was executed at a price of ₦6.98 per share, forging a total trade value of ₦329.16 million",
+    "createdAt": "Tue Aug 11 19:44:11 +0000 2026",
+    "replyCount": 4,
+    "retweetCount": 2,
+    "likeCount": 37,
+    "conversationId": "2087263829562392810",
+    "author": {
+      "username": "yinkarianstocks",
+      "name": "Asalu Adegboyega Yinka"
+    },
+    "authorId": "1741767058231046144",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPdzWzDWcAAOME2.jpg",
+        "width": 731,
+        "height": 1015,
+        "previewUrl": "https://pbs.twimg.com/media/HPdzWzDWcAAOME2.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087197908026134998",
+    "text": "🔥Market Recap: Retail money ran today. Big caps didn’t follow.\n\n🚀 FTGINSURE stole the show: 3.29B shares traded (16x 30D avg) and ₦9.58B turnover, ahead of FIRSTHOLDCO.\n\n📈 Strongest performers: UPDCREIT +10%, FTNCOCOA +9.88%, CILEASING +8.26%.\n\n🔄 Late reversals: FTGINSURE, CHAMS and MCNICHOLS bounced from deep intraday losses to close green.\n\n📉 Weak close: THOMASWY -9.97%, AVACAP -9.60%.\n\n🏦 Big caps stayed soft: MTNN -4.73%, FIRSTHOLDCO -1.41%, GTCO -0.92%, ZENITHBANK -0.32%; ACCESSCORP +0.71%.\n\n👀 Track the market in realtime on StockBubbles and trade directly on @hisanigeria ⚡️ \n🔗 https://t.co/m9pNAGk6hD",
+    "createdAt": "Tue Aug 11 15:22:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 9,
+    "conversationId": "2087197908026134998",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPc0IzHXsAAlNyI.jpg",
+        "width": 2048,
+        "height": 1106,
+        "previewUrl": "https://pbs.twimg.com/media/HPc0IzHXsAAlNyI.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPc2IKKWQAAzc4e.jpg",
+        "width": 1965,
+        "height": 1218,
+        "previewUrl": "https://pbs.twimg.com/media/HPc2IKKWQAAzc4e.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087169355171705026",
+    "text": "Bank stocks are the most liquid stocks on the NGX. Every serious investor has at least one. Here are all of them and their current prices. 🇳🇬\n\n1. FIRSTHOLDCO — ₦140\n2. STANBIC — ₦161.20\n3. GTCO — ₦129\n4. ZENITHBANK — ₦127\n5. ETI — ₦64.95\n6. UBA — ₦46.95\n7. ACCESSCORP — ₦28.35\n8. WEMABANK — ₦28.90\n9. FIDELITYBK — ₦21.90\n10. STERLINGNG — ₦7.55\n11. JAIZBANK — ₦8.60\n12. FCMB — listed\n13. NPFMCRFBK — ₦4.20\n14. UNITYBNK — ₦1.51\n\nAll 14 of these bank stocks are available to trade on @hisanigeria Nigeria right now.\n\nYou use a bank every day. The question is whether you are a customer or a shareholder. 🇳🇬\n\nNot financial advice. Do your own research.",
+    "createdAt": "Tue Aug 11 13:28:46 +0000 2026",
+    "replyCount": 4,
+    "retweetCount": 9,
+    "likeCount": 75,
+    "conversationId": "2087169355171705026",
+    "author": {
+      "username": "ProfitableMan1",
+      "name": "ProfitableMan"
+    },
+    "authorId": "1481516152727691267"
+  },
+  {
+    "id": "2087166928037061018",
+    "text": "🚀FTGINSURE is becoming impossible to ignore.\n\nLess than 2 hours to the close:\n₦2.98 (+4.20%) intraday\n991.47M shares traded\n₦2.97B turnover\n10x its 30-day average\n\nToday’s volume has already beaten Friday’s spike, making this the largest single-session volume of the current rebound.\n\nEven more striking, FTGINSURE is currently #2 by value traded on the NGX, ahead of GTCO, ACCESSCORP, UBA and ZENITHBANK.\n\n🔥Three straight sessions of massive volume and green closes. This is no longer a one-day bounce.\n\n👀 Follow these moves live on StockBubbles and trade instantly on @hisanigeria ⚡️\nhttps://t.co/m9pNAGk6hD",
+    "createdAt": "Tue Aug 11 13:19:07 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2087166928037061018",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "quotedTweet": {
+      "id": "2086855709497385009",
+      "text": "🔥 FTGINSURE is turning into a momentum story.\n\nAfter Friday’s volume explosion, the stock didn’t fade ... it followed through again today, closing limit-up at ₦2.86 (+10%).\n\n📊 What stands out: \n• 307.3M shares traded\n• 6× its 30-day average volume\n• ₦818.3M turnover\n• #1 by value traded in the Insurance sub-sector\n• Recovered from -3.8% intraday to +10%, the strongest reversal on the board.\n\nThat’s not just a green close, it’s aggressive participation with sustained follow through. 🚀",
+      "createdAt": "Mon Aug 10 16:42:27 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2086855709497385009",
+      "author": {
+        "username": "stockbubblesNG",
+        "name": "StockBubbles Updates x HISA"
+      },
+      "authorId": "1304036016957915136",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPX_9IeXYAAP5m1.png",
+          "width": 312,
+          "height": 314,
+          "previewUrl": "https://pbs.twimg.com/media/HPX_9IeXYAAP5m1.png:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPcaozcXUAA2Q3i.png",
+        "width": 325,
+        "height": 354,
+        "previewUrl": "https://pbs.twimg.com/media/HPcaozcXUAA2Q3i.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2087103710346318015",
+    "text": "💰 30 mins into trading, the top-10 turnover board is still largely neutral.\n\nFIRSTHOLDCO dominates value traded with ₦845.98m but is trading -1.41%, while AVACAP is down -9.09%.\n\nThe key twist: ACCESSCORP (+3.21%) is currently the only green stock among the top-10 turnover names.\n\nMeanwhile MTNN, GTCO, ZENITHBANK, DANGCEM, TRANSEXPR and HBMNG are all holding flat despite meaningful value traded.",
+    "createdAt": "Tue Aug 11 09:07:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 6,
+    "conversationId": "2087103710346318015",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPbgKimWsAAU-jU.jpg",
+        "width": 2048,
+        "height": 1109,
+        "previewUrl": "https://pbs.twimg.com/media/HPbgKimWsAAU-jU.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087101195013837265",
+    "text": "Once I see ACCESSCORP in your NGX portfolio I just know you are a very patient person 😊",
+    "createdAt": "Tue Aug 11 08:57:56 +0000 2026",
+    "replyCount": 16,
+    "retweetCount": 3,
+    "likeCount": 50,
+    "conversationId": "2087101195013837265",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2086914333762609506",
+    "text": "@jociefer @abujaipaul1 I just made research and it’s true, I also hope for growth tbh because I also have shares at accesscorp",
+    "createdAt": "Mon Aug 10 20:35:24 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2086771440938820029",
+    "inReplyToStatusId": "2086886792456782081",
+    "author": {
+      "username": "DANSEMIRULES",
+      "name": "D RULEZ🦍"
+    },
+    "authorId": "1208058314745163776"
+  },
+  {
+    "id": "2086888943887470679",
+    "text": "NGX MARKET UPDATE — MONDAY, AUGUST 10, 2026\n\nThe Nigerian Exchange (NGX) closed higher today, with the All-Share Index gaining over 1%.\n\n📈 MARKET SNAPSHOT\n• NGX All-Share Index: 248,529.75\n• Daily Gain: +1.21%\n• Market Capitalisation: ₦160.42 trillion\n• Market Breadth: 23 gainers vs 36 losers\n\nDespite the positive index performance, decliners outnumbered gainers, highlighting the concentration of today's rally in selected large-cap stocks.\n\n🟢 TOP 5 GAINERS\n1️⃣ NAHCO — +9.29%\n2️⃣ AIRTELAFRI — +8.59%\n3️⃣ CHAMS — +7.35%\n4️⃣ ACCESSCORP — +6.68%\n5️⃣ PRESTIGE — +6.38%\n\n🔴 TOP 5 LOSERS\n1️⃣ AVACAP — −10.00%\n2️⃣ ETI — −9.92%\n3️⃣ NPFMCRFBK — −9.89%\n4️⃣ CAVERTON — −9.09%\n5️⃣ IKEJAHOTEL — −8.41%\n\n💡 Market Takeaway:\nThe NGX added roughly ₦1.9 trillion in market value, as strong performances from key stocks helped push the benchmark index higher despite broader weakness across the market.\n\n📌 NGX closed higher, but the market was far from broad-based.\n\n#NGX #NigerianStocks #StockMarket #Investing #Nigeria #NGXToday",
+    "createdAt": "Mon Aug 10 18:54:31 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 4,
+    "conversationId": "2086888943887470679",
+    "author": {
+      "username": "THAT_NGX_GUY",
+      "name": "MAVI🕊️"
+    },
+    "authorId": "1968663205376397312",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPYeZ1vWoAI2gBK.jpg",
+        "width": 1057,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HPYeZ1vWoAI2gBK.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPYean7WkAAoHU9.jpg",
+        "width": 1051,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/HPYean7WkAAoHU9.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPYebaCXsAEdkk1.jpg",
+        "width": 1096,
+        "height": 679,
+        "previewUrl": "https://pbs.twimg.com/media/HPYebaCXsAEdkk1.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2086825240043081763",
+    "text": "The most liquid stocks on the Nigerian Exchange (NGX) are currently dominated by tier-1 banking institutions.\n\nWith First HoldCo Plc (FIRSTHOLDCO), Access Holdings Plc (ACCESSCORP), &amp; FCMB Group Plc (FCMB) leading the market in daily traded volume.\n\nNot All NGX stocks are liquid.",
+    "createdAt": "Mon Aug 10 14:41:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2086825240043081763",
+    "author": {
+      "username": "Michealekes",
+      "name": "BÌG~MÍKÉ🛡️"
+    },
+    "authorId": "1290425576340299777"
+  },
+  {
+    "id": "2086761477361320079",
+    "text": "NGX stocks still fairly priced even at the current market price;\n\nZENITH AND GTCO \nDANGCEM \nMTNN\nHBMNG\nARADEL \nPRESCO\nACCESSCORP\nUBA\n\nAdd yours if you must 😎",
+    "createdAt": "Mon Aug 10 10:28:01 +0000 2026",
+    "replyCount": 13,
+    "retweetCount": 5,
+    "likeCount": 76,
+    "conversationId": "2086761477361320079",
+    "author": {
+      "username": "stockyvest",
+      "name": "Stockyvest"
+    },
+    "authorId": "2028543236403556352"
+  },
+  {
+    "id": "2086756195826597939",
+    "text": "ACCESSCORP is quietly becoming one of the strongest large-cap moves on the NGX today. 📈\n\n🟢 +6.86% to ₦28.80   \n🟢 3 straight green sessions   \n🟢 ₦258.06M traded\n\nWhile FIRSTHOLDCO stays red (-3.68%), money appears to be rotating into ACCESSCORP. https://t.co/NUqRLcGVQk",
+    "createdAt": "Mon Aug 10 10:07:01 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "2086756195826597939",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPWlOM6X0AAuROH.png",
+        "width": 294,
+        "height": 302,
+        "previewUrl": "https://pbs.twimg.com/media/HPWlOM6X0AAuROH.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2086753442194760097",
+    "text": "Market Impact View\n\nNot every 5% move on the NGX matters equally.\n\nThis view is designed to help traders focus on where meaningful market activity is happening, not just on the stocks showing the biggest percentage moves.\n\nInstead of getting distracted by dramatic small cap spikes, it helps you quickly see where large cap risk is building and whether money is rotating into major names such as FIRSTHOLDCO, ACCESSCORP and NB.\n\nIn one glance, you can tell whether today’s market is being driven by heavyweights or speculation.",
+    "createdAt": "Mon Aug 10 09:56:05 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 13,
+    "conversationId": "2086753442194760097",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPWiDecXcAAgmx9.jpg",
+        "width": 1437,
+        "height": 1362,
+        "previewUrl": "https://pbs.twimg.com/media/HPWiDecXcAAgmx9.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2086747960927297546",
+    "text": "This snapshot shows NGX stocks with market capitalizations above ₦1 trillion and their live performance right now.\n\n🟢 ACCESSCORP +3.90%   \n🟢 INTBREW +1.82%   \n🟢 ZENITHBANK +0.08%\n\n🔴 FIRSTHOLDCO -3.65%   \n🔴 NB -4.55%   \n🔴 FIDELITYBK -5.80%\n\nFIRSTHOLDCO is trading lower but remains the most active large-cap stock by value traded, while ACCESSCORP is leading the early strength among the trillion-naira names.",
+    "createdAt": "Mon Aug 10 09:34:18 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 2,
+    "likeCount": 10,
+    "conversationId": "2086747960927297546",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPWdcqLWQAAj32v.jpg",
+        "width": 1033,
+        "height": 907,
+        "previewUrl": "https://pbs.twimg.com/media/HPWdcqLWQAAj32v.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2086082079456923822",
+    "text": "How to position for Lekki Port’s growth and MSC’s new weekly service on the Nigerian market:\n\nStocks (NGX)\n\n• DANGCEM & BUACEMENT — lower logistics costs and stronger industrial/export demand.\n\n• WAPCO/HBM (Lafarge) — construction & infrastructure upside.\n\n• BUAFOODS — cheaper, faster raw-material imports.\n\n• Banks (ZENITHBANK, GTCO, ACCESSCORP) — higher trade finance, LCs & FX volumes.\n\nOther products\n\n• Industrial or Banking ETFs (e.g. Vetiva)\n\n• Infrastructure funds (e.g. Coronation)\n\n• Lekki-corridor REITs / real estate\n\n• Broad equity mutual funds focused on industrials & banks",
+    "createdAt": "Sat Aug 08 13:28:19 +0000 2026",
+    "replyCount": 11,
+    "retweetCount": 106,
+    "likeCount": 532,
+    "conversationId": "2086082079456923822",
+    "author": {
+      "username": "TomolaGroup",
+      "name": "Toby"
+    },
+    "authorId": "1482246507806011394",
+    "quotedTweet": {
+      "id": "2086041198716710926",
+      "text": "Pls I’m begging you \nDon’t sleep on Nigeria \nOwn a piece of it long term",
+      "createdAt": "Sat Aug 08 10:45:53 +0000 2026",
+      "replyCount": 28,
+      "retweetCount": 290,
+      "likeCount": 2242,
+      "conversationId": "2086041198716710926",
+      "author": {
+        "username": "tosinolaseinde",
+        "name": "Olúwatósìn Olaseinde"
+      },
+      "authorId": "183604794"
+    }
+  },
+  {
+    "id": "2086057208823869830",
+    "text": "Nigeria Stock Market Weekly Recap 🇳🇬📊\n\nThe NGX ended the week slightly higher, but the numbers tell a bigger story.\n\n📈 NGX All-Share Index: 245,573.60 points\n\n📊 Weekly gain: 0.12%\n\n💰 Market capitalisation: ₦158.51 trillion\n📌 26 stocks gained\n\n📌 63 stocks declined\n\nTop gainers this week:\n\n• First HoldCo: +12.23%\n• Eterna: +10.00%\n• Vitafoam: +7.90%\n• NASCON: +2.63%\n• AccessCorp: +2.47%\n• Zenith Bank: +1.98%\n\nSome notable decliners:\n\n• ETI: -18.94%\n• CAP: -9.98%\n• Cadbury: -9.92%\n• Custodian: -9.88%\n• NAHCO: -9.68%\n\nThe banking sector remained a major driver of market activity.\n\nFinancial Services recorded 3.47 billion shares traded, worth ₦73.01 billion. It accounted for 64.73% of total equity trading volume.\n\nAnother development to watch is the reported plan for Dangote Refinery to pursue an October listing and raise about $5 billion through an IPO.\n\nWhat should investors watch next week?\n\n1. Banking stocks\n2. Corporate earnings\n3. NGX market breadth\n4. Fixed-income yields\n5. New listings and public offers\n6. Interest-rate and liquidity movements\n\nThe market finished higher, but more stocks declined than gained. That is why looking beyond the headline index matters.\n\nSource: NGX, Proshare and Reuters.\nFor education and market awareness only, not investment advice.\n\n#NGX #NigerianStocks #NigeriaStocks #NigerianStockMarket #InvestNigeria #NigeriaFinance #NigerianInvestors #NGXStocks #NigerianEconomy #FixedIncome",
+    "createdAt": "Sat Aug 08 11:49:30 +0000 2026",
+    "replyCount": 5,
+    "retweetCount": 23,
+    "likeCount": 64,
+    "conversationId": "2086057208823869830",
+    "author": {
+      "username": "Cele2David",
+      "name": "Cele - One Dollar Group"
+    },
+    "authorId": "374205607"
+  },
+  {
+    "id": "2085693967522205957",
+    "text": "🚨 Capital just rotated.\n\nAt our midday snapshot, ACCESSCORP wasn't among the market's Top 10 by value traded.\n\nFast forward to now...\n🥇 #1 by value traded: ₦4.33B\n💰 25.4% of total market turnover\n📈 ₦26.50 (+1.53%) intraday\n\n📊 163.5M shares traded, already 119% above its 30-day average volume.\n\nIn the process, ACCESSCORP has overtaken FIRSTHOLDCO (₦2.66B) to become the market's busiest stock by value this afternoon.\n\n👀 Follow the market live on StockBubbles.",
+    "createdAt": "Fri Aug 07 11:46:06 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 3,
+    "conversationId": "2085693967522205957",
+    "author": {
+      "username": "stockbubblesNG",
+      "name": "StockBubbles Updates x HISA"
+    },
+    "authorId": "1304036016957915136",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPHeu79XoAA8IUM.png",
+        "width": 338,
+        "height": 327,
+        "previewUrl": "https://pbs.twimg.com/media/HPHeu79XoAA8IUM.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2085559010275516862",
+    "text": "\"The Nigerian equities market extended its recovery on Thursday, with the @ngxgrp All-Share Index rising 0.12% and market capitalisation gaining N191.77bn. The advance, however, was driven largely by selective demand for bellwether stocks, including FIRSTHOLDCO, STANBIC, ZENITHBANK and ACCESSCORP. Market breadth remained negative, with 35 decliners against 24 gainers, while trading volume fell 35.47% to 531.77m units. \n\nThe combination of a 57.58% year-to-date return, weaker activity and broad-based profit-taking indicates that headline index gains are increasingly dependent on price movements in a limited number of large-cap stocks.\n\nThe @NASDNG Securities Index gained 2.05%, supported by five advancing securities, although turnover of N99.16m across 62 deals reflects the market’s relatively narrow liquidity base. In the foreign-exchange market, the average BDC rate remained unchanged at N1,420/US$1, while the NFEM rate weakened marginally by 0.09% to N1,364.88/US$1, leaving the parallel-market premium at about 4.0%. Investors should therefore distinguish index momentum from underlying market strength, with earnings quality, valuation discipline, liquidity and the sustainability of foreign-exchange stability remaining central to portfolio positioning.\"\n\nREAD>>> https://t.co/j9Hu1Y8m02 via @proshare #AskProshare",
+    "createdAt": "Fri Aug 07 02:49:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 7,
+    "conversationId": "2085559010275516862",
+    "author": {
+      "username": "OlufemiAwoyemi",
+      "name": "Olufemi AWOYEMI"
+    },
+    "authorId": "52724525",
+    "quotedTweet": {
+      "id": "2085418522226610528",
+      "text": "The Nigerian Markets at a Glance 6th August 2026\n\nVisit our Data Hub via https://t.co/qfvzCmFkub for more market information. https://t.co/07PhhXmfcU",
+      "createdAt": "Thu Aug 06 17:31:35 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 4,
+      "likeCount": 0,
+      "conversationId": "2085412000700498271",
+      "inReplyToStatusId": "2085412000700498271",
+      "author": {
+        "username": "TheAnalystNG",
+        "name": "Investor Relations Service"
+      },
+      "authorId": "800819102",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPDlE0cXkAA58mu.png",
+          "width": 2048,
+          "height": 2048,
+          "previewUrl": "https://pbs.twimg.com/media/HPDlE0cXkAA58mu.png:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2085310338216370569",
+    "text": "Zenith Bank - ₦1,500,000\nNGX Group - ₦1,200,000\nAccesscorp - ₦1,000,000\nNASCON - ₦700,000\nCustodian - ₦600,000\n= 5M",
+    "createdAt": "Thu Aug 06 10:21:42 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2085310338216370569",
+    "author": {
+      "username": "josytims",
+      "name": "GOD OF MARS 🎭"
+    },
+    "authorId": "199615949",
+    "quotedTweet": {
+      "id": "2085308252946829657",
+      "text": "@josytims How will you apportion it with 5M",
+      "createdAt": "Thu Aug 06 10:13:25 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2085281849102799145",
+      "inReplyToStatusId": "2085294988686958725",
+      "author": {
+        "username": "stockyvest",
+        "name": "Stockyvest"
+      },
+      "authorId": "2028543236403556352"
+    }
+  },
+  {
+    "id": "2085296140837118351",
+    "text": "NGX Morning Snapshot 📊\n\nMixed sentiment in early trading today.\n\nTop gainers: 🟢 AVACAP +9.63% 🟢 LEGENDINT +9.52% 🟢 UNIVINSURE +5.95%\n\nTop losers: 🔴 SOVRENINS -10.00% 🔴 WAPIC -9.64% 🔴 JAPAULGOLD -4.92%\n\nBanking stocks are mixed, with STERLINGNG &amp; ACCESSCORP trading higher https://t.co/YKNhWoZdGH",
+    "createdAt": "Thu Aug 06 09:25:17 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 4,
+    "conversationId": "2085296140837118351",
+    "author": {
+      "username": "RealAbdulmanaf",
+      "name": "Sanusi Abdulmanaf"
+    },
+    "authorId": "1065587080632381440",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPB1x2XWsAAk-Gc.jpg",
+        "width": 718,
+        "height": 1522,
+        "previewUrl": "https://pbs.twimg.com/media/HPB1x2XWsAAk-Gc.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2084271564145533389",
+    "text": "Nigeria's analyst community moved from sector conviction to name selection in the week of 03 August 2026.\n\nBanks took the upgrades. Meristem lifted ACCESSCORP to Buy after a 9.93% weekly correction, Capital Bancorp moved WEMABANK to Buy on a projected 39.62% return, and Afrinvest raised STANBIC to Accumulate on 12.50% projected upside.\n\nThe downgrades sit where prices already ran. LASACO fell to Hold on 1.85% residual upside after an 18.68% weekly gain. BUACEMENT went to Sell on competitive intensity and margin compression. HBMNG was cut to Reduce on a projected -1.80% return. UNILEVER moved from Buy to Sell.\n\nResidual valuation headroom now sets the rating. The delivery test for the weeks ahead is whether H1 2026 earnings, Treasury Bills auction outcomes, and post-recapitalisation capital strength across the 43 insurers and reinsurers that met NAICOM's minimum requirement can justify the calls that survived the rally.\n\nFull recommendation table (below) and @ngxgrp @SECNigeria CMO-by-CMO revisions here: https://t.co/XCkEqmdhIX via @proshare @TheAnalystNG",
+    "createdAt": "Mon Aug 03 13:33:59 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 4,
+    "likeCount": 3,
+    "conversationId": "2084271564145533389",
+    "author": {
+      "username": "OlufemiAwoyemi",
+      "name": "Olufemi AWOYEMI"
+    },
+    "authorId": "52724525",
+    "quotedTweet": {
+      "id": "2084257379516846302",
+      "text": "Stock Recommendation for the Week of August 03, 2026\n\nCapital Market Operators (CMOs) adopted a more selective investment stance this week, with recommendation changes reflecting a shift from broad-based optimism towards stock-specific opportunities shaped by valuations, earnings expectations and recent price movements. Several banking stocks attracted renewed buying interest following price corrections, while analysts became more measured across consumer goods, industrial goods, insurance and conglomerates as sustained rallies narrowed upside potential.\n\nThe banking sector remained the most constructive segment, with upgrades for @theaccesscorp, @wemabank and @StanbicIBTC signalling confidence in earnings resilience, attractive valuations and the continuing benefits of the banking recapitalisation exercise. Consumer goods recommendations were mixed, favouring @IBPlc_ng and PZ while downgrading @Dangote_Sugar, @GuinnessNGRPlc, NASCON and @Unilever following recent price appreciation and reduced valuation headroom.\n\nIndustrial goods sentiment turned more defensive, particularly on @BUACement and @HBMNigeria, reflecting concerns about competitive pressures and margin sustainability despite the sector’s strong year-to-date performance. Insurance analysts also shifted towards a Hold bias after recent share-price gains, even as the sector enters a new phase following the completion of @NaicomNG recapitalisation programme, with 43 insurance and reinsurance companies meeting the applicable minimum capital requirements.\n\nAcross sectors, the revisions point to a market increasingly driven by company-specific fundamentals rather than broad sector momentum. Investors will likely focus on half-year earnings, capital strength, margin sustainability and dividend prospects. Selective opportunities remain where projected earnings growth and valuation support provide adequate protection against profit-taking and evolving macroeconomic risks.\n\nCc: @BUACement, @TranscorpGroup, @GroupEcobank, @MyFCMB, @fidelitybankplc, @gtbank, @Sterling_Bankng, @UBAGroup, @ZenithBank, @BuaFoods, @Nestle, @NBPLC, @AXAMansard, @neminsuranceplc, @BUACement, @aradelholdings, @ConoilPLC, @Japaul_Group, @Oando_PLC, @SeplatEnergy, @TotalEnergies, @MTNNG, @TranscorpHotels, @Transcorppower_ \n\nRead more: https://t.co/Dhcy3weEwj",
+      "createdAt": "Mon Aug 03 12:37:37 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 8,
+      "likeCount": 8,
+      "conversationId": "2084257379516846302",
+      "author": {
+        "username": "proshare",
+        "name": "Proshare"
+      },
+      "authorId": "33545237",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOzAoq8XsAAGC5h.jpg",
+          "width": 1700,
+          "height": 2048,
+          "previewUrl": "https://pbs.twimg.com/media/HOzAoq8XsAAGC5h.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOzR7AOX0AAZ-U7.jpg",
+        "width": 1600,
+        "height": 900,
+        "previewUrl": "https://pbs.twimg.com/media/HOzR7AOX0AAZ-U7.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2084255870410493987",
+    "text": "My Top ones to watch for potential outperformance this month of August \n\n1.  Aradel Holdings (ARADEL) Strong Q1 2026 results (revenue already beat full-year 2025). Oil-price support from global tensions + attractive valuation. Many see it as a re-entry opportunity after earlier pullbacks.\n\n2.  Zenith Bank (ZENITHBANK) Unanimous “Buy” ratings from multiple brokers. Solid earnings, good dividend yield, and benefits from the high interest-rate environment (MPR still at 26.5%). Frequently cited as one of the strongest consensus picks.\n\n3.  Access Holdings (ACCESSCORP) Still trading at a discount despite recent gains. Rising revenue EPS forecasts and potential dividend restoration after regulatory progress.\n\n4.  Dangote Cement (DANGCEM) Favourable earnings outlook, cost efficiencies, and infrastructure demand. Industrial sector still has catch up room after the July recovery.\n\n5.  Others\n•  Custodian Investment\n•  CWG Plc\n•  PZ Cussons\n\nMy favourites that could also do well in August include MTN Nigeria , GTCO, FCMB, and Transcorp.",
+    "createdAt": "Mon Aug 03 12:31:37 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2084255870410493987",
+    "author": {
+      "username": "officialdada001",
+      "name": "Dada📈📊"
+    },
+    "authorId": "851088518390657024"
+  }
+]
+=== END SEARCHES ===
 === AGENT REACH DOCTOR ===
 {
   "github": {
@@ -903,7 +2461,7 @@ credentials: env AUTH_TOKEN
   "xueqiu": {
     "status": "warn",
     "name": "雪球股票行情与社区动态",
-    "message": "Xueqiu API 连接失败：HTTP Error 400。如需登录 Cookie，请运行：agent-reach configure --from-browser chrome --platform xueqiu；doctor 不会自动读取浏览器 Cookie。",
+    "message": "Xueqiu API 连接失败：Expecting value: line 1 column 1 (char 0)。如需登录 Cookie，请运行：agent-reach configure --from-browser chrome --platform xueqiu；doctor 不会自动读取浏览器 Cookie。",
     "tier": 1,
     "backends": [
       "Xueqiu API (需要登录 Cookie)"
