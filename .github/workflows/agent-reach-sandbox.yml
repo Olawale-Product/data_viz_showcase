@@ -67,3 +67,5 @@ jobs:
           git add agent_reach_output.txt
           git commit -m 'Save Agent Reach sandbox output [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
+
+# Triggered after Twitter secrets were configured on 2026-08-18.
