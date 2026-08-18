@@ -1,0 +1,51 @@
+name: YouTube Transcript Test
+
+on:
+  push:
+    branches:
+      - agent-reach-sandbox
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  transcript:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent-reach-sandbox
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch transcript
+        shell: bash
+        run: |
+          set +e
+          python -m pip install -q yt-dlp
+          rm -f youtube_transcript_output.txt transcript.*
+          {
+            echo '=== VIDEO INFO ==='
+            yt-dlp --skip-download --print '%(title)s\n%(uploader)s\n%(duration_string)s' 'https://youtu.be/4GgINqj-7DU' || true
+            echo '=== SUBTITLE LIST ==='
+            yt-dlp --skip-download --list-subs 'https://youtu.be/4GgINqj-7DU' || true
+            echo '=== DOWNLOAD ENGLISH SUBTITLES ==='
+            yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs 'en.*' --sub-format vtt -o 'transcript.%(ext)s' 'https://youtu.be/4GgINqj-7DU' || true
+            echo '=== TRANSCRIPT FILES ==='
+            ls -1 transcript* 2>/dev/null || true
+            for f in transcript*.vtt; do
+              [ -f "$f" ] || continue
+              echo "=== CONTENT: $f ==="
+              cat "$f"
+            done
+          } 2>&1 | tee youtube_transcript_output.txt
+      - name: Commit transcript output
+        shell: bash
+        run: |
+          git config user.name 'youtube-transcript-sandbox'
+          git config user.email 'actions@users.noreply.github.com'
+          git add youtube_transcript_output.txt transcript*.vtt 2>/dev/null || git add youtube_transcript_output.txt
+          git commit -m 'Save YouTube transcript test [skip ci]' || exit 0
+          git push origin HEAD:agent-reach-sandbox
