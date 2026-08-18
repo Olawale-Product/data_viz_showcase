@@ -1,8 +1,8 @@
 === INSTALL AGENT REACH ===
 Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages (26.2.1)
 Collecting git+https://github.com/Panniantong/Agent-Reach.git
-  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-id1jn9o0
-  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-id1jn9o0
+  Cloning https://github.com/Panniantong/Agent-Reach.git to /tmp/pip-req-build-qx9nh2ng
+  Running command git clone --filter=blob:none --quiet https://github.com/Panniantong/Agent-Reach.git /tmp/pip-req-build-qx9nh2ng
   Resolved https://github.com/Panniantong/Agent-Reach.git to commit 93ae1d18c37b707dec053c7c4f9d91cd8ef8943d
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -55,7 +55,7 @@ Downloading feedparser_sgmllib-2.1.0-py3-none-any.whl (11 kB)
 Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
 Downloading python_dotenv-1.2.3-py3-none-any.whl (22 kB)
 Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 55.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 59.4 MB/s  0:00:00
 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
 Downloading charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (248 kB)
 Downloading idna-3.18-py3-none-any.whl (65 kB)
@@ -63,23 +63,23 @@ Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
 Downloading rich-15.0.0-py3-none-any.whl (310 kB)
 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 119.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 74.5 MB/s  0:00:00
 Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
 Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
 Downloading yt_dlp-2026.7.4-py3-none-any.whl (3.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 175.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 171.7 MB/s  0:00:00
 Downloading yt_dlp_ejs-0.8.0-py3-none-any.whl (53 kB)
 Downloading websockets-17.0.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (220 kB)
 Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 172.1 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 225.8 MB/s  0:00:00
 Downloading mutagen-1.48.1-py3-none-any.whl (195 kB)
 Downloading pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 244.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 244.1 MB/s  0:00:00
 Building wheels for collected packages: agent-reach
   Building wheel for agent-reach (pyproject.toml): started
   Building wheel for agent-reach (pyproject.toml): finished with status 'done'
   Created wheel for agent-reach: filename=agent_reach-1.5.0-py3-none-any.whl size=129286 sha256=fe7cb407143628d724bafb40b04746f370ebaceaef2cd4296bb3129f7433a99a
-  Stored in directory: /tmp/pip-ephem-wheel-cache-e13j5v4c/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_texqtma/wheels/c4/82/33/925c0e7d167e20d15662045a1c40fcb38cd6963264136eb0e5
 Successfully built agent-reach
 Installing collected packages: brotli, yt-dlp-ejs, yt-dlp, websockets, urllib3, pyyaml, python-dotenv, pygments, pycryptodomex, mutagen, mdurl, loguru, idna, feedparser-sgmllib, charset_normalizer, certifi, requests, markdown-it-py, feedparser, rich, agent-reach
 
@@ -122,14 +122,14 @@ Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
 Downloading browser_cookie3-0.20.1-py3-none-any.whl (17 kB)
 Downloading click-8.4.2-py3-none-any.whl (119 kB)
 Downloading curl_cffi-0.16.0-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (13.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 134.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 197.3 MB/s  0:00:00
 Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
 Downloading soupsieve-2.9.2-py3-none-any.whl (37 kB)
 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
 Downloading xclienttransaction-1.0.3-py3-none-any.whl (10 kB)
 Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
 Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 85.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 235.5 MB/s  0:00:00
 Downloading pycparser-3.0-py3-none-any.whl (48 kB)
 Installing collected packages: typing-extensions, soupsieve, pycparser, lz4, jeepney, click, cffi, browser-cookie3, beautifulsoup4, xclienttransaction, curl-cffi, twitter-cli
 
@@ -153,7 +153,7 @@ Agent Reach v1.5.0
   "twitter": {
     "status": "warn",
     "name": "Twitter/X 推文",
-    "message": "twitter-cli 已安装但没有完整的显式凭据。请用 Cookie-Editor 从 x.com 导出后运行：\n  agent-reach configure twitter-cookies\nDoctor 不会自动读取浏览器 Cookie。",
+    "message": "twitter-cli 已安装，且 Cookie-Editor 凭据已配置；Doctor 不会执行 `twitter status`，因为上游在验证失败时会自动读取浏览器 Cookie。请在你明确同意时手动验证。",
     "tier": 1,
     "backends": [
       "twitter-cli",
@@ -302,21 +302,14 @@ Agent Reach v1.5.0
 }
 
 === AUTH CHECK ===
-Twitter secrets missing.
+Twitter secrets detected.
 
 === ACCESSCORP SEARCH ===
-WARNING twitter_cli.auth: Twitter cookie extraction failed in both in-process and subprocess modes
+WARNING twitter_cli.client: Failed to init ClientTransaction: 'NoneType' object has no attribute 'group'
 ok: false
 schema_version: '1'
 error:
-  code: not_authenticated
-  message: 'No Twitter cookies found.
-
-    Option 1: Set TWITTER_AUTH_TOKEN and TWITTER_CT0 environment variables
-
-    Option 2: Make sure you are logged into x.com in your browser (Arc/Chrome/Edge/Firefox/Brave)
-
-
-    Run ''twitter -v <command>'' for debug diagnostics.'
+  code: not_found
+  message: 'Twitter API error (HTTP 404): Twitter API error 404: '
 
 === END SEARCH ===
