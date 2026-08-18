@@ -31,14 +31,17 @@ jobs:
         run: |
           set +e
           {
-            echo '=== INSTALL ==='
+            echo '=== INSTALL AGENT REACH ==='
             python -m pip install --upgrade pip
             pip install 'git+https://github.com/Panniantong/Agent-Reach.git'
+            echo
+            echo '=== INSTALL TWITTER CLI ==='
+            pip install twitter-cli
             echo
             echo '=== VERSION ==='
             agent-reach --version || true
             echo
-            echo '=== DOCTOR ==='
+            echo '=== DOCTOR AFTER TWITTER CLI INSTALL ==='
             agent-reach doctor --json || true
             echo
             echo '=== COMMANDS ==='
