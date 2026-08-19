@@ -1,0 +1,62 @@
+name: NGX Live Bank Check
+
+on:
+  push:
+    branches:
+      - agent-reach-sandbox
+    paths:
+      - run_bank_check.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bank-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      NGXPULSE_API_KEY: ${{ secrets.NGXPULSE_API_KEY }}
+      MANSA_API_KEY: ${{ secrets.MANSA_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: agent-reach-sandbox
+
+      - name: Pull latest ACCESSCORP and FIDELITYBK data
+        shell: bash
+        run: |
+          set +e
+          {
+            echo "=== UTC NOW ==="
+            date -u
+            echo "=== SECRET CHECK ==="
+            [ -n "$NGXPULSE_API_KEY" ] && echo "NGX Pulse key detected" || echo "NGX Pulse key missing"
+            [ -n "$MANSA_API_KEY" ] && echo "Mansa key detected" || echo "Mansa key missing"
+
+            echo "=== MANSA ACCESSCORP ==="
+            curl -sS -L --max-time 30 \
+              -H "Authorization: Bearer $MANSA_API_KEY" \
+              "https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP" || true
+            echo
+            echo "=== MANSA FIDELITYBK ==="
+            curl -sS -L --max-time 30 \
+              -H "Authorization: Bearer $MANSA_API_KEY" \
+              "https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/FIDELITYBK" || true
+            echo
+            echo "=== NGX PULSE FILTERED ==="
+            curl -sS -L --max-time 30 \
+              -H "X-API-Key: $NGXPULSE_API_KEY" \
+              "https://ngxpulse.ng/api/ngxdata/stocks" \
+              | python -c 'import json,sys; d=json.load(sys.stdin); stocks=d.get("stocks", d.get("data", [])); wanted={"ACCESSCORP","FIDELITYBK"}; print(json.dumps([s for s in stocks if str(s.get("symbol","")).upper() in wanted], indent=2))' || true
+          } 2>&1 | tee ngx_live_bank_check_output.txt
+
+      - name: Commit output
+        shell: bash
+        run: |
+          git config user.name 'ngx-live-check'
+          git config user.email 'actions@users.noreply.github.com'
+          git add ngx_live_bank_check_output.txt
+          git commit -m 'Save live Access/Fidelity check [skip ci]' || exit 0
+          git push origin HEAD:agent-reach-sandbox
