@@ -1,0 +1,2959 @@
+=== INSTALL BIRD ===
+npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+=== QUERY 1: JSE INVESTING ===
+[
+  {
+    "id": "2089837004599013436",
+    "text": "@DilBradly Tencent listing in SA - Win for the JSE\n\nTencent shares for NPN shareholders - win for NPN shareholders",
+    "createdAt": "Tue Aug 18 22:09:03 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089788678243520815",
+    "inReplyToStatusId": "2089788678243520815",
+    "author": {
+      "username": "Chapter11Wealth",
+      "name": "Chapter11"
+    },
+    "authorId": "1300087907013795840"
+  },
+  {
+    "id": "2089825676849483983",
+    "text": "🌏 International stocks on the radar today — 2026-08-18\n\n26 stocks quietly beating their own home market, with a low-risk entry today:\n\n🇮🇳 4 · 🇨🇳 4 · 🇺🇸 3 · 🇨🇦 3 · 🇯🇵 2 · 🇬🇧 2 · +7 more\n\nFull list: https://t.co/gaa27cZtDJ\n\n🇨🇦 𝗖𝗮𝗻𝗮𝗱𝗮 · strong vs the S&P 500\n\n$OVV (Ovintiv Inc) · has beaten the S&P/TSX Composite for 25 straight weeks\n\n$TVE (Tamarack Valley Energy Ltd.) · has beaten the S&P/TSX Composite for 50 straight weeks\n\n$PPL (Pembina Pipeline Corporation) · has beaten the S&P/TSX Composite for 17 straight weeks\n\n🇯🇵 𝗝𝗮𝗽𝗮𝗻 · strong market, but losing ground vs the S&P 500 — be cautious\n\n5020 (ENEOS Holdings, Inc.) · has beaten the Nikkei 225 for 41 straight weeks\n\n9831 (Yamada Holding Co., Ltd.) · has beaten the Nikkei 225 for 40 straight weeks\n\n🇬🇧 𝗨𝗞 · strong market, but losing ground vs the S&P 500 — be cautious\n\nBP. (BP PLC) · has beaten the FTSE 100 for 27 straight weeks\n\n$HBR (Harbour Energy Plc) · just started outperforming the FTSE 100 again\n\n🇨🇳 𝗖𝗵𝗶𝗻𝗮 · strong market, but losing ground vs the S&P 500 — be cautious\n\n601009 (Bank of Nanjing Co., Ltd. Class A) · just started outperforming the SSE Composite again\n\n688019 (Anji Microelectronics Technology (Shanghai) https://t.co/L6uvuj47uw. Class A) · has beaten the SSE Composite for 93 straight weeks\n\n688012 (Advanced Micro-Fabrication Equipment Inc. China Class A) · has beaten the SSE Composite for 46 straight weeks\n\n688048 (Suzhou Everbright Photonics Co., Ltd. Class A) · has beaten the SSE Composite for 80 straight weeks\n\n🇹🇭 𝗧𝗵𝗮𝗶𝗹𝗮𝗻𝗱 · strong market, but losing ground vs the S&P 500 — be cautious\n\n$FORTH (Forth Corp. Public Co. Ltd.) · has beaten the SET for 14 straight weeks\n\n🇦🇪 𝗨𝗔𝗘\n\n$ADIB (Abu Dhabi Islamic Bank) · has beaten the DFM General for 3 straight weeks\n\n🇫🇷 𝗙𝗿𝗮𝗻𝗰𝗲 · weaker than the S&P 500 — be cautious\n\n$IPN (Ipsen SA) · has beaten the CAC 40 for 35 straight weeks\n\n🇮🇳 𝗜𝗻𝗱𝗶𝗮 · weaker than the S&P 500 — be cautious\n\n$GRASIM (Grasim Industries Ltd.) · has beaten the Nifty 50 for 24 straight weeks\n\n$DATAPATTNS (Data Patterns (India) Limited) · has beaten the Nifty 50 for 41 straight weeks\n\n$CHENNPETRO (Chennai Petroleum Corporation Limited) · has beaten the Nifty 50 for 50 straight weeks\n\n$AEGISLOG (Aegis Logistics Limited) · has beaten the Nifty 50 for 14 straight weeks\n\n🇸🇪 𝗦𝘄𝗲𝗱𝗲𝗻 · weaker than the S&P 500 — be cautious\n\n$SOBI (Swedish Orphan Biovitrum AB) · has beaten the OMXS30 for 35 straight weeks\n\n🇸🇦 𝗦𝗮𝘂𝗱𝗶 𝗔𝗿𝗮𝗯𝗶𝗮 · weaker than the S&P 500 — be cautious\n\n4030 (National Shipping Co. of Saudi Arabia) · has beaten the TASI for 85 straight weeks\n\n🇿🇦 𝗦𝗼𝘂𝘁𝗵 𝗔𝗳𝗿𝗶𝗰𝗮 · weaker than the S&P 500 — be cautious\n\n$BWN (Balwin Properties Ltd.) · has beaten the JSE Top 40 for 38 straight weeks\n\n🇻🇳 𝗩𝗶𝗲𝘁𝗻𝗮𝗺 · weaker than the S&P 500 — be cautious\n\n$STB (Saigon Treasure Commercial Joint Stock Bank) · has beaten the VN-Index for 31 straight weeks\n\n$BSR (Petrovietnam Refining And Petrochemical Corporation.) · has beaten the VN-Index for 31 straight weeks\n\n🇺🇸 𝗨𝗦\n\n$BBIO (BridgeBio Pharma, Inc.) · has beaten the S&P 500 for 80 straight weeks\n\n$TTE (TotalEnergies SE) · has beaten the S&P 500 for 45 straight weeks\n\n$MGY (Magnolia Oil & Gas Corporation) · just started outperforming the S&P 500 again\n\n#Stocks #Investing #InternationalStocks",
+    "createdAt": "Tue Aug 18 21:24:03 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089825676849483983",
+    "author": {
+      "username": "denis__hamel",
+      "name": "Denis Hamel"
+    },
+    "authorId": "1708971785490690048"
+  },
+  {
+    "id": "2089805479799296186",
+    "text": "The Johannesburg Stock Exchange climbed on Tuesday, 18 August 2026, with J203 Index up +0.54% to 114,672.93...\n\nMarket capitalisation stood at ZAR 24.34T. Breadth was balanced: 10 stocks advanced, 10 declined and 33 were unchanged...\n\nMahube Infrastructure Limited (MHB) +12.59% to R4.40 led gainers, while MC Mining Limited (MCZ) -11.53% to R2.61 led losers...\n\nTotal volume across the tracked board was 119.68M shares.",
+    "createdAt": "Tue Aug 18 20:03:47 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2089805479799296186",
+    "author": {
+      "username": "okolozoski",
+      "name": "Okolo Michael"
+    },
+    "authorId": "2033891923736596490"
+  },
+  {
+    "id": "2089802888075718891",
+    "text": "The JSE main market stocks that have rallied in 2026 are mostly dividend players being used as substitutes for when Scotia de-lists. SGJ was known for reliable + stable dividends. I remember being told dividend stocks were \"foolishness\" / \"only for rich people\". Here we are.",
+    "createdAt": "Tue Aug 18 19:53:29 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 4,
+    "likeCount": 22,
+    "conversationId": "2089802888075718891",
+    "author": {
+      "username": "Julianinvests_",
+      "name": "Julian is Dr Doom"
+    },
+    "authorId": "48008241"
+  },
+  {
+    "id": "2089801165680541827",
+    "text": "Given PIOJ's forecast of a ~1% GDP decline for Q3 2026, it could mean that earnings for most JSE listed companies for the Sept 2026 period could continue to underperform the Sept 2025 period. Some stocks could still rise, but for other reasons like Scotia's planned de-listing.",
+    "createdAt": "Tue Aug 18 19:46:39 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 4,
+    "conversationId": "2089801165680541827",
+    "author": {
+      "username": "Julianinvests_",
+      "name": "Julian is Dr Doom"
+    },
+    "authorId": "48008241"
+  },
+  {
+    "id": "2089790727127495117",
+    "text": "📈 Top 10 Advancers &amp; Decliners for August 18, 2026\n\nWhich stocks caught your attention today?\n\nhttps://t.co/tG3cW2ZdRR\n\n#JSE #JamaicaStockExchange #JamaicanStocks #Investing https://t.co/R7SP0DFLHK",
+    "createdAt": "Tue Aug 18 19:05:10 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089790727127495117",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQBtl6TXcAAAP4G.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQBtl6TXcAAAP4G.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089790523334668401",
+    "text": "Today, investors searched long and hard on the stock exchange for stocks that could inspire them to new trading feats... but found none. Ultimately, the bears prevailed once again with their relentless sell-offs.\n\nOnly yesterday's heroes, $SOHJ, who held on to their place in the top, and those seeking quality cables, were satisfied.\n\nThey firmly believe: the more South Ocean Holdings shares are bought on the exchange, the higher the chance that someone capable of making decent copper cable will finally appear on the market!\n🟩Bulls TOP-3: +21.45%\n🟥Bears TOP-3: -31.37%\n▶️Bulls vs Bears weekly score 1:1\n$JSE #JSE #stocknews #MarketToday #MarketUpdate",
+    "createdAt": "Tue Aug 18 19:04:21 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089790523334668401",
+    "author": {
+      "username": "StockTalkSA",
+      "name": "StockTalkSA"
+    },
+    "authorId": "2040570578604589056",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2089790185638617088/img/POCUYwOwGpj-IkHJ.jpg",
+        "width": 1600,
+        "height": 900,
+        "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2089790185638617088/img/POCUYwOwGpj-IkHJ.jpg:small",
+        "videoUrl": "https://video.twimg.com/amplify_video/2089790185638617088/vid/avc1/1600x900/BxwWAoPdjyp7QotV.mp4?tag=29",
+        "durationMs": 22033
+      }
+    ]
+  },
+  {
+    "id": "2089768101512446242",
+    "text": "The investment hasn’t worked so far.\nAnd the disposals may be complete.\nThe economic story may not be.\n#SpecialSituations #JSE #Investing #Hedgefund",
+    "createdAt": "Tue Aug 18 17:35:16 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089768095963308378",
+    "inReplyToStatusId": "2089768099138437242",
+    "author": {
+      "username": "UrquhartPartner",
+      "name": "Urquhart Partners"
+    },
+    "authorId": "2481746658"
+  },
+  {
+    "id": "2089766302982217753",
+    "text": "We’ve been deep in the weeds researching African stocks for a while now  looking at how we can actually bring them on-chain as proper digital assets that people can hold, trade and use.\n\nBut the first real step had to be fixing a more basic problem: the market data itself is a mess. Different formats, missing timestamps, expensive delayed feeds that still get called “live”… you can’t build reliable on-chain products on top of that.\n\nSo we open-sourced african-market-data a clean, normalised layer across 17 African exchanges (NGX, JSE, GSE, NSE Kenya, EGX, BRVM and the rest). Fixed-point prices, full provenance on every quote, free sources included, and a clear upgrade path to licensed direct feeds when you’re ready.\nCheck the repo here:\n https://t.co/OsU3m2eyJy\n\n(We’re still early, but the foundation is solid.)\n\nOn the regulatory side, we’re also in the process of getting the necessary certifications starting with Nigeria first. That part is still in motion, so nothing public yet, but it’s happening in parallel because we want to do this the right way from day one.\nData first, then compliance, then the on-chain assets. One step at a time.",
+    "createdAt": "Tue Aug 18 17:28:07 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 5,
+    "likeCount": 12,
+    "conversationId": "2089766302982217753",
+    "author": {
+      "username": "Divinecodes11",
+      "name": "Divine"
+    },
+    "authorId": "1899771125141327872",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQBXU_VXMAAGUbY.jpg",
+        "width": 2048,
+        "height": 947,
+        "previewUrl": "https://pbs.twimg.com/media/HQBXU_VXMAAGUbY.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQBXVCNXEAAthMF.jpg",
+        "width": 2048,
+        "height": 1230,
+        "previewUrl": "https://pbs.twimg.com/media/HQBXVCNXEAAthMF.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089748181210767422",
+    "text": "@DOEE_ZA It needs to be listed on the JSE to bring down prices... it has financial problems.",
+    "createdAt": "Tue Aug 18 16:16:06 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089719890127020403",
+    "inReplyToStatusId": "2089719890127020403",
+    "author": {
+      "username": "AIARTSupernova",
+      "name": "Free trader"
+    },
+    "authorId": "1853184235936362496"
+  },
+  {
+    "id": "2089736812285591835",
+    "text": "Quick one for our SA investors 🇿🇦: do you prefer picking individual JSE shares, or do you stick to ETFs for simplicity? Tell us why below 👇 @EasyEquities @SatrixInvest #InvestingSA #JSE #ETF",
+    "createdAt": "Tue Aug 18 15:30:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089736812285591835",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089732860546555958",
+    "text": "🛑 HALT ALERT!\n\nFIRSTROCK REAL ESTATE INVESTMENTS LIMITED ($FIRSTROCKJMD.ja) has been halted after trading down -$1.41 (-20.3%).\n\n🔻 Last Price: $5.53\n\nWhat's happening with FIRSTROCKJMD?\n\nhttps://t.co/yJucqbN2ay\n\n#FIRSTROCKJMD #JSE #HaltAlert #JamaicanStocks https://t.co/9w6UdscYve",
+    "createdAt": "Tue Aug 18 15:15:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089732860546555958",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQA49qQW8AAHjQ8.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQA49qQW8AAHjQ8.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089715713204203744",
+    "text": "🛑 HALT ALERT!\n\nTRANSJAMAICAN HIGHWAY LTD 8% CUMULATIVE REDEEMABLE PREFERENCE SHARES ($TJH8.0.ja) has been halted after trading down -$0.54 (-21.7%).\n\n🔻 Last Price: $1.95\n\nWhat's happening with TJH8.0?\n\nhttps://t.co/3onfmieKAM\n\n#TJH8.0 #JSE #HaltAlert #JamaicanStocks https://t.co/Z8tW5IvoQA",
+    "createdAt": "Tue Aug 18 14:07:05 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089715713204203744",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQApXjCXsAAEjBO.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQApXjCXsAAEjBO.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089715205454319670",
+    "text": "🛑 HALT ALERT!\n\nONE-ON-ONE EDUCATIONAL SERVICES LIMITED ($ONE.ja) has been halted after trading up +$0.09 (+17.6%).\n\n🔺 Last Price: $0.60\n\nWhat's happening with ONE?\n\nhttps://t.co/rblL0rc6Xe\n\n#ONE #JSE #HaltAlert #JamaicanStocks https://t.co/TVTviOrz5M",
+    "createdAt": "Tue Aug 18 14:05:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2089715205454319670",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAo5_tXcAADoAT.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQAo5_tXcAADoAT.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089714699927523794",
+    "text": "🛑 HALT ALERT!\n\nINNOVATIVE ENERGY GROUP LIMITED ($ENERGY.ja) has been halted after trading up +$0.15 (+16.5%).\n\n🔺 Last Price: $1.06\n\nWhat's happening with ENERGY?\n\nhttps://t.co/QXqy8OJBJP\n\n#ENERGY #JSE #HaltAlert #JamaicanStocks https://t.co/QcbhehIja9",
+    "createdAt": "Tue Aug 18 14:03:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089714699927523794",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAocj1XQAA8TxK.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQAocj1XQAA8TxK.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089709542183493998",
+    "text": "@VuslatBayoglu The #1 solution and priority is listing Eskom on the JSE...\n\nThis entire crisis is about PRIVATE vs. PUBLICLY run companies, it has NOTHING to do with technology.\n\nhttps://t.co/5GZEiBPSYO https://t.co/rvQ5kXnx7p",
+    "createdAt": "Tue Aug 18 13:42:34 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089619423229272319",
+    "inReplyToStatusId": "2089619423229272319",
+    "author": {
+      "username": "AIARTSupernova",
+      "name": "Free trader"
+    },
+    "authorId": "1853184235936362496",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAjgkIXYAA82Ob.png",
+        "width": 819,
+        "height": 179,
+        "previewUrl": "https://pbs.twimg.com/media/HQAjgkIXYAA82Ob.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2089675885691514981",
+    "text": "@PaulVolkerSA The scariest part are all the keyboard ninjas who have zero experience other than simply investing in the S&amp;P500 or the JSE Top 40. The funny thing is, when the Top 40 had it's \"down\" time, they were no where in the comment sections ...",
+    "createdAt": "Tue Aug 18 11:28:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089403051182284813",
+    "inReplyToStatusId": "2089403051182284813",
+    "author": {
+      "username": "Quinton_Mendes",
+      "name": "Quinton Mendes"
+    },
+    "authorId": "2328335906"
+  },
+  {
+    "id": "2089642266277155269",
+    "text": "RNIE Reinet Investments S.C.A. (\"Reinet\") – Exchange rate applicable for dividend payable in respect of ordinary shares listed on the Johannesburg Stock Exchange https://t.co/HQ6HvtIBuC",
+    "createdAt": "Tue Aug 18 09:15:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089642266277155269",
+    "author": {
+      "username": "JSE_SENS",
+      "name": "JSE_SENS"
+    },
+    "authorId": "299667740"
+  },
+  {
+    "id": "2089635168575234487",
+    "text": "Market Open | Geopolitical Tensions Drive Risk-Off Sentiment\n\nUS markets closed lower overnight, led by the Dow Jones, while the S&P 500 and Nasdaq also eased.\n\nMiddle East tensions were initially responsible for the weakness as the 60-day ceasefire came to an end, Trump threatened to bomb mediator Oman should it interfere with the US naval blockade, and Israel warned citizens to leave South Lebanon. Trump also issued a warning to Israel regarding further attacks in Gaza.\n\nTech held up relatively well after strong Anthropic earnings numbers, though risk-off sentiment is prevalent in the Asian session this morning, with semiconductor stocks leading declines in the region.\nUS Treasury yields are higher and the dollar is rebounding, while precious metals are lower this morning. Oil prices gained as expected on the back of escalating troubles in the Middle East.\nToday's US economic calendar sees July housing starts, building permits and import prices due in the early afternoon.\n\nThe rand is softer against a firmer dollar, and we expect a negative open for the JSE All Share Index.\n\n#MarketOpen #MorningBrief #GlobalMarkets #JSE #WallStreet #Investing #MarketUpdate #MacroMarkets #Trading #Finance #Economy #Inflation #InterestRates #RandSwiss #MarketPulse $JSE",
+    "createdAt": "Tue Aug 18 08:47:02 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089635168575234487",
+    "author": {
+      "username": "RandSwiss",
+      "name": "Rand Swiss"
+    },
+    "authorId": "2525805978"
+  },
+  {
+    "id": "2089619566653567028",
+    "text": "Balwin shareholders have overwhelmingly voted in favour of the company’s takeover by a consortium that includes the Public Investment Corporation.\nhttps://t.co/ykeoUb8oi7",
+    "createdAt": "Tue Aug 18 07:45:02 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 3,
+    "likeCount": 0,
+    "conversationId": "2089619566653567028",
+    "author": {
+      "username": "DailyInvestorSA",
+      "name": "Daily Investor"
+    },
+    "authorId": "1551812170207436800"
+  },
+  {
+    "id": "2089612227032564123",
+    "text": "Investing tip 💡: The earlier you start, the less you need to save each month. Compound growth means your returns start earning their own returns over time. Time in the market usually beats timing it. #InvestingSA #JSE #PersonalFinanceSA",
+    "createdAt": "Tue Aug 18 07:15:52 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089612227032564123",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089594626600579166",
+    "text": "📊 MARKETS AT A GLANCE\n\nTuesday’s close and early Wednesday trade:\n\n• JSE All Share: 114,256 (+1.40%)\n• JSE Top 40: 106,201 (+1.56%)\n• JSE All Share (early Wednesday): ~115,574 (+1.15%)\n• Rand: ~R16.35/$\n• Brent crude: ~$79.04/barrel\n• Dow Jones: 54,085.88 (+1.71%)\n• S&P 500: 7,736.52 (+1.79%)\n• Nasdaq: 26,584.99 (+2.59%)\n• SARB repo rate: 7.00%\n• Prime lending rate: 10.50%\n\n🌍 POLITICS & MARKETS\n\nGlobal markets rebounded strongly, with US technology shares leading the recovery. Brent crude has eased to around $79 a barrel, providing some relief from the recent pressure on inflation, fuel prices and global interest-rate expectations.\n\nFor South Africa, lower oil is positive—but geopolitical developments and shipping conditions remain important risks.\n\n🏠 PROPERTY & RATES\n\nSouth Africa’s July inflation figure is due this morning. Economists expect inflation to moderate from June’s 5.0%, although the official result may differ.\n\nA softer inflation reading would support expectations of future interest-rate relief and could benefit homeowners, bonds and listed property. Prime remains at 10.50%.\n\n💻 TECHNOLOGY & BUSINESS\n\nTechnology shares drove Tuesday’s Wall Street rally, with the Nasdaq gaining 2.59%.\n\nInvestor appetite for AI-related companies remains strong, but valuations are still demanding. The focus is increasingly shifting towards which companies can turn AI investment and revenue growth into sustainable profits and cash flow.\n\n👀 WHAT TO WATCH TODAY\n\n• SA July inflation: 10:00 SAST\n• SA June retail sales: 13:00 SAST\n• US Federal Reserve minutes: 20:00 SAST\n• The rand’s response to local inflation\n• Oil prices and geopolitical developments\n• Whether the technology-led market rebound continues\n\nThe inflation and retail-sales figures will provide important signals about household finances, consumer spending and the outlook for South African interest rates.",
+    "createdAt": "Tue Aug 18 06:05:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089594626600579166",
+    "author": {
+      "username": "chasingsmart",
+      "name": "Ryno Weyers"
+    },
+    "authorId": "1924154483912724480"
+  },
+  {
+    "id": "2089589434702274656",
+    "text": "These JSE-listed shares go ex-dividend this week 💰",
+    "createdAt": "Tue Aug 18 05:45:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 3,
+    "likeCount": 10,
+    "conversationId": "2089589434702274656",
+    "author": {
+      "username": "CratosAM",
+      "name": "Cratos Asset Management"
+    },
+    "authorId": "1367345942618394625",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP-2Q3pXMAAejHj.png",
+        "width": 645,
+        "height": 327,
+        "previewUrl": "https://pbs.twimg.com/media/HP-2Q3pXMAAejHj.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2089578111457214796",
+    "text": "🇿🇦 JSE market wrap — 18 Aug\n\n📈 Top gainers\n• PPE R2.02 +8.60%\n• ACL R1.54 +8.45%\n• KAP R2.86 +7.52%\n\n📉 Top losers\n• EPE R4.65 -7.92%\n• BAT R2.02 -4.27%\n• GPL R1.66 -4.05%\n\nFull board: \n#JSE #Investing #SouthAfrica",
+    "createdAt": "Tue Aug 18 05:00:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089578111457214796",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089476738166202778",
+    "text": "📅 Dividend Consideration Notice!\n\nThe Board of Directors of KINGSTON PROPERTIES LIMITED ($KPREIT.ja) will meet on August 24, 2026 to consider a dividend declaration.\n\nAre you holding this stock?\n\nhttps://t.co/6gCv74DqsM\n\n#KPREIT #JSE #Dividends #JamaicanStocks https://t.co/PMS4B18Nrv",
+    "createdAt": "Mon Aug 17 22:17:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089476738166202778",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9QBWhXoAEwyg_.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP9QBWhXoAEwyg_.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089465110813118718",
+    "text": "🌏 International stocks on the radar today — 2026-08-17\n\n42 stocks quietly beating their own home market, with a low-risk entry today:\n\n🇺🇸 11 · 🇨🇳 10 · 🇨🇦 5 · 🇮🇳 4 · 🇦🇺 2 · 🇿🇦 2 · +7 more\n\nFull list: https://t.co/gaa27cYVOb\n\n🇨🇦 𝗖𝗮𝗻𝗮𝗱𝗮 · strong vs the S&P 500\n\n$ARX (ARC Resources Ltd.) · has beaten the S&P/TSX Composite for 7 straight weeks\n\n$WCP (Whitecap Resources Inc.) · has beaten the S&P/TSX Composite for 30 straight weeks\n\n$CNQ (Canadian Natural Resources Limited) · has beaten the S&P/TSX Composite for 28 straight weeks\n\n$TVE (Tamarack Valley Energy Ltd.) · has beaten the S&P/TSX Composite for 50 straight weeks\n\n$KEY (Keyera Corp.) · has beaten the S&P/TSX Composite for 27 straight weeks\n\n🇬🇧 𝗨𝗞 · strong market, but losing ground vs the S&P 500 — be cautious\n\nRR. (Rolls-Royce Holdings plc) · has beaten the FTSE 100 for 14 straight weeks\n\n🇰🇷 𝗦𝗼𝘂𝘁𝗵 𝗞𝗼𝗿𝗲𝗮 · strong market, but losing ground vs the S&P 500 — be cautious\n\n058610 (SPG Co., Ltd) · has beaten the KOSPI for 39 straight weeks\n\n🇨🇱 𝗖𝗵𝗶𝗹𝗲 · strong market, but losing ground vs the S&P 500 — be cautious\n\n$PARAUCO (Parque Arauco S.A.) · has beaten the IPSA for 56 straight weeks\n\n🇨🇳 𝗖𝗵𝗶𝗻𝗮 · strong market, but losing ground vs the S&P 500 — be cautious\n\n603129 (Zhejiang CFMoto Power Co. Ltd. Class A) · has beaten the SSE Composite for 6 straight weeks\n\n300628 (Yealink Network Technology Co. Ltd. Class A) · just started outperforming the SSE Composite again\n\n601168 (Western Mining Co., Ltd. Class A) · has beaten the SSE Composite for 47 straight weeks\n\n688037 (KINGSEMI Co., Ltd. Class A) · has beaten the SSE Composite for 41 straight weeks\n\n688072 (Piotech, Inc. Class A) · has beaten the SSE Composite for 45 straight weeks\n\n600988 (Chifeng Jilong Gold Mining Group Limited Class A) · has beaten the SSE Composite for 8 straight weeks\n\n688019 (Anji Microelectronics Technology (Shanghai) https://t.co/L6uvuj3zEY. Class A) · has beaten the SSE Composite for 93 straight weeks\n\n600362 (Jiangxi Copper Company Limited Class A) · has beaten the SSE Composite for 51 straight weeks\n\n601899 (Zijin Mining Group Co., Ltd. Class A) · has beaten the SSE Composite for 54 straight weeks\n\n601872 (China Merchants Energy Shipping Co., Ltd. Class A) · has beaten the SSE Composite for 49 straight weeks\n\n🇹🇭 𝗧𝗵𝗮𝗶𝗹𝗮𝗻𝗱 · strong market, but losing ground vs the S&P 500 — be cautious\n\n$WHAUP (WHA Utilities and Power Public Company Limited) · has beaten the SET for 40 straight weeks\n\n$SMT (Stars Microelectronics (Thailand) Public Co. Ltd.) · has beaten the SET for 14 straight weeks\n\n🇫🇮 𝗙𝗶𝗻𝗹𝗮𝗻𝗱\n\n$METSO (Metso Corporation) · just turned positive vs the OMXH25 after a 8-week recovery\n\n🇮🇳 𝗜𝗻𝗱𝗶𝗮 · weaker than the S&P 500 — be cautious\n\n$HSCL (Himadri Speciality Chemical Ltd.) · has beaten the Nifty 50 for 24 straight weeks\n\n$LODHA (Lodha Developers Ltd.) · has beaten the Nifty 50 for 7 straight weeks\n\n$TDPOWERSYS (TD Power Systems Limited) · has beaten the Nifty 50 for 75 straight weeks\n\n$TVSMOTOR (TVS Motor Company Limited) · has beaten the Nifty 50 for 58 straight weeks\n\n🇦🇺 𝗔𝘂𝘀𝘁𝗿𝗮𝗹𝗶𝗮 · weaker than the S&P 500 — be cautious\n\n$BRG (Breville Group Limited) · just started outperforming the S&P/ASX 200 again\n\n$CMM (Capricorn Metals Ltd) · has beaten the S&P/ASX 200 for 21 straight weeks\n\n🇿🇦 𝗦𝗼𝘂𝘁𝗵 𝗔𝗳𝗿𝗶𝗰𝗮 · weaker than the S&P 500 — be cautious\n\n$ANG (Anglogold Ashanti PLC) · has beaten the JSE Top 40 for 77 straight weeks\n\n$BWN (Balwin Properties Ltd.) · has beaten the JSE Top 40 for 38 straight weeks\n\n🇮🇩 𝗜𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮 · weaker than the S&P 500 — be cautious\n\n$ENRG (PT Energi Mega Persada Tbk) · has beaten the IDX Composite for 71 straight weeks\n\n🇻🇳 𝗩𝗶𝗲𝘁𝗻𝗮𝗺 · weaker than the S&P 500 — be cautious\n\n$STB (Saigon Treasure Commercial Joint Stock Bank) · has beaten the VN-Index for 31 straight weeks\n\n🇺🇸 𝗨𝗦\n\n$EOG (EOG Resources, Inc.) · has beaten the S&P 500 for 17 straight weeks\n\n$CHRD (Chord Energy Corporation) · has beaten the S&P 500 for 6 straight weeks\n\n$TTE (TotalEnergies SE) · has beaten the S&P 500 for 45 straight weeks\n\n$FANG (Diamondback Energy, Inc.) · has beaten the S&P 500 for 28 straight weeks\n\n$WPM (Wheaton Precious Metals Corp) · has beaten the S&P 500 for 3 straight weeks\n\n$DAVE (Dave Inc.) · has beaten the S&P 500 for 10 straight weeks\n\n$STX (Seagate Technology Holdings PLC) · has beaten the S&P 500 for 65 straight weeks\n\n$MDGL (Madrigal Pharmaceuticals, Inc.) · has beaten the S&P 500 for 3 straight weeks\n\n$GE (GE Aerospace) · has beaten the S&P 500 for 12 straight weeks\n\n$LQDA (Liquidia Corporation) · has beaten the S&P 500 for 60 straight weeks\n\n$ARWR (Arrowhead Pharmaceuticals, Inc.) · has beaten the S&P 500 for 51 straight weeks\n\n#Stocks #Investing #InternationalStocks",
+    "createdAt": "Mon Aug 17 21:31:17 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089465110813118718",
+    "author": {
+      "username": "denis__hamel",
+      "name": "Denis Hamel"
+    },
+    "authorId": "1708971785490690048"
+  },
+  {
+    "id": "2089454746302296525",
+    "text": "The Johannesburg Stock Exchange retreated on Monday, 17 August 2026, with J203 Index down -0.05% to 114,060.88...\n\nMarket capitalisation stood at ZAR 24.36T...\n\nBreadth was balanced: 10 stocks advanced, 10 declined and 37 were unchanged.\n\nLibstar Holdings (LBR) +12.86% to R3.90 led gainers, while York Timber Holdings (YRK) -9.66% to R2.20 led losers...\n\nTotal volume across the tracked board was 98.60M shares...",
+    "createdAt": "Mon Aug 17 20:50:06 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2089454746302296525",
+    "author": {
+      "username": "okolozoski",
+      "name": "Okolo Michael"
+    },
+    "authorId": "2033891923736596490"
+  },
+  {
+    "id": "2089437713967554640",
+    "text": "📊 ACCESS FINANCIAL SERVICES LIMITED ($AFS.ja) just released their Q1 2026/27 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/RUw1IAgCwK\n\n#AFS #JSE #Financials #JamaicanStocks https://t.co/mfb9sQ5eZC",
+    "createdAt": "Mon Aug 17 19:42:25 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089437713967554640",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8sh1DXYAIrvFR.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8sh1DXYAIrvFR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089428447466582362",
+    "text": "📈 Top 10 Advancers &amp; Decliners for August 17, 2026\n\nWhich stocks caught your attention today?\n\nhttps://t.co/cIxogRpYUg\n\n#JSE #JamaicaStockExchange #JamaicanStocks #Investing https://t.co/bFT8vqcWx0",
+    "createdAt": "Mon Aug 17 19:05:36 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 0,
+    "conversationId": "2089428447466582362",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8kGeCWEAAHOM9.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8kGeCWEAAHOM9.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089422580721541596",
+    "text": "🛑 HALT ALERT!\n\nPALACE AMUSEMENT CO. LTD. ($PAL.ja) has been halted after trading down -$0.09 (-15.3%).\n\n🔻 Last Price: $0.50\n\nWhat's happening with PAL?\n\nhttps://t.co/EpVvKFpkUB\n\n#PAL #JSE #HaltAlert #JamaicanStocks https://t.co/dUYy9y3a2o",
+    "createdAt": "Mon Aug 17 18:42:17 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089422580721541596",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8ew-qWgAAXNJw.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8ew-qWgAAXNJw.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089413292749955080",
+    "text": "🛑 HALT ALERT!\n\nBERGER PAINTS JAMAICA LTD. ($BRG.ja) has been halted after trading up +$0.79 (+15.0%).\n\n🔺 Last Price: $6.05\n\nWhat's happening with BRG?\n\nhttps://t.co/rHL1mAKlMV\n\n#BRG #JSE #HaltAlert #JamaicanStocks https://t.co/Ut1Le02GBw",
+    "createdAt": "Mon Aug 17 18:05:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089413292749955080",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8WUWsXoAArTY6.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8WUWsXoAArTY6.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089395412247413018",
+    "text": "🛑 HALT ALERT!\n\nONE-ON-ONE EDUCATIONAL SERVICES LIMITED ($ONE.ja) has been halted after trading down -$0.16 (-24.2%).\n\n🔻 Last Price: $0.50\n\nWhat's happening with ONE?\n\nhttps://t.co/ozoCm5WAUK\n\n#ONE #JSE #HaltAlert #JamaicanStocks https://t.co/5JVRA8bUPS",
+    "createdAt": "Mon Aug 17 16:54:20 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089395412247413018",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8GDktXYAANvhW.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8GDktXYAANvhW.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089377275842036138",
+    "text": "🛑 HALT ALERT!\n\nEVERYTHING FRESH LIMITED ($EFRESH.ja) has been halted after trading down -$0.51 (-24.4%).\n\n🔻 Last Price: $1.58\n\nWhat's happening with EFRESH?\n\nhttps://t.co/z2kQg4BWV5\n\n#EFRESH #JSE #HaltAlert #JamaicanStocks https://t.co/4VRTmaTwCK",
+    "createdAt": "Mon Aug 17 15:42:15 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089377275842036138",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP71j5rWIAADnTV.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP71j5rWIAADnTV.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089376765533683820",
+    "text": "🛑 HALT ALERT!\n\nFIRSTROCK REAL ESTATE INVESTMENTS LIMITED ($FIRSTROCKJMD.ja) has been halted after trading down -$1.83 (-24.9%).\n\n🔻 Last Price: $5.52\n\nWhat's happening with FIRSTROCKJMD?\n\nhttps://t.co/rdTDBP6Hyv\n\n#FIRSTROCKJMD #JSE #HaltAlert #JamaicanStocks https://t.co/TX7n4fpakK",
+    "createdAt": "Mon Aug 17 15:40:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089376765533683820",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP71GLmWgAA738Q.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP71GLmWgAA738Q.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089374434243088849",
+    "text": "🥇 Gold miners are having a moment on the JSE this month. Do you invest directly in mining shares, or prefer diversified ETFs for that exposure? Tell us why 👇 #InvestingSA #ETF @EasyEquities @SatrixInvest",
+    "createdAt": "Mon Aug 17 15:30:58 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089374434243088849",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089370225128972613",
+    "text": "🛑 HALT ALERT!\n\nFOSRICH COMPANY LIMITED ($FOSRICH.ja) has been halted after trading down -$0.23 (-17.3%).\n\n🔻 Last Price: $1.10\n\nWhat's happening with FOSRICH?\n\nhttps://t.co/6FCDrK2XaM\n\n#FOSRICH #JSE #HaltAlert #JamaicanStocks https://t.co/SyFaiXvJvb",
+    "createdAt": "Mon Aug 17 15:14:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089370225128972613",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7vJf7XsAAP-mR.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7vJf7XsAAP-mR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089359397881344498",
+    "text": "🛑 HALT ALERT!\n\nKINGSTON PROPERTIES LIMITED ($KPREIT.ja) has been halted after trading up +$2.35 (+24.4%).\n\n🔺 Last Price: $12.00\n\nWhat's happening with KPREIT?\n\nhttps://t.co/8OVvNlGYvy\n\n#KPREIT #JSE #HaltAlert #JamaicanStocks https://t.co/I7I3cdj3BR",
+    "createdAt": "Mon Aug 17 14:31:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089359397881344498",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7lTQvWEAAj2vq.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7lTQvWEAAj2vq.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089358711370248261",
+    "text": "Africa's first publicly listed Bitcoin treasury company has postponed its planned secondary listing on London's Aquis Growth Market just three days before trading was scheduled to begin.\n\nAfrica Bitcoin Corporation, formerly Altvest Capital, disclosed the delay in a Johannesburg market announcement on 14 August. Trading had been expected to start at 8 a.m. on 17 August. The company attributed the postponement to a \"technical matter\" but did not explain its nature or provide a new date.\n\nA £250,000 share placement is also delayed. Shares were priced at 23 pence each. Following the placement, the company's issued share capital was expected to rise to 35,192,751 ordinary shares.\n\nABC holds 5.5331 Bitcoin at an average acquisition cost of approximately $93,000 per Bitcoin. The company combines its Bitcoin treasury with a private-credit business lending to African SMEs earning interest of around 18% and generating recurring cash flows. CEO Warren Wheatley has noted that using Bitcoin as collateral reduced financing costs from roughly 13% to as low as 5%.\n\nLondon remains on the roadmap. ABC already has a primary listing on the Johannesburg Stock Exchange and secondary listings on A2X, the Namibia Securities Exchange, OTCQB in the US and the Frankfurt Stock Exchange.\n\nThe question now is whether the \"technical matter\" is resolved quickly or whether the delay signals something deeper.\n\nAccess the complete The H1 2026 Continental Liquidity Dossier to map the exact macro shifts redirecting capital. 👇\n\n#Macro #CapitalMarkets #TheSafariBrief #DigitalInfrastructure #Bitcoin #TradeFinance",
+    "createdAt": "Mon Aug 17 14:28:29 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089358711370248261",
+    "author": {
+      "username": "Safari_brief",
+      "name": "Safari Brief"
+    },
+    "authorId": "2025925569892814848",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7ko5ZXMAAnxC1.jpg",
+        "width": 1080,
+        "height": 1350,
+        "previewUrl": "https://pbs.twimg.com/media/HP7ko5ZXMAAnxC1.jpg:small"
+      }
+    ]
+  }
+]
+=== QUERY 2: JSE TICKERS ===
+[
+  {
+    "id": "2089837004599013436",
+    "text": "@DilBradly Tencent listing in SA - Win for the JSE\n\nTencent shares for NPN shareholders - win for NPN shareholders",
+    "createdAt": "Tue Aug 18 22:09:03 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089788678243520815",
+    "inReplyToStatusId": "2089788678243520815",
+    "author": {
+      "username": "Chapter11Wealth",
+      "name": "Chapter11"
+    },
+    "authorId": "1300087907013795840"
+  },
+  {
+    "id": "2089687702975197354",
+    "text": "392.99-24.83-5.94%\n\n🇿🇦 JSE Top Movers\n\nGainers: Gold Fields (+3.81%), Northam Platinum (+3.89%), Sasol (+3.8%)  \n\nLosers: Labat Africa (-33.33%), Nictus (-18.97%), Spar Group (-6.07%), ArcelorMittal SA (-3.25%), MTN Group (-1.71%), Woolworths (-1.56%) https://t.co/ahIBO7kUXu",
+    "createdAt": "Tue Aug 18 12:15:47 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089687702975197354",
+    "author": {
+      "username": "223Simonra",
+      "name": "SimonRa_223"
+    },
+    "authorId": "1607812333291577347",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAP5DSW0AAJGn-.jpg",
+        "width": 1014,
+        "height": 1014,
+        "previewUrl": "https://pbs.twimg.com/media/HQAP5DSW0AAJGn-.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089661312548704615",
+    "text": "📊 Share spotlight: MTN Group (JSE: MTN) R190.38, down 1.91% today. Trading update flags a 20-30% H1 earnings drop from Iran impairments and forex losses, ahead of results due 24 Aug. Not financial advice. DYOR. @MTNGroup @EasyEquities #JSE",
+    "createdAt": "Tue Aug 18 10:30:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089661312548704615",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089429381353525359",
+    "text": "JSE TOP 40 BIGGEST MOVERS TODAY\n\nGREENIES🟢\n1. Impala Platinum: +5.51%\n2. Pan African: +3.90%\n3. Northam Platinum: +3.89%\n\nREDS🔴\n1. Mr Price: -4.52%\n2. Richemont: -3.20%\n3. MTN: -1.91%\n\nI hold Pan, Northam and Richemont. +0.26% today on my Zar portfolio.",
+    "createdAt": "Mon Aug 17 19:09:18 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2089429381353525359",
+    "author": {
+      "username": "MasterDaMarket",
+      "name": "Steven Gunn"
+    },
+    "authorId": "2036807335880880128"
+  },
+  {
+    "id": "2089383133481218065",
+    "text": "TODAY'S MARKET BRIEF\n\nJSE 🇿🇦\n\nJSE All Share: +0.54%\nJSE Top 40: +0.69%\nIndustrial 25: -0.83%\nFinancial 15: -0.34%\nResource 10: +3.00%\nMid Cap: -0.11%\nSmall Caps: -0.29%\n\nUSDZAR: R16.17\n\nBiggest Winners (Large Caps):\n\n- Impala Platinum +5.51%\n- Pan African Resources +3.90%\n- Northam Platinum +3.89%\n- Gold Fields +3.81%\n- Harmony Gold +3.19%\n\nBiggest Losers (Large Caps):\n\n- Mr Price Group -4.52%\n- Richemont -3.20%\n- MTN Group -1.91%\n- Anheuser-Busch InBev -1.66%\n- Investec PLC -1.48%\n\nUSA 🇺🇸\n\nDow Jones -0.35%\nS&P500 -0.16%\nNasdaq +0.10%\n(Note markets are still open)\n\nRest of the world\n\nDax 🇩🇪 -0.38%\nCAC 40 🇫🇷 -0.66%\nAEX 🇳🇱 -0.27%\nEuro Stoxx 50 🇪🇺 -0.14%\nNikkei 225 🇯🇵 +0.74%\nHang Seng 🇭🇰 +1.34%\nKOSPI 🇰🇷 +2.42%\n\nCommodities\n\nGold +1.05%\nSilver +2.39%\nPlatinum +2.01%\nPalladium +0.64%\nCopper -0.06%\nBrent Crude +0.51%\nCrude Oil WTI +0.36%\nNatural Gas -1.76%\n\nCrypto\n\nBitcoin +2.01%\nEthereum +1.86%\nXRP +1.24%\nBNB +0.66%",
+    "createdAt": "Mon Aug 17 16:05:32 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 15,
+    "conversationId": "2089383133481218065",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2089367832358215709",
+    "text": "What’s The Ghost spotted on the markets? MTN!\n\nThe @FinanceGhost, expert analyst and popular podcaster, has looked at the MTN Group. Found that while it seems to have had a solid 6 months ending in June, the markets are still concerned.\n\nSee, MTN Nigeria, its largest African subsidiary, was already roughing it due to regulatory concerns that forced it to stop offering airtime and data credit services, but these only make up a small portion of its revenue. So, what’s the real issue? Is there an opportunity?\n\nClick the link: https://t.co/QdibyQmmlC\n\nThere are more details about its fintech, voice, and data businesses. You just have to see for yourself.\n\n#JSE #InvestSA",
+    "createdAt": "Mon Aug 17 15:04:44 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089367832358215709",
+    "author": {
+      "username": "brokstock",
+      "name": "BROKSTOCK"
+    },
+    "authorId": "1450778182395867139",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7sU-QWIAAIFUg.jpg",
+        "width": 2048,
+        "height": 1024,
+        "previewUrl": "https://pbs.twimg.com/media/HP7sU-QWIAAIFUg.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089317444686930333",
+    "text": "It’s Monday, 17 August, and you are sitting in front of your work, thinking: “Until 65?”\n\nUnless you do something different.\n\nDividends. Regular income from company profits. The ones in the image are paying out soon. You simply need to invest in them before the last trading date.\n\nThis is not financial advice.\n\n🇿🇦JSE Shares:\nVAL - Valterra Platinum Ltd\n• R57.00\n• Last trading date – 18 August\n• Payment date – 23  August\nKIO - Kumba Iron Ore Ltd Ordinary\n• R7.90\n• Last trading date – 18 August\n• Payment date – 19 August\nINL - Investec Ltd Ordinary\n• R4.72\n• Last trading date – 18 August\n• Payment date – 15 September\nINP - Investec Plc\n• R4.72\n• Last trading date – 18 August\n• Payment date – 15 September\nAGL - Anglo American Plc\n• R3.8454\n• Last trading date – 18 August\n• Payment date – 29 September\n\nUS Stocks ⬇️",
+    "createdAt": "Mon Aug 17 11:44:31 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089317444686930333",
+    "author": {
+      "username": "brokstock",
+      "name": "BROKSTOCK"
+    },
+    "authorId": "1450778182395867139"
+  },
+  {
+    "id": "2089298927115743723",
+    "text": "🔎 Share Spotlight: Naspers (NPN) slid ~11% last week to around R810 as investors fretted over Tencent's AI spending plans - even after Naspers posted strong FY26 results (adjusted EBITDA +84%). Not financial advice. DYOR. #JSE #NextRand @EasyEquities",
+    "createdAt": "Mon Aug 17 10:30:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089298927115743723",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089215765933109632",
+    "text": "🇿🇦 JSE market wrap — 17 Aug\n\n📈 Top gainers\n• ACL R1.51 +6.34%\n• LBR R3.90 +4.00%\n• SOL R186.45 +2.35%\n\n📉 Top losers\n• EXX R180.73 -5.43%\n• GPL R1.65 -4.62%\n• AGL R839.10 -2.84%\n\nFull board: \n#JSE #Investing #SouthAfrica",
+    "createdAt": "Mon Aug 17 05:00:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089215765933109632",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089008000539426859",
+    "text": "Standard Bank (JSE: SBK) profit rises 10% despite margin pressure as Africa growth bet enters new phase https://t.co/ONX5zBOvJg #SBK #StandardBank #SimTshabalala #SouthAfrica #Angola #Tanzania #AfricanBanking #JSE #JohannesburgStockExchange #InstitutionalInvestors",
+    "createdAt": "Sun Aug 16 15:14:53 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 1,
+    "conversationId": "2089008000539426859",
+    "author": {
+      "username": "BNTBriefing",
+      "name": "Business-News-Today.com"
+    },
+    "authorId": "39928970"
+  },
+  {
+    "id": "2088989813982613992",
+    "text": "Let us start with the @SanlamAllianzN General Equity Fund. This is a pure equity fund, meaning it invests almost entirely in shares, mostly on the JSE , with up to 25% allowed offshore. It has been running since 1994, so it has a long track record, and it currently manages around N$1 billion. It is classified as moderately aggressive, so it is built for growth over the long term. \n\nLook at the performance, annualised and net of fees, to 30 June 2026. Over one year it returned 15.17%, over three years 14.32% a year, over five years 13.25% a year, and over ten years 8.58% a year. In cumulative terms, that is 86.29% over five years and 127.70% over ten. So money left in this fund for a decade more than doubled.\n\nNow the honest part, how it did against its benchmark. Over ten years it beat the benchmark, 8.58% versus 7.50%, which is a genuine achievement, since many funds fail to do that over the long run. Over five years it was line-ball, 13.25% versus 13.44%. But over the shorter one and three year periods, it lagged, 15.17% against 19.59% over one year, and 14.32% against 16.58% over three. So recently it has trailed the market, even while its long-term record remains strong. This is exactly why you read across all the periods, not just the one that flatters a fund.\n\nOn what it holds, the top positions are familiar names, Naspers at 7.5%, FirstRand at 5.5%, Gold Fields at 5.4%, AngloGold at 5.2%, Standard Bank, Capitec and MTN. So you are buying a concentrated basket of large, established JSE companies, chosen on Sanlam’s value investment philosophy, buying shares they believe trade below fair value.\n\nOn costs, the fees are an annual wholesale fee of 0.75% and an annual service fee of 1.50%. Always factor that in, because fees come off your returns every year.\n\nMinimums are N$2,000 as a lump sum or N$500 a month, so it is within reach for most people who want equity exposure.\n\nWho is it for? Someone investing for the long term, five years and ideally longer, who wants growth and can sit through the ups and downs that equities bring. It is not for money you may need soon. As the fund’s own record shows, equities reward patience, not nerves.\n\nThis is for educational purposes only and does not constitute financial advice. For partnerships, collaborations, or to book a one on one session, please get in touch at erastuskalengier@gmail.com",
+    "createdAt": "Sun Aug 16 14:02:37 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 12,
+    "likeCount": 33,
+    "conversationId": "2088989813982613992",
+    "author": {
+      "username": "Hamnjela",
+      "name": "Kalenga"
+    },
+    "authorId": "4102900097",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP2VKWjWUAASyAW.jpg",
+        "width": 1279,
+        "height": 1753,
+        "previewUrl": "https://pbs.twimg.com/media/HP2VKWjWUAASyAW.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088663931090792801",
+    "text": "**UPDATED Top 10 Best Performing Stocks in the JSE Industrial 25 Index - 2026\n\n1⃣ Aspen Pharmacare +26.67% \n2⃣ AdvTech +23.46% \n3⃣ Anheuser-Busch InBev +22.59% \n4⃣ Netcare +15.50% \n5⃣ MTN Group +14.22% \n6⃣ Shoprite +13.91% \n7⃣ Richemont +6.72% \n8⃣ Vodacom +6.34% \n9⃣ Bidvest +4.88% \n🔟 Bid Corporation +3.27%\n\nexcl. dividends",
+    "createdAt": "Sat Aug 15 16:27:41 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 32,
+    "conversationId": "2088663931090792801",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2088663235952058761",
+    "text": "**UPDATED Top 10 Best Performing Stocks in the JSE Top 40 - 2026 \n\n1⃣ Sasol +77.96% \n2⃣ BHP Group +39.26% \n3⃣ Glencore +30.56% \n4⃣ Anheuser-Busch InBev +22.59% \n5⃣ Anglo American +22.56% \n6⃣ Investec PLC +17.96% \n7⃣ OUTsurance +15.72% \n8⃣ Capitec Bank +15.61% \n9⃣ MTN Group +14.22% \n🔟Discovery +14.19%\n\nexcl. dividends",
+    "createdAt": "Sat Aug 15 16:24:55 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 12,
+    "likeCount": 89,
+    "conversationId": "2088663235952058761",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2088295953572766101",
+    "text": "TODAY'S MARKET BRIEF\n\nJSE 🇿🇦\n\nJSE All Share: -0.05%\nJSE Top 40: -0.02%\nIndustrial 25: -0.31%\nFinancial 15: -0.55%\nResource 10: +0.84%\nMid Cap: +0.02%\nSmall Caps: -0.16%\n\nUSDZAR: R16.17\n\nBiggest Winners (Large Caps):\n\n- Impala Platinum +2.97%\n- Sasol +2.34%\n- Pan African Resources +1.88%\n- MTN Group +1.62%\n- Sibanye-Stillwater +1.56%\n\nBiggest Losers (Large Caps):\n\n- ABSA Group -2.78%\n- Standard Bank -2.21%\n- Mr Price Group -2.00%\n- Clicks Group -1.77%\n- Glencore -1.63%\n\nUSA 🇺🇸\n\nDow Jones -0.26%\nS&P500 -0.17%\nNasdaq -0.39%\n(Note markets are still open)\n\nRest of the world\n\nDax 🇩🇪 +0.53%\nCAC 40 🇫🇷 -0.16%\nAEX 🇳🇱 -0.16%\nEuro Stoxx 50 🇪🇺 -0.09%\nNikkei 225 🇯🇵 +0.59%\nHang Seng 🇭🇰 -1.27%\nKOSPI 🇰🇷 +2.42%\n\nCommodities\n\nGold +0.62%\nSilver +0.36%\nPlatinum +1.15%\nPalladium -0.22%\nCopper -0.03%\nBrent Crude +0.78%\nCrude Oil WTI +0.50%\nNatural Gas +1.39%\n\nCrypto\n\nBitcoin -0.76%\nEthereum -0.28%\nXRP -0.30%\nBNB -0.63%",
+    "createdAt": "Fri Aug 14 16:05:28 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 1,
+    "likeCount": 13,
+    "conversationId": "2088295953572766101",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2088211885057249313",
+    "text": "📊 Share spotlight: Sasol (JSE: SOL) ~R183, slipping this week as oil prices retreat &amp; Mideast tensions ease. Still up ~73% YTD, one of the JSE's best performers in 2026. Not financial advice. DYOR. #JSE #Shares @EasyEquities @Sasol",
+    "createdAt": "Fri Aug 14 10:31:25 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088211885057249313",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2088211643834499348",
+    "text": "JSE Midday Brief 🇿🇦\n\nJSE All Share: -0.09%\nJSE Top 40: -0.07%\nIndustrial 25: +0.12%\nFinancial 15: -0.05%\nResource 10: -0.18%\nMid Cap: +0.07%\nSmall Caps: +0.15%\n\nBiggest Winners (Large Caps):\n\n- Sasol +2.26%\n- Impala Platinum +1.76%\n- Woolworths +1.59%\n- MTN Group +1.45%\n- Old Mutual +1.39%\n\nBiggest Losers (Large Caps):\n\n- Glencore -2.48%\n- Anglo American -2.48%\n- BHP Group -1.95%\n- Standard Bank -1.46%\n- Anheuser-Busch InBev -1.17%\n\nUSDZAR: R16.17\n\nGold -0.25%\nSilver -0.14%\nPlatinum +0.13%\nPalladium -1.01%\nCopper -0.27%\nBrent Crude +0.17%\nCrude Oil WTI +0.68%",
+    "createdAt": "Fri Aug 14 10:30:27 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 10,
+    "conversationId": "2088211643834499348",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2088043418744176961",
+    "text": "Unlock potential gains as Standard Bank's ROE hits unprecedented heights!\n\nRead more at: https://t.co/0tx47q3MDU\n\n#fxleaders #StandardBank #TradingNews #AfricanMarkets https://t.co/zXmLyeCYvK",
+    "createdAt": "Thu Aug 13 23:21:59 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088043418744176961",
+    "author": {
+      "username": "FXLeadersCom",
+      "name": "FX Leaders"
+    },
+    "authorId": "1006503741720276993",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPo4bGaXoAAlfU5.jpg",
+        "width": 1000,
+        "height": 1000,
+        "previewUrl": "https://pbs.twimg.com/media/HPo4bGaXoAAlfU5.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087998066305425901",
+    "text": "Crude Turbulence: Why Sasol Shares Can't Shake the R200 Barrier Despite a Promising FY26\n\nRead more at: https://t.co/nWIp1713j5\n\n#fxleaders #SasolShares #OilPriceImpact #TradingNews https://t.co/cWSWvTrFNp",
+    "createdAt": "Thu Aug 13 20:21:46 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087998066305425901",
+    "author": {
+      "username": "FXLeadersCom",
+      "name": "FX Leaders"
+    },
+    "authorId": "1006503741720276993",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPoPLT4WYAEOIiF.jpg",
+        "width": 1000,
+        "height": 1000,
+        "previewUrl": "https://pbs.twimg.com/media/HPoPLT4WYAEOIiF.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087984066343645620",
+    "text": "@Uncle_Thaps The two largest shareholders of\nStandard Bank Group Limited (JSE: SBK) are Industrial and Commercial Bank of China (ICBC) and the Government Employees Pension Fund (managed by the Public Investment Corporation / PIC). 19.7% and 14.3%",
+    "createdAt": "Thu Aug 13 19:26:08 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2087786494542930244",
+    "inReplyToStatusId": "2087786494542930244",
+    "author": {
+      "username": "lynne_ogilvy",
+      "name": "Lynne Ogilvy"
+    },
+    "authorId": "711541258313965568"
+  },
+  {
+    "id": "2087847851036438880",
+    "text": "FSR — FirstRand remains a high-quality South African banking leader, backed by strong fundamentals, diversified earnings and long-term growth potential. A solid JSE compounder to watch. 📈🇿🇦",
+    "createdAt": "Thu Aug 13 10:24:52 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087847851036438880",
+    "author": {
+      "username": "Pratz1962",
+      "name": "Pratish Thaker"
+    },
+    "authorId": "767944915"
+  },
+  {
+    "id": "2087726370256199974",
+    "text": "Navigating Naspers: What's driving the drop below R800 amidst Tencent's profit surge?\n\nRead more at: https://t.co/PvsiPJXffL\n\n#fxleaders #Naspers #StockMarketNews #InvestingInsights https://t.co/SNGzyqAA61",
+    "createdAt": "Thu Aug 13 02:22:09 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087726370256199974",
+    "author": {
+      "username": "FXLeadersCom",
+      "name": "FX Leaders"
+    },
+    "authorId": "1006503741720276993",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPkYEhOWQAAwUa-.jpg",
+        "width": 1000,
+        "height": 1000,
+        "previewUrl": "https://pbs.twimg.com/media/HPkYEhOWQAAwUa-.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087488784547921964",
+    "text": "Markets remain quiet ahead of today’s U.S. core CPI data. Tencent earnings could drive major moves in Naspers, Prosus and the ALSI, while Shoprite and Northam Platinum are also in focus after trading updates.\n\nRead more on our blog: \n\nhttps://t.co/COgPa9aDMb\n\n#trading #stockmarket #volatility #JSE #MarketRecap",
+    "createdAt": "Wed Aug 12 10:38:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "2087488784547921964",
+    "author": {
+      "username": "HerenyaCapital",
+      "name": "Herenya Capital Advisors"
+    },
+    "authorId": "769874095185989632",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPg_-z9WEAIichC.jpg",
+        "width": 1170,
+        "height": 1158,
+        "previewUrl": "https://pbs.twimg.com/media/HPg_-z9WEAIichC.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087449121317654721",
+    "text": "JSE Morning Brief 🇿🇦\n\nJSE All Share: -0.22%\nJSE Top 40: -0.23%\nIndustrial 25: -1.39%\nFinancial 15: -0.28%\nResource 10: +0.98%\nMid Cap: -0.09%\nSmall Caps: -0.13%\n\nBiggest Winners (Large Caps):\n\n- Shoprite +4.60%\n- Anglogold Ashanti +1.82%\n- Gold Fields +1.65%\n- Harmony Gold +1.43%\n- Sibanye-Stillwater +1.21%\n\nBiggest Losers (Large Caps):\n\n- Naspers -3.55%\n- Prosus -3.49%\n- Richemont -2.28%\n- MTN Group -1.87%\n- Mr Price Group -1.03%\n\nUSDZAR: R16.18\n\nGold +0.61%\nSilver +2.03%\nPlatinum +0.83%\nPalladium +0.26%\nCopper +0.51%\nBrent Crude +0.66%\nCrude Oil WTI +0.79%",
+    "createdAt": "Wed Aug 12 08:00:28 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 12,
+    "conversationId": "2087449121317654721",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2087208919189909921",
+    "text": "TODAY'S MARKET BRIEF\n\nJSE 🇿🇦\n\nJSE All Share: -1.34%\nJSE Top 40: -1.38%\nIndustrial 25: -2.86%\nFinancial 15: -1.38%\nResource 10: +0.00%\nMid Cap: -0.58%\nSmall Caps: -1.17%\n\nUSDZAR: R16.21\n\nBiggest Winners (Large Caps):\n\n- Sasol +5.03%\n- Pan African Resources +4.10%\n- Glencore +2.83%\n- Richemont +2.16%\n- Valterra Platinum +0.66%\n\nBiggest Losers (Large Caps):\n\n- MTN Group -5.99%\n- Anheuser-Busch InBev -5.01%\n- British American Tobacco -4.55%\n- Naspers -4.06%\n- Woolworths -3.28%\n\nUSA 🇺🇸\n\nDow Jones -0.07%\nS&P500 -0.13%\nNasdaq -0.40%\n(Note markets are still open)\n\nRest of the world\n\nDax 🇩🇪 +0.26%\nCAC 40 🇫🇷 -0.13%\nAEX 🇳🇱 +0.31%\nEuro Stoxx 50 🇪🇺 +0.24%\nNikkei 225 🇯🇵 +2.08%\nHang Seng 🇭🇰 -1.10%\nKOSPI 🇰🇷 +0.73%\n\nCommodities\n\nGold +0.47%\nSilver -0.43%\nPlatinum +0.04%\nPalladium -0.72%\nCopper +0.29%\nBrent Crude +1.19%\nCrude Oil WTI +1.29%\nNatural Gas -1.43%\n\nCrypto\n\nBitcoin -0.58%\nEthereum -0.50%\nXRP -0.75%\nBNB +1.70%",
+    "createdAt": "Tue Aug 11 16:05:59 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 12,
+    "conversationId": "2087208919189909921",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2087105195142476150",
+    "text": "Markets remain in consolidation mode, but there’s plenty to watch. Oil is up 6%+, putting Sasol (SOL) in focus, while Tencent (700) slides ahead of earnings. Locally, Telkom (TKG) gets another upgrade and Pepkor (PPH) shows swing-trade potential. \n\nRead more on our blog:\n\nhttps://t.co/PM99T3gGQb\n\n#JSE #Trading #Stocks #Sasol #Tencent",
+    "createdAt": "Tue Aug 11 09:13:49 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 6,
+    "conversationId": "2087105195142476150",
+    "author": {
+      "username": "HerenyaCapital",
+      "name": "Herenya Capital Advisors"
+    },
+    "authorId": "769874095185989632",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPbjHDUX0AAb2sb.jpg",
+        "width": 1170,
+        "height": 1179,
+        "previewUrl": "https://pbs.twimg.com/media/HPbjHDUX0AAb2sb.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2085710719480185109",
+    "text": "@WilliaxUpdates @CRAZY_NEMO @hissdigg @AfricaFactsZone An average working black person in SA has shared in JSE, including MTN, Stanbic... And we are about to own more of Dangote than an average you",
+    "createdAt": "Fri Aug 07 12:52:40 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2085685390254489889",
+    "inReplyToStatusId": "2085708084693827855",
+    "author": {
+      "username": "elkay40",
+      "name": "Luuu🇿🇦🇿🇦🇿🇦🇿🇦🇿🇦🇿🇦"
+    },
+    "authorId": "2183433789"
+  },
+  {
+    "id": "2085274802697232817",
+    "text": "JSE Morning Brief 🇿🇦\n\nJSE All Share: -0.23%\nJSE Top 40: -0.28%\nIndustrial 25: +0.19%\nFinancial 15: +0.31%\nResource 10: -1.28%\nMid Cap: +0.06%\nSmall Caps: +0.31%\n\nBiggest Winners (Large Caps):\n\n- Vodacom +2.30%\n- Nedbank +1.47%\n- British American Tobacco +1.26%\n- Richemont +1.14%\n- MTN Group +1.00%\n\nBiggest Losers (Large Caps):\n\n- Anglogold Ashanti -1.94%\n- Mr Price Group -1.89%\n- Gold Fields -1.88%\n- Pan African Resources -1.47%\n- Impala Platinum -1.37%\n\nUSDZAR: R16.34\n\nGold +0.20%\nSilver -0.53%\nPlatinum +0.35%\nPalladium +0.14%\nCopper -0.33%\nBrent Crude +0.42%\nCrude Oil WTI +0.24%",
+    "createdAt": "Thu Aug 06 08:00:30 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 8,
+    "conversationId": "2085274802697232817",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2084672432443424818",
+    "text": "TODAY'S MARKET BRIEF\n\nJSE 🇿🇦\n\nJSE All Share: +1.40%\nJSE Top 40: +1.56%\nIndustrial 25: +0.34%\nFinancial 15: +1.42%\nResource 10: +2.96%\nMid Cap: +0.81%\nSmall Caps: -0.29%\n\nUSDZAR: R16.38\n\nBiggest Winners (Large Caps):\n\n- Valterra Platinum +10.01%\n- Sibanye-Stillwater +7.42%\n- Nedbank +6.31%\n- Impala Platinum +5.65%\n- Northam Platinum +4.92%\n\nBiggest Losers (Large Caps):\n\n- MTN Group -2.15%\n- Sasol -2.10%\n- Anglogold Ashanti -1.57%\n- British American Tobacco -1.49%\n- Anheuser-Busch InBev -0.74%\n\nUSA 🇺🇸\n\nDow Jones +1.66%\nS&P500 +1.47%\nNasdaq +2.06%\n(Note markets are still open)\n\nRest of the world\n\nDax 🇩🇪 +0.77%\nCAC 40 🇫🇷 +0.61%\nAEX 🇳🇱 +0.93%\nEuro Stoxx 50 🇪🇺 +0.94%\nNikkei 225 🇯🇵 +0.32%\nHang Seng 🇭🇰 -0.60%\nKOSPI 🇰🇷 +1.62%\n\nCommodities\n\nGold +1.33%\nSilver +3.73%\nPlatinum +7.76%\nPalladium +7.23%\nCopper +1.84%\nBrent Crude -5.68%\nCrude Oil WTI -5.94%\nNatural Gas -4.17%\n\nCrypto\n\nBitcoin +0.83%\nEthereum +0.64%\nXRP +0.02%\nBNB +0.75%",
+    "createdAt": "Tue Aug 04 16:06:53 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 25,
+    "conversationId": "2084672432443424818",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2084550023400866213",
+    "text": "JSE Morning Brief 🇿🇦\n\nJSE All Share: +0.39%\nJSE Top 40: +0.40%\nIndustrial 25: -0.33%\nFinancial 15: +0.53%\nResource 10: +1.05%\nMid Cap: +0.42%\nSmall Caps: +0.15%\n\nBiggest Winners (Large Caps):\n\n- Nedbank +3.72%\n- Sibanye-Stillwater +2.55%\n- Anglo American +2.25%\n- Glencore +1.86%\n- Valterra Platinum +1.64%\n\nBiggest Losers (Large Caps):\n\n- MTN Group -1.46%\n- Anglogold Ashanti -1.23%\n- Richemont -0.88%\n- Vodacom -0.63%\n- Anheuser-Busch InBev -0.47%\n\nUSDZAR: R16.50\n\nGold +0.73%\nSilver +2.25%\nPlatinum +2.67%\nPalladium +2.62%\nCopper +1.26%\nBrent Crude +1.35%\nCrude Oil WTI +0.60%",
+    "createdAt": "Tue Aug 04 08:00:29 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 2,
+    "likeCount": 9,
+    "conversationId": "2084550023400866213",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2084509909958172937",
+    "text": "The Hotel That Built Sol Kerzner",
+    "createdAt": "Tue Aug 04 05:21:05 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 1,
+    "likeCount": 19,
+    "conversationId": "2084509909958172937",
+    "author": {
+      "username": "Askash",
+      "name": "Ash Müller"
+    },
+    "authorId": "1493246378172194816",
+    "article": {
+      "title": "The Hotel That Built Sol Kerzner",
+      "previewText": "I've been reading Peter Venison's biography of Sol Kerzner, SOL, my friend and adversary, and one chapter specifically made me go down a research rabbit hole. For those guessing Sun City or Atlantis -"
+    }
+  },
+  {
+    "id": "2084343207798751518",
+    "text": "The first on my list is will be Naspers Limited (JSE: NPN)..\n\nNaspers is a South African based multinational internet and technology holding company...\n\nIts primary asset is a significant stake in Tencent, the Chinese internet giant...",
+    "createdAt": "Mon Aug 03 18:18:40 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2084343207798751518",
+    "author": {
+      "username": "okolozoski",
+      "name": "Okolo Michael"
+    },
+    "authorId": "2033891923736596490",
+    "quotedTweet": {
+      "id": "2084342223068377418",
+      "text": "After carefully looking at the stocks on my watch list and having proper researches on them, \n\nI'll be giving out 5 stocks and why most of them are from the Johannesburg Stock Exchange...\n\nThe exchange of recent have been underperformed but these stocks are top notched..",
+      "createdAt": "Mon Aug 03 18:14:45 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2084342223068377418",
+      "author": {
+        "username": "okolozoski",
+        "name": "Okolo Michael"
+      },
+      "authorId": "2033891923736596490"
+    }
+  },
+  {
+    "id": "2083254051542548941",
+    "text": "JSE TOP 40 BIGGEST MOVERS TODAY\n\nGREENIES🟢\n1. Shoprite: +2.23%\n2. Anheuser InBev: +1.90%\n3. Glencore: +1.80%\n\nREDS🔴\n1. MTN: -10.85%\n2. AngloGold Ashanti: -5.39%\n3. Pan African: -3.79%\n\nI hold Shoprite, Glencore and Pan African. What were your biggest movers today.",
+    "createdAt": "Fri Jul 31 18:10:45 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 10,
+    "conversationId": "2083254051542548941",
+    "author": {
+      "username": "MasterDaMarket",
+      "name": "Steven Gunn"
+    },
+    "authorId": "2036807335880880128"
+  },
+  {
+    "id": "2083222520673468556",
+    "text": "TODAY'S MARKET BRIEF\n\nJSE 🇿🇦\n\nJSE All Share: -0.34%\nJSE Top 40: -0.48%\nIndustrial 25: -0.97%\nFinancial 15: +1.04%\nResource 10: -1.41%\nMid Cap: +0.64%\nSmall Caps: +0.41%\n\nUSDZAR: R16.53\n\nBiggest Winners (Large Caps):\n\n- Shoprite +2.23%\n- Anheuser-Busch InBev +1.90%\n- Glencore +1.80%\n- Remgro +1.72%\n- Investec PLC +1.70%\n\nBiggest Losers (Large Caps):\n\n- MTN Group -10.85%\n- Anglogold Ashanti -5.39%\n- Pan African Resources -3.79%\n- Impala Platinum -2.84%\n- Woolworths -2.17%\n\nUSA 🇺🇸\n\nDow Jones +0.36%\nS&P500 +0.24%\nNasdaq +0.30%\n(Note markets are still open)\n\nRest of the world\n\nDax 🇩🇪 +0.07%\nCAC 40 🇫🇷 +0.28%\nAEX 🇳🇱 -0.50%\nEuro Stoxx 50 🇪🇺 +0.21%\nNikkei 225 🇯🇵 +4.03%\nHang Seng 🇭🇰 +0.10%\nKOSPI 🇰🇷 +17.91%\n\nCommodities\n\nGold -1.43%\nSilver -2.21%\nPlatinum -0.05%\nPalladium -1.62%\nCopper +0.28%\nBrent Crude +0.99%\nCrude Oil WTI +0.55%\nNatural Gas -1.52%\n\nCrypto\n\nBitcoin -3.11%\nEthereum -2.96%\nXRP -2.19%\nBNB -1.18%",
+    "createdAt": "Fri Jul 31 16:05:27 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "2083222520673468556",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2083138217910391125",
+    "text": "JSE Midday Brief 🇿🇦\n\nJSE All Share: +0.32%\nJSE Top 40: +0.29%\nIndustrial 25: -0.41%\nFinancial 15: +0.83%\nResource 10: +0.57%\nMid Cap: +0.49%\nSmall Caps: +0.39%\n\nBiggest Winners (Large Caps):\n\n- Anglo American +2.87%\n- Glencore +2.66%\n- Anheuser-Busch InBev +2.41%\n- Northam Platinum +2.30%\n- Shoprite +2.07%\n\nBiggest Losers (Large Caps):\n\n- MTN Group -7.37%\n- British American Tobacco -2.11%\n- Woolworths -1.85%\n- Impala Platinum -1.35%\n- Reinet -1.11%\n\nUSDZAR: R16.54\n\nGold -1.23%\nSilver -1.42%\nPlatinum -1.22%\nPalladium -1.39%\nCopper +0.27%\nBrent Crude +0.67%\nCrude Oil WTI +0.56%",
+    "createdAt": "Fri Jul 31 10:30:28 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 9,
+    "conversationId": "2083138217910391125",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2083100467471560839",
+    "text": "JSE Morning Brief 🇿🇦\n\nJSE All Share: +0.48%\nJSE Top 40: +0.51%\nIndustrial 25: -0.97%\nFinancial 15: +1.13%\nResource 10: +1.49%\nMid Cap: +0.44%\nSmall Caps: +0.37%\n\nBiggest Winners (Large Caps):\n\n- Anglo American +2.78%\n- Glencore +2.56%\n- Anheuser-Busch InBev +2.20%\n- Anglogold Ashanti +2.13%\n- Valterra Platinum +2.01%\n\nBiggest Losers (Large Caps):\n\n- MTN Group -8.76%\n- British American Tobacco -1.39%\n- Vodacom -1.28%\n- Woolworths -0.87%\n- Impala Platinum -0.72%\n\nUSDZAR: R16.49\n\nGold -0.76%\nSilver -0.73%\nPlatinum -0.66%\nPalladium -0.40%\nCopper +0.78%\nBrent Crude -0.82%\nCrude Oil WTI -1.36%",
+    "createdAt": "Fri Jul 31 08:00:28 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 8,
+    "conversationId": "2083100467471560839",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2082013303832711235",
+    "text": "JSE Morning Brief 🇿🇦\n\nJSE All Share: +0.05%\nJSE Top 40: +0.06%\nIndustrial 25: +0.30%\nFinancial 15: +0.21%\nResource 10: -0.37%\nMid Cap: -0.01%\nSmall Caps: +0.25%\n\nBiggest Winners (Large Caps):\n\n- Anheuser-Busch InBev +2.16%\n- British American Tobacco +1.67%\n- OUTsurance +1.16%\n- Old Mutual +1.09%\n- Sibanye-Stillwater +0.88%\n\nBiggest Losers (Large Caps):\n\n- Sasol -2.39%\n- Anglogold Ashanti -0.86%\n- Impala Platinum -0.83%\n- MTN Group -0.67%\n- BHP Group -0.59%\n\nUSDZAR: R16.76\n\nGold -0.69%\nSilver -1.78%\nPlatinum -1.29%\nPalladium -1.60%\nCopper -0.80%\nBrent Crude -1.90%\nCrude Oil WTI -1.59%",
+    "createdAt": "Tue Jul 28 08:00:28 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 15,
+    "conversationId": "2082013303832711235",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2081854260367835551",
+    "text": "🌏 International stocks on the radar today — 2026-07-27\n\n55 stocks quietly beating their own home market, with a low-risk entry today:\n\n🇮🇳 18 · 🇺🇸 14 · 🇯🇵 5 · 🇿🇦 4 · 🇨🇦 2 · 🇬🇧 2 · +9 more\n\nFull list: https://t.co/gaa27cZtDJ\n\n🇨🇦 𝗖𝗮𝗻𝗮𝗱𝗮 · strong vs the S&P 500\n\n$ATD (Alimentation Couche-Tard Inc.) · has beaten the S&P/TSX Composite for 8 straight weeks\n\n$AC (Air Canada) · just turned positive vs the S&P/TSX Composite after a 8-week recovery\n\n🇯🇵 𝗝𝗮𝗽𝗮𝗻 · strong vs the S&P 500\n\n3563 (FOOD & LIFE COMPANIES LTD.) · has beaten the Nikkei 225 for 3 straight weeks\n\n6326 (Kubota Corporation) · has beaten the Nikkei 225 for 6 straight weeks\n\n2801 (Kikkoman Corporation) · has beaten the Nikkei 225 for 6 straight weeks\n\n6113 (AMADA Co., Ltd.) · just started outperforming the Nikkei 225 again\n\n5844 (Kyoto Financial Group,Inc.) · has beaten the Nikkei 225 for 57 straight weeks\n\n🇬🇧 𝗨𝗞 · strong vs the S&P 500\n\n$WOSG (Watches of Switzerland Group PLC) · has beaten the FTSE 100 for 14 straight weeks\n\n$SCT (Softcat Plc) · has beaten the FTSE 100 for 10 straight weeks\n\n🇨🇭 𝗦𝘄𝗶𝘁𝘇𝗲𝗿𝗹𝗮𝗻𝗱 · strong vs the S&P 500\n\n$IDIA (Idorsia Ltd.) · has beaten the SMI for 7 straight weeks\n\n🇮🇱 𝗜𝘀𝗿𝗮𝗲𝗹 · strong market, but losing ground vs the S&P 500 — be cautious\n\n$ELMR (El-Mor Electric Installation & Services (1986) Ltd.) · has beaten the TA-35 for 10 straight weeks\n\n🇨🇳 𝗖𝗵𝗶𝗻𝗮 · strong market, but losing ground vs the S&P 500 — be cautious\n\n603129 (Zhejiang CFMoto Power Co. Ltd. Class A) · has beaten the SSE Composite for 3 straight weeks\n\n002916 (Shennan Circuit Co., Ltd. Class A) · has beaten the SSE Composite for 58 straight weeks\n\n🇲🇾 𝗠𝗮𝗹𝗮𝘆𝘀𝗶𝗮 · strong market, but losing ground vs the S&P 500 — be cautious\n\n$UNISEM (Unisem (M) Bhd.) · has beaten the KLCI for 44 straight weeks\n\n🇰🇼 𝗞𝘂𝘄𝗮𝗶𝘁\n\n$ALOLA (First Investment Co. K.S.C.P.) · has beaten the Kuwait Premier for 56 straight weeks\n\n🇪🇬 𝗘𝗴𝘆𝗽𝘁\n\n$ADIB (Abu Dhabi Islamic Bank-Egypt) · has beaten the EGX 30 for 38 straight weeks\n\n🇵🇰 𝗣𝗮𝗸𝗶𝘀𝘁𝗮𝗻\n\n$UBL (United Bank Limited) · has beaten the KSE-100 for 4 straight weeks\n\n🇩🇪 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 · weaker than the S&P 500 — be cautious\n\nDB1 (Deutsche Boerse AG) · has beaten the DAX for 3 straight weeks\n\n🇫🇷 𝗙𝗿𝗮𝗻𝗰𝗲 · weaker than the S&P 500 — be cautious\n\n$SAF (Safran SA) · has beaten the CAC 40 for 7 straight weeks\n\n🇮🇳 𝗜𝗻𝗱𝗶𝗮 · weaker than the S&P 500 — be cautious\n\n$ABCAPITAL (Aditya Birla Capital Ltd.) · has beaten the Nifty 50 for 62 straight weeks\n\n$CHOLAFIN (Cholamandalam Investment and Finance Co. Ltd.) · has beaten the Nifty 50 for 17 straight weeks\n\n$SUNPHARMA (Sun Pharmaceutical Industries Limited) · has beaten the Nifty 50 for 14 straight weeks\n\n$PIDILITIND (Pidilite Industries Limited) · has beaten the Nifty 50 for 13 straight weeks\n\n$LLOYDSENGG (Lloyds Engineering Works Ltd) · has beaten the Nifty 50 for 10 straight weeks\n\n$LODHA (Lodha Developers Ltd.) · has beaten the Nifty 50 for 4 straight weeks\n\n$RADICO (Radico Khaitan Limited) · has beaten the Nifty 50 for 188 straight weeks\n\n$KIRLOSENG (Kirloskar Oil Engines Limited) · has beaten the Nifty 50 for 37 straight weeks\n\n$WOCKPHARMA (Wockhardt Limited) · has beaten the Nifty 50 for 10 straight weeks\n\n$INDHOTEL (Indian Hotels Co. Ltd.) · just turned positive vs the Nifty 50 after a 21-week recovery\n\n$GENUSPOWER (Genus Power Infrastructures Limited) · just turned positive vs the Nifty 50 after a 15-week recovery\n\n$MAXHEALTH (Max Healthcare Institute Ltd) · just started outperforming the Nifty 50 again\n\n$PARAS (Paras Defence & Space Technologies Ltd.) · has beaten the Nifty 50 for 11 straight weeks\n\n$LTF (L&T Finance Ltd) · has beaten the Nifty 50 for 61 straight weeks\n\n$MOTHERSON (Samvardhana Motherson International Limited) · has beaten the Nifty 50 for 35 straight weeks\n\n$APARINDS (APAR Industries Limited) · has beaten the Nifty 50 for 34 straight weeks\n\n$GMRAIRPORT (GMR Airports Ltd) · has beaten the Nifty 50 for 23 straight weeks\n\n$GLAND (Gland Pharma Ltd.) · has beaten the Nifty 50 for 28 straight weeks\n\n🇿🇦 𝗦𝗼𝘂𝘁𝗵 𝗔𝗳𝗿𝗶𝗰𝗮 · weaker than the S&P 500 — be cautious\n\n$MTN (MTN Group Limited) · has beaten the JSE Top 40 for 81 straight weeks\n\n$OUT (OUTsurance Group Limited) · has beaten the JSE Top 40 for 5 straight weeks\n\n$SBK (Standard Bank Group Limited) · has beaten the JSE Top 40 for 26 straight weeks\n\n$HMN (Hammerson plc) · has beaten the JSE Top 40 for 6 straight weeks\n\n🇺🇸 𝗨𝗦\n\n$ENVA (Enova International, Inc.) · has beaten the S&P 500 for 41 straight weeks\n\n$LLY (Eli Lilly and Company) · has beaten the S&P 500 for 14 straight weeks\n\n$AFL (AFLAC Incorporated) · has beaten the S&P 500 for 12 straight weeks\n\n$CPAY (Corpay, Inc.) · just turned positive vs the S&P 500 after a 13-week recovery\n\n$OMC (Omnicom Group Inc.) · just started outperforming the S&P 500 again\n\n$MNST (Monster Beverage Corporation) · has beaten the S&P 500 for 71 straight weeks\n\n$IBKR (Interactive Brokers Group, Inc.) · has beaten the S&P 500 for 31 straight weeks\n\n$DDOG (Datadog, Inc.) · has beaten the S&P 500 for 13 straight weeks\n\n$ROKU (Roku, Inc.) · has beaten the S&P 500 for 8 straight weeks\n\n$CRNX (Crinetics Pharmaceuticals, Inc.) · has beaten the S&P 500 for 5 straight weeks\n\n$AMCR (Amcor plc) · just started outperforming the S&P 500 again\n\n$COMP (Compass, Inc.) · just started outperforming the S&P 500 again\n\n$TPR (Tapestry, Inc.) · has beaten the S&P 500 for 108 straight weeks\n\n$MDGL (Madrigal Pharmaceuticals, Inc.) · has beaten the S&P 500 for 59 straight weeks\n\n#Stocks #Investing #InternationalStocks",
+    "createdAt": "Mon Jul 27 21:28:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2081854260367835551",
+    "author": {
+      "username": "denis__hamel",
+      "name": "Denis Hamel"
+    },
+    "authorId": "1708971785490690048"
+  },
+  {
+    "id": "2081772967470514202",
+    "text": "TODAY'S MARKET BRIEF\n\nJSE 🇿🇦\n\nJSE All Share: +0.65%\nJSE Top 40: +0.66%\nIndustrial 25: +1.89%\nFinancial 15: +0.74%\nResource 10: -0.68%\nMid Cap: +0.71%\nSmall Caps: +0.25%\n\nUSDZAR: R16.74\n\nBiggest Winners (Large Caps):\n\n- Prosus +3.25%\n- MTN Group +3.11%\n- Naspers +3.00%\n- Mr Price Group +2.84%\n- Vodacom +2.43%\n\nBiggest Losers (Large Caps):\n\n- Glencore -3.87%\n- Sasol -3.07%\n- Anglo American -2.49%\n- Harmony Gold -1.69%\n- Anheuser-Busch InBev -1.47%\n\nUSA 🇺🇸\n\nDow Jones +0.20%\nS&P500 -0.09%\nNasdaq -0.27%\n(Note markets are still open)\n\nRest of the world\n\nDax 🇩🇪 +1.04%\nCAC 40 🇫🇷 +0.40%\nAEX 🇳🇱 -0.82%\nEuro Stoxx 50 🇪🇺 +0.02%\nNikkei 225 🇯🇵 +0.50%\nHang Seng 🇭🇰 +0.98%\nKOSPI 🇰🇷 +0.97%\n\nCommodities\n\nGold +0.22%\nSilver -0.00%\nPlatinum +1.81%\nPalladium +3.22%\nCopper +0.34%\nBrent Crude -7.48%\nCrude Oil WTI -6.85%\nNatural Gas -3.29%\n\nCrypto\n\nBitcoin -1.17%\nEthereum -1.25%\nXRP -2.18%\nBNB -1.12%",
+    "createdAt": "Mon Jul 27 16:05:27 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 2,
+    "likeCount": 22,
+    "conversationId": "2081772967470514202",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  }
+]
+=== QUERY 3: EASYEQUITIES / JSE ===
+[
+  {
+    "id": "2089736812285591835",
+    "text": "Quick one for our SA investors 🇿🇦: do you prefer picking individual JSE shares, or do you stick to ETFs for simplicity? Tell us why below 👇 @EasyEquities @SatrixInvest #InvestingSA #JSE #ETF",
+    "createdAt": "Tue Aug 18 15:30:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089736812285591835",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089716428408537303",
+    "text": "📈 **Want to buy your first share?** 💰\n\nWatch my step-by-step **EasyEquities beginner tutorial** and learn how to start investing in stocks.\n\n🎥 Watch: [https://t.co/u9wJtgopnU]\n📊 EasyEquities: [https://t.co/3f3Kx9zwI2]\n\nStart small. Learn.  Build wealth. 💎🚀\n\n#EasyEquities https://t.co/MbSqaUFhhC",
+    "createdAt": "Tue Aug 18 14:09:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089716428408537303",
+    "author": {
+      "username": "Lindy_Shirries",
+      "name": "Lindy Shirries"
+    },
+    "authorId": "908287695222439938",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAp8ihWAAAA-p9.jpg",
+        "width": 1280,
+        "height": 720,
+        "previewUrl": "https://pbs.twimg.com/media/HQAp8ihWAAAA-p9.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089661312548704615",
+    "text": "📊 Share spotlight: MTN Group (JSE: MTN) R190.38, down 1.91% today. Trading update flags a 20-30% H1 earnings drop from Iran impairments and forex losses, ahead of results due 24 Aug. Not financial advice. DYOR. @MTNGroup @EasyEquities #JSE",
+    "createdAt": "Tue Aug 18 10:30:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089661312548704615",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089615961137492259",
+    "text": "Commodities can create some pretty interesting opportunities for investors. 👀\n\nAre you taking advantage of them?\n\nFrom coal and platinum to gold, copper and more, South Africa has no shortage of companies exposed to the resources sector. Don’t overlook the opportunities sitting right here on the JSE.\n\nhttps://t.co/MtDNuQ7Fdy | #EasyEquities",
+    "createdAt": "Tue Aug 18 07:30:42 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 19,
+    "conversationId": "2089615961137492259",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144",
+    "quotedTweet": {
+      "id": "2089613351907209569",
+      "text": "Thungela Resources, one of South Africa’s largest coal producers, will return R773 million to shareholders after the miner increased its cash dividend by 175% to R5.50 per share. \n@EasyEquities @JSE_Group https://t.co/KskHY9dCab",
+      "createdAt": "Tue Aug 18 07:20:20 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 2,
+      "likeCount": 7,
+      "conversationId": "2089613351907209569",
+      "author": {
+        "username": "caylow_SA",
+        "name": "RMC. Mbedzi 🪐"
+      },
+      "authorId": "531671392",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HP_MQwWWEAAtmGi.jpg",
+          "width": 2000,
+          "height": 884,
+          "previewUrl": "https://pbs.twimg.com/media/HP_MQwWWEAAtmGi.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2089613408576344503",
+    "text": "Shares of Thungela are also available on EasyEquities where investors can invest any amount. Always do your own research before investing. https://t.co/6IyFNrmyho",
+    "createdAt": "Tue Aug 18 07:20:34 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089613351907209569",
+    "inReplyToStatusId": "2089613396547166701",
+    "author": {
+      "username": "caylow_SA",
+      "name": "RMC. Mbedzi 🪐"
+    },
+    "authorId": "531671392",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP_MURyW8AAJiRo.jpg",
+        "width": 1170,
+        "height": 1526,
+        "previewUrl": "https://pbs.twimg.com/media/HP_MURyW8AAJiRo.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089598717946978672",
+    "text": "@EasyEquities I own Apple shares but no products..",
+    "createdAt": "Tue Aug 18 06:22:11 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089598496496033795",
+    "inReplyToStatusId": "2089598496496033795",
+    "author": {
+      "username": "daveawalker_61",
+      "name": "DaveAWalker"
+    },
+    "authorId": "1689653680172380163"
+  },
+  {
+    "id": "2089598496496033795",
+    "text": "There is something deeply satisfying about owning a small piece of a company you use every day.\n\nYou’re basically saying:\n“I buy your stuff AND I own a little of you.”\n\nHonestly, investing is pretty cool.\n\nhttps://t.co/cGA75GC9T2 | #EasyEquities",
+    "createdAt": "Tue Aug 18 06:21:19 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 5,
+    "likeCount": 37,
+    "conversationId": "2089598496496033795",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2089446338962264100",
+    "text": "As a Namibian, here is how to fund your USD account on @EasyEquities. Funding your rand (ZAR) account is straightforward, you simply make a normal EFT into EasyEquities' local account, the way you would any transfer. The USD account works differently. \n\nBecause the USD account is held in US dollars with a bank in New York, you fund it through an international transfer, a SWIFT payment, done through your bank's forex service, either on your banking app or at a branch. You send the funds to EasyEquities' USD account using the banking details on your profile, and, importantly, you must use your own unique EasyEquities beneficiary reference so the money is matched to your account.\n\nThe funds can take a few days to reflect, which is normal for international transfers, but if it takes longer than expected, reach out to EasyEquities and they will help track it.\n\nInvesting should be accessible, and part of making it accessible is simply showing people how these things actually work. The more we share the practical steps, the more normal investing becomes for all of us.\n\nThis is not financial advice, just something to think about.",
+    "createdAt": "Mon Aug 17 20:16:41 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 10,
+    "likeCount": 40,
+    "conversationId": "2089446338962264100",
+    "author": {
+      "username": "Hamnjela",
+      "name": "Kalenga"
+    },
+    "authorId": "4102900097",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP80XoxWQAEsybA.jpg",
+        "width": 2048,
+        "height": 998,
+        "previewUrl": "https://pbs.twimg.com/media/HP80XoxWQAEsybA.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089374434243088849",
+    "text": "🥇 Gold miners are having a moment on the JSE this month. Do you invest directly in mining shares, or prefer diversified ETFs for that exposure? Tell us why 👇 #InvestingSA #ETF @EasyEquities @SatrixInvest",
+    "createdAt": "Mon Aug 17 15:30:58 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089374434243088849",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089361563882754358",
+    "text": "🆕 New to the Platform 🆕\n\nFrom healthcare and energy to financial services, beauty and AI, we’ve added a fresh batch of new instruments to the platform.\n\n🇪🇺 EUR Account 🇪🇺\n- Fresenius SE & Co KGaA\n\n🇬🇧 GBP Account 🇬🇧\n- Wise Group Plc\n\n🇺🇸 USD Account 🇺🇸\n- Enbridge Inc\n- Ares Capital Corporation\n- elf Beauty Inc\n- Tempus AI Inc\n\nYour investing universe just got even bigger.\n\nhttps://t.co/MtDNuQ7Fdy | #EasyEquities",
+    "createdAt": "Mon Aug 17 14:39:49 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 5,
+    "likeCount": 34,
+    "conversationId": "2089361563882754358",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2089322525889093757",
+    "text": "I don't know if I'm going to church or paying EasyEquities. Nkare yanong ha re sa koleka, re duela company ya JSE.",
+    "createdAt": "Mon Aug 17 12:04:42 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089322525889093757",
+    "author": {
+      "username": "TheRichRakgadi",
+      "name": "Rethabile ❤️"
+    },
+    "authorId": "1360562264995168257",
+    "quotedTweet": {
+      "id": "2089005773024067957",
+      "text": "So vele if I die no church is gonna bury me?😭😭😭 need to start going to church",
+      "createdAt": "Sun Aug 16 15:06:02 +0000 2026",
+      "replyCount": 70,
+      "retweetCount": 279,
+      "likeCount": 3831,
+      "conversationId": "2089005773024067957",
+      "author": {
+        "username": "lungsta_k",
+        "name": "Lunga"
+      },
+      "authorId": "880433608334483458"
+    }
+  },
+  {
+    "id": "2089321577984802983",
+    "text": "@thembi93555416 Hi there,\n\nThank you for reaching out to us.\n\nWhy not!\n\nPlease complete the below suggestion form. Kindly note that we need to have received 5 or more requests for the suggested stock to be added.\n\nHere you go https://t.co/6vVe0DKTrZ",
+    "createdAt": "Mon Aug 17 12:00:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089312841450844477",
+    "inReplyToStatusId": "2089317826913787906",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2089298927115743723",
+    "text": "🔎 Share Spotlight: Naspers (NPN) slid ~11% last week to around R810 as investors fretted over Tencent's AI spending plans - even after Naspers posted strong FY26 results (adjusted EBITDA +84%). Not financial advice. DYOR. #JSE #NextRand @EasyEquities",
+    "createdAt": "Mon Aug 17 10:30:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089298927115743723",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089270448026533987",
+    "text": "Friendly reminder that there’s a few days left for @EasyEquities properties. Time to get some more property shares on sale. https://t.co/oSRiBmKYzN",
+    "createdAt": "Mon Aug 17 08:37:46 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089270448026533987",
+    "author": {
+      "username": "BInvestorZA",
+      "name": "Boring Investor"
+    },
+    "authorId": "1975863286768766977",
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/HP6UZJbXwAALsgN.jpg",
+        "width": 480,
+        "height": 270,
+        "previewUrl": "https://pbs.twimg.com/tweet_video_thumb/HP6UZJbXwAALsgN.jpg:small",
+        "videoUrl": "https://video.twimg.com/tweet_video/HP6UZJbXwAALsgN.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2089262368316408152",
+    "text": "📚💰 Money lessons that matter\n\nWe had the opportunity to connect with students alongside Strate, the Number 43 Foundation, Lincoln Mali Leadership Foundation, ASISA and Novia One Business School to unpack saving, investing and the capital markets.\n\nFrom passive investing and fixed-income opportunities to showing just how easy it is to start investing digitally, the session was all about giving young people the knowledge and confidence to make smarter money decisions.\n\nBecause the earlier you understand investing, the earlier you can start putting your money to work.\n\nhttps://t.co/MtDNuQ7Fdy | #EasyEquities",
+    "createdAt": "Mon Aug 17 08:05:39 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 4,
+    "likeCount": 25,
+    "conversationId": "2089262368316408152",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP6M_9XWsAAtPsw.jpg",
+        "width": 1200,
+        "height": 1600,
+        "previewUrl": "https://pbs.twimg.com/media/HP6M_9XWsAAtPsw.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP6M_96WIAAgjZA.jpg",
+        "width": 1600,
+        "height": 1200,
+        "previewUrl": "https://pbs.twimg.com/media/HP6M_96WIAAgjZA.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP6M_9SXMAAIiU8.jpg",
+        "width": 1600,
+        "height": 1200,
+        "previewUrl": "https://pbs.twimg.com/media/HP6M_9SXMAAIiU8.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088634776093642987",
+    "text": "@SayEntrepreneur Just love the dividend amount. Can’t wait for the payout to buy more @StandardBankZA shares on the @EasyEquities platform 😋🤗👍🏼❤️",
+    "createdAt": "Sat Aug 15 14:31:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2088274910997029090",
+    "inReplyToStatusId": "2088274910997029090",
+    "author": {
+      "username": "charldin1",
+      "name": "charldin wasserfall"
+    },
+    "authorId": "626319948"
+  },
+  {
+    "id": "2088531004302487879",
+    "text": "@Crusaderthec @Manqobaah @romeohidden @SizweDhlomo @EasyEquities Forex and stocks are both fluctuating  markets. E.g a company can make a loss instead of profits for three consecutive years, do you think investors will keep their money in that company, they'll sell causing share price to fall. So many dynamics  to financial markets.",
+    "createdAt": "Sat Aug 15 07:39:29 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2087924797942481277",
+    "inReplyToStatusId": "2088474061646987671",
+    "author": {
+      "username": "NanoNkuna01",
+      "name": "Nano Nkuna"
+    },
+    "authorId": "374111941"
+  },
+  {
+    "id": "2088320342817157186",
+    "text": "@Crusaderthec @Manqobaah @romeohidden @SizweDhlomo @EasyEquities R500K that comes with a monthly interest is a safe option for someone who's still studying.\n\nStocks can be dangerous; an irregular accounting from one company you bought stocks in can plummet the whole R500K to R1K. I say only do stocks with the money you can afford to lose.",
+    "createdAt": "Fri Aug 14 17:42:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087924797942481277",
+    "inReplyToStatusId": "2088160243234594999",
+    "author": {
+      "username": "NanoNkuna01",
+      "name": "Nano Nkuna"
+    },
+    "authorId": "374111941"
+  },
+  {
+    "id": "2088287280070889533",
+    "text": "💬 SA investors: do you prefer picking individual JSE shares or investing via ETFs, and why? Drop your thinking below 👇 #InvestingSA #JSE #ETF @EasyEquities @SatrixInvest",
+    "createdAt": "Fri Aug 14 15:31:00 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088287280070889533",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2088246106119418095",
+    "text": "@ManBarker Hi there,\n\nThank you for reaching out to us.\n\nThe above Property shares, will go on Auction from the 16th-25th of August.( Cluster 1)\n\nBids  and offers can be placed over the weekend, however complete share allocation will take place once the applicable windows close officially.",
+    "createdAt": "Fri Aug 14 12:47:24 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088224783221579922",
+    "inReplyToStatusId": "2088225611093303380",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2088220334289768763",
+    "text": "🧳 Your crypto living in different places?\n\nAn exchange here.\nA self-custody wallet there.\n\nSelf-custody isn't for everyone and thats ok. There’s a lot to keep track of when you’re managing wallets, keys and seed phrases yourself.\n\nExchanges remove some of that admin, but introduce counterparty risk - so who you TRUST matters.\n\nIf you want your crypto alongside your shares, ETFs and the rest of your portfolio, bring it home to EasyEquities and 𝗴𝗲𝘁 𝟭% 𝗯𝗮𝗰𝗸* on qualifying transfers.\n\nOnce your transfer is complete, fill out the short survey we’ll send you and enter the unique campaign code 𝗕𝗿𝗶𝗻𝗴𝗜𝘁𝗔𝗹𝗹𝗛𝗼𝗺𝗲 to qualify.\n\nTransfers and *Ts&Cs here 👇\nhttps://t.co/3cyhzCwU63\n\n#EasyCrypto | #EasyEquities",
+    "createdAt": "Fri Aug 14 11:04:59 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "2088220334289768763",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPrYy1PWkAAO6Cm.jpg",
+        "width": 1200,
+        "height": 1200,
+        "previewUrl": "https://pbs.twimg.com/media/HPrYy1PWkAAO6Cm.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088216595038359631",
+    "text": "Do not forget to invest in your ETFs every single month, even if it is just N$100. Consistency is what builds something meaningful over time,\n\nI have just added STXNDQ to my own portfolio on @EasyEquities , putting my money where my mouth is. Join me and over 2 million other investors and start building yours. https://t.co/KyLYXyWpQp\n\nThis is not financial advice, just something to think about. \n\n#ETFs #investing #EasyEquities #DIY",
+    "createdAt": "Fri Aug 14 10:50:08 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 3,
+    "likeCount": 19,
+    "conversationId": "2088216595038359631",
+    "author": {
+      "username": "Hamnjela",
+      "name": "Kalenga"
+    },
+    "authorId": "4102900097",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPrVuJxXkAA4Z9m.jpg",
+        "width": 1188,
+        "height": 926,
+        "previewUrl": "https://pbs.twimg.com/media/HPrVuJxXkAA4Z9m.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088211885057249313",
+    "text": "📊 Share spotlight: Sasol (JSE: SOL) ~R183, slipping this week as oil prices retreat &amp; Mideast tensions ease. Still up ~73% YTD, one of the JSE's best performers in 2026. Not financial advice. DYOR. #JSE #Shares @EasyEquities @Sasol",
+    "createdAt": "Fri Aug 14 10:31:25 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088211885057249313",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2088168193827160434",
+    "text": "WHY INVESTING OVERSEAS AS A SOUTH AFRICAN MAY NOT BE AS GOOD AS YOU THINK IT IS\n\nSatrix S&P500 +11%\nS&P500 +21%\n(1 Year)\n\nMany of us, including myself see the great returns in America and think we'll receive the same returns but in reality not - In fact 3 of the 5 most bought ETFs on EasyEquities are Dollar denominated\n\nWhy are the returns not the same?\n\nThe differences in performance are due to the Rand strengthening. The S&P500 is Dollar based therefore when you buy Satrix500 or any asset in Dollars, the value of the investment is influenced by the $USDZAR exchange rate \n\nFrom our example above, the S&P500 went up +21% but the Rand strengthened +10% against the Dollar in the same timeframe - because the Rand strengthened the value of your Dollars decreased by 10% and therefore your net return was 11%\n\nHowever this does work vice versa - if the Rand weakened by 10%, then net return would have been +31%\n\nIn the long run the Rand has weakened against the Dollar which is why the Satrix S&P500 is attractive because most of the time the Dollar works for you, not against you\n\nbut not always!!",
+    "createdAt": "Fri Aug 14 07:37:48 +0000 2026",
+    "replyCount": 4,
+    "retweetCount": 30,
+    "likeCount": 197,
+    "conversationId": "2088168193827160434",
+    "author": {
+      "username": "StockWaveNews",
+      "name": "StockWave"
+    },
+    "authorId": "1931938827788222464"
+  },
+  {
+    "id": "2088163703245906218",
+    "text": "AI has ripped. Commodities have had their moments. Some JSE shares have absolutely COOKED. So seeing some of our clients sitting with R1 million+ in profit in their portfolios isn’t actually that crazy. It’s very believable when you look at what some of these investments have done.\n\nOk now for their problem?\n“Do I SELL, HOLD or BUY more?”\n\nI would love to know cause I intend on having this problem for myself!!😂\n\n#Thrive | #EasyEquities",
+    "createdAt": "Fri Aug 14 07:19:57 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 3,
+    "likeCount": 49,
+    "conversationId": "2088163703245906218",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2088140330516336703",
+    "text": "@ChrisExcel102 I'm just sitting here calculating how many shares that R10k or R50k would buy me on EasyEquities and the real value I'd get for my money… rather than wasting it to buy a ticket to access a cheap tavern toilet. God forbid!",
+    "createdAt": "Fri Aug 14 05:47:05 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 11,
+    "conversationId": "2088127735851810922",
+    "inReplyToStatusId": "2088127735851810922",
+    "author": {
+      "username": "IamEriOluwa",
+      "name": "🏘️IamEri'Oluwa🇳🇬"
+    },
+    "authorId": "339010237"
+  },
+  {
+    "id": "2087857139142246552",
+    "text": "🚚💨 SPECIAL DELIVERY! 📦\n\nDestination? EasyEquities. 🏠\n\nIf your shares, offshore portfolio, TFSA, RA or crypto are scattered across different providers, it might be time to put them all under one roof. Bring it all to one place with #EasyEquities and get 𝟭% 𝗰𝗮𝘀𝗵𝗯𝗮𝗰𝗸* when you transfer qualifying investments. \n\nUse campaign code 𝗕𝗿𝗶𝗻𝗴𝗜𝘁𝗔𝗹𝗹𝗛𝗼𝗺𝗲 after your transfer.\n\nTransfers + *Ts&Cs 👇\nhttps://t.co/3cyhzCwU63\n\n#EasyRetire | #EasyEquities",
+    "createdAt": "Thu Aug 13 11:01:47 +0000 2026",
+    "replyCount": 4,
+    "retweetCount": 3,
+    "likeCount": 16,
+    "conversationId": "2087857139142246552",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPmOzKLW4AAMveQ.jpg",
+        "width": 1200,
+        "height": 1200,
+        "previewUrl": "https://pbs.twimg.com/media/HPmOzKLW4AAMveQ.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087818496042308036",
+    "text": "Shares of Rainbow Chicken are available on EasyEquities where investors can invest any amount. \n\nAlways do your own research before investing. https://t.co/BignSA3CBc",
+    "createdAt": "Thu Aug 13 08:28:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087818419009651044",
+    "inReplyToStatusId": "2087818480095555838",
+    "author": {
+      "username": "caylow_SA",
+      "name": "RMC. Mbedzi 🪐"
+    },
+    "authorId": "531671392",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPlr2ZkWQAAG1dC.jpg",
+        "width": 1170,
+        "height": 1503,
+        "previewUrl": "https://pbs.twimg.com/media/HPlr2ZkWQAAG1dC.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087818419009651044",
+    "text": "Shares in Rainbow Chicken rose more than 10% after the company released a trading statement indicating more than 100% growth in earnings. \n@EasyEquities @JSE_Group https://t.co/S5xoCBbsqW",
+    "createdAt": "Thu Aug 13 08:27:55 +0000 2026",
+    "replyCount": 2,
+    "retweetCount": 1,
+    "likeCount": 13,
+    "conversationId": "2087818419009651044",
+    "author": {
+      "username": "caylow_SA",
+      "name": "RMC. Mbedzi 🪐"
+    },
+    "authorId": "531671392",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPlrx92WkAANsIe.jpg",
+        "width": 1973,
+        "height": 829,
+        "previewUrl": "https://pbs.twimg.com/media/HPlrx92WkAANsIe.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087787214847594894",
+    "text": "We have people investing R500 a month.\nSomeone else is investing R50,000.\nSomeone in their 30s this week deposited roughly R2million in their first deposit! (Im not jealous😭)\n\nThat's the thing about investing.\nThere is no \"type\" of person who invests.\nThere are just people putting their money to work.\n\n#Thrive | #EasyEquities",
+    "createdAt": "Thu Aug 13 06:23:55 +0000 2026",
+    "replyCount": 17,
+    "retweetCount": 72,
+    "likeCount": 544,
+    "conversationId": "2087787214847594894",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2087510034276110635",
+    "text": "@EasyEquities JSE top40",
+    "createdAt": "Wed Aug 12 12:02:30 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2087086117489127907",
+    "inReplyToStatusId": "2087086117489127907",
+    "author": {
+      "username": "DlaminiLamu",
+      "name": "Lamu Dlamini"
+    },
+    "authorId": "2153734077"
+  },
+  {
+    "id": "2087470901440733394",
+    "text": "On EasyEquities, TFSA investors have access to over 100 ETFs - from global giants tracking the S&P 500 and Nasdaq, to local stalwarts tracking the JSE Top 40, to dividend-focused funds, tech-focused funds, Shariah-compliant options and everything in between.\n\nWhich ETF did the 𝗺𝗼𝘀𝘁 𝗶𝗻𝗱𝗶𝘃𝗶𝗱𝘂𝗮𝗹 𝗶𝗻𝘃𝗲𝘀𝘁𝗼𝗿𝘀 actually buy? Because:\n💰 Rand value = where the most money went.\n👥 Number of buyers = what most people chose.\n\nAnd those can tell two very different stories.\n\nSo, out of 100+ ETFs...\nWhat do you think was the most bought by number of investors? 🤔👇",
+    "createdAt": "Wed Aug 12 09:27:00 +0000 2026",
+    "replyCount": 5,
+    "retweetCount": 7,
+    "likeCount": 26,
+    "conversationId": "2087470901440733394",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2087432909179240719",
+    "text": "Join us shortly for a live conversation with the team behind the Benguela EasyETFs Global AI Revolution AMETF as we explore how they think about AI investing, what qualifies as an AI opportunity, and where they’re finding potential beyond the obvious.\n\n𝗕𝗲𝗻𝗴𝘂𝗲𝗹𝗮 𝗘𝗮𝘀𝘆𝗘𝗧𝗙𝘀 𝗚𝗹𝗼𝗯𝗮𝗹 𝗔𝗜 𝗥𝗲𝘃𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗔𝗠𝗘𝗧𝗙 𝗪𝗲𝗯𝗶𝗻𝗮𝗿\n🗓️ Date: 12 August 2026\n⏰ Time: 10:00 AM\n✍️ Register now: https://t.co/k3ww8UjCpY\n\nWe’ll be joined by the team behind the Benguela EasyETFs Global AI Revolution AMETF to unpack what actually qualifies as an AI opportunity, which parts of the AI ecosystem they’re watching, and how an active approach can look beyond the obvious names.\n\nWe’ll also explore how the AMETF compares with offshore AI funds already available to South African investors and the thinking behind the opportunity it’s designed to capture.\n\nIf you’ve ever wondered where AI investing goes beyond Nvidia and the usual suspects, this conversation is for you.\n\nhttps://t.co/MtDNuQ7Fdy | #EasyEquities",
+    "createdAt": "Wed Aug 12 06:56:02 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 7,
+    "conversationId": "2087432909179240719",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPgMg2FWoAAnwHw.jpg",
+        "width": 1200,
+        "height": 1200,
+        "previewUrl": "https://pbs.twimg.com/media/HPgMg2FWoAAnwHw.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087425587614802370",
+    "text": "P  —  Park\nR  —  Reverse\nN  —  Neutral\nD  —  Drive\nL   —  Long-term investing. Obviously.\n\n#Thrive | #EasyEquities",
+    "createdAt": "Wed Aug 12 06:26:57 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 4,
+    "likeCount": 53,
+    "conversationId": "2087425587614802370",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144"
+  },
+  {
+    "id": "2087213198927687950",
+    "text": "Vuyo’s fingers hovered over the phone. The shared password was suddenly the only solid ground left.\n\nHer husband Thabo, a South African National Defence Force\rmedical officer, had been killed weeks earlier treating wounded peacekeepers in the DR Congo. Official notification was delayed by operational chaos and military protocol.\n\nIn the months before the news arrived, their Sandton property unravelled. Foreign tenants whose rent covered the R4-million bond fled after xenophobic attacks. Rental income stopped. Arrears climbed through letters of demand, summons and judgment until a sheriff’s sale was set for seventy-two hours.\n\nVuyo had never monitored the accounts locked behind Thabo’s digital walls. When the death letter came and she unlocked his phone, the banking app revealed the full crisis and the imminent auction of their R4-million home.\n\nWith the clock ticking she transferred 70% of her savings from her online clothing business, used all her emergency funds, sold 1 percent of their JSE portfolio on EasyEquities and sold her    two Louis Vuitton vintage bags through her WhatsApp status. \n\nAt 4:47 p.m. on the final day the status flipped to “secured.” The auction was withdrawn.\n\nWithout that shared password the notices would have stayed hidden until too late. \n\nThe house and their children’s inheritance would have vanished under ordinary banking law,not because of war or xenophobia, but because of silence at home. Sharing the accounts was the trust that saved everything.",
+    "createdAt": "Tue Aug 11 16:22:59 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 7,
+    "likeCount": 12,
+    "conversationId": "2087213198927687950",
+    "author": {
+      "username": "IamEriOluwa",
+      "name": "🏘️IamEri'Oluwa🇳🇬"
+    },
+    "authorId": "339010237"
+  },
+  {
+    "id": "2087199457079083513",
+    "text": "On EasyEquities. Best and cheapest platform globally and a proudly SA company.\n\nI’ve been with them since around 2014, basically when they started.\n\nBut they offered originally what no one did, was allowing to buy “fractions” of a share and allowing you to manage your own shares/EFT. \n\nCheck them out💪\n\n@EasyEquities",
+    "createdAt": "Tue Aug 11 15:28:23 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2087197774102016368",
+    "inReplyToStatusId": "2087198327817273631",
+    "author": {
+      "username": "RoundHouseBet",
+      "name": "SportNStuff"
+    },
+    "authorId": "1630811374048751616"
+  },
+  {
+    "id": "2087153804722483459",
+    "text": "On EasyProperties, buyers and sellers meet during scheduled auctions. You place a bid or offer, and shares are traded where buyers and sellers agree at a price.\n\n𝗧𝗵𝗮𝘁 𝗺𝗲𝗮𝗻𝘀 𝘀𝗲𝗹𝗹𝗶𝗻𝗴 𝗳𝗼𝗿 𝗮𝗻 𝗲𝗮𝗿𝗹𝘆 𝗲𝘅𝗶𝘁 𝗺𝗮𝘆 𝘁𝗮𝗸𝗲 𝘁𝗶𝗺𝗲 𝗮𝗻𝗱 𝗶𝘀 𝗻𝗲𝘃𝗲𝗿 𝗴𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲𝗱. 𝗦𝗼𝗺𝗲𝗼𝗻𝗲 𝘀𝘁𝗶𝗹𝗹 𝗻𝗲𝗲𝗱𝘀 𝘁𝗼 𝗯𝘂𝘆 𝗮𝘁 𝘁𝗵𝗲 𝗽𝗿𝗶𝗰𝗲 𝘆𝗼𝘂 𝗮𝗿𝗲 𝗮𝘀𝗸𝗶𝗻𝗴.\n\nWhile you wait, the property keeps doing its job: earning rent, and potentially paying eligible investors dividends.\n\nKnowing how auctions, valuations and rental income work helps you invest with clearer expectations and fewer “wait, why hasn’t the price moved?” moments.\n\nHere’s the full story 📖\nhttps://t.co/g4tYZCmotf\n\n#EasyProperties | #EasyEquities",
+    "createdAt": "Tue Aug 11 12:26:59 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 3,
+    "likeCount": 11,
+    "conversationId": "2087153804722483459",
+    "author": {
+      "username": "EasyEquities",
+      "name": "EasyEquities"
+    },
+    "authorId": "2408634144",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPcOk-mXoAACUU3.jpg",
+        "width": 1200,
+        "height": 1200,
+        "previewUrl": "https://pbs.twimg.com/media/HPcOk-mXoAACUU3.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2087087504994210214",
+    "text": "If you missed the recent EasyEquities Mining Showcase with our MD and CEO Anthony Lennox, this is your chance to catch up on the conversation. The event brought together leadership behind junior mining companies listed on the JSE ➡️ https://t.co/W0wUj2yCG1\n\n#OrionMinerals $ORN",
+    "createdAt": "Tue Aug 11 08:03:32 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 2,
+    "conversationId": "2087087504994210214",
+    "author": {
+      "username": "OrionMinerals",
+      "name": "Orion Minerals"
+    },
+    "authorId": "943787957156229120"
+  },
+  {
+    "id": "2087080713560412609",
+    "text": "@EasyEquities In simple terms it does not work. It creates inconvenience because the other markets are open on our holidays an I want to put money in markets which are open when the JSE is closed",
+    "createdAt": "Tue Aug 11 07:36:32 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2086781962870559201",
+    "inReplyToStatusId": "2087063785756361168",
+    "author": {
+      "username": "SylvesterMhlon4",
+      "name": "SLY"
+    },
+    "authorId": "1349925607103213569"
+  },
+  {
+    "id": "2086055929586602095",
+    "text": "𝗛𝗼𝘄 𝗥𝟰𝟮𝟭,𝟬𝟬𝟬 𝗕𝗲𝗰𝗮𝗺𝗲 𝗥𝟭 𝗠𝗶𝗹𝗹𝗶𝗼𝗻",
+    "createdAt": "Sat Aug 08 11:44:25 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 6,
+    "likeCount": 34,
+    "conversationId": "2086055929586602095",
+    "author": {
+      "username": "talkcentss",
+      "name": "David (TalkingCents)"
+    },
+    "authorId": "862675230",
+    "article": {
+      "title": "𝗛𝗼𝘄 𝗥𝟰𝟮𝟭,𝟬𝟬𝟬 𝗕𝗲𝗰𝗮𝗺𝗲 𝗥𝟭 𝗠𝗶𝗹𝗹𝗶𝗼𝗻",
+      "previewText": "The biggest lesson I learnt this week is that your Tax-Free Savings Account (TFSA) has a limit on how much you can contribute (R500,000 over your lifetime and R46,000 per year).\n \nHowever, what many"
+    }
+  }
+]
+=== QUERY 4: JSE HASHTAG ===
+[
+  {
+    "id": "2089790727127495117",
+    "text": "📈 Top 10 Advancers &amp; Decliners for August 18, 2026\n\nWhich stocks caught your attention today?\n\nhttps://t.co/tG3cW2ZdRR\n\n#JSE #JamaicaStockExchange #JamaicanStocks #Investing https://t.co/R7SP0DFLHK",
+    "createdAt": "Tue Aug 18 19:05:10 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089790727127495117",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQBtl6TXcAAAP4G.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQBtl6TXcAAAP4G.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089768101512446242",
+    "text": "The investment hasn’t worked so far.\nAnd the disposals may be complete.\nThe economic story may not be.\n#SpecialSituations #JSE #Investing #Hedgefund",
+    "createdAt": "Tue Aug 18 17:35:16 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089768095963308378",
+    "inReplyToStatusId": "2089768099138437242",
+    "author": {
+      "username": "UrquhartPartner",
+      "name": "Urquhart Partners"
+    },
+    "authorId": "2481746658"
+  },
+  {
+    "id": "2089736812285591835",
+    "text": "Quick one for our SA investors 🇿🇦: do you prefer picking individual JSE shares, or do you stick to ETFs for simplicity? Tell us why below 👇 @EasyEquities @SatrixInvest #InvestingSA #JSE #ETF",
+    "createdAt": "Tue Aug 18 15:30:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089736812285591835",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089732860546555958",
+    "text": "🛑 HALT ALERT!\n\nFIRSTROCK REAL ESTATE INVESTMENTS LIMITED ($FIRSTROCKJMD.ja) has been halted after trading down -$1.41 (-20.3%).\n\n🔻 Last Price: $5.53\n\nWhat's happening with FIRSTROCKJMD?\n\nhttps://t.co/yJucqbN2ay\n\n#FIRSTROCKJMD #JSE #HaltAlert #JamaicanStocks https://t.co/9w6UdscYve",
+    "createdAt": "Tue Aug 18 15:15:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089732860546555958",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQA49qQW8AAHjQ8.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQA49qQW8AAHjQ8.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089715713204203744",
+    "text": "🛑 HALT ALERT!\n\nTRANSJAMAICAN HIGHWAY LTD 8% CUMULATIVE REDEEMABLE PREFERENCE SHARES ($TJH8.0.ja) has been halted after trading down -$0.54 (-21.7%).\n\n🔻 Last Price: $1.95\n\nWhat's happening with TJH8.0?\n\nhttps://t.co/3onfmieKAM\n\n#TJH8.0 #JSE #HaltAlert #JamaicanStocks https://t.co/Z8tW5IvoQA",
+    "createdAt": "Tue Aug 18 14:07:05 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089715713204203744",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQApXjCXsAAEjBO.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQApXjCXsAAEjBO.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089715205454319670",
+    "text": "🛑 HALT ALERT!\n\nONE-ON-ONE EDUCATIONAL SERVICES LIMITED ($ONE.ja) has been halted after trading up +$0.09 (+17.6%).\n\n🔺 Last Price: $0.60\n\nWhat's happening with ONE?\n\nhttps://t.co/rblL0rc6Xe\n\n#ONE #JSE #HaltAlert #JamaicanStocks https://t.co/TVTviOrz5M",
+    "createdAt": "Tue Aug 18 14:05:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2089715205454319670",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAo5_tXcAADoAT.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQAo5_tXcAADoAT.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089714699927523794",
+    "text": "🛑 HALT ALERT!\n\nINNOVATIVE ENERGY GROUP LIMITED ($ENERGY.ja) has been halted after trading up +$0.15 (+16.5%).\n\n🔺 Last Price: $1.06\n\nWhat's happening with ENERGY?\n\nhttps://t.co/QXqy8OJBJP\n\n#ENERGY #JSE #HaltAlert #JamaicanStocks https://t.co/QcbhehIja9",
+    "createdAt": "Tue Aug 18 14:03:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089714699927523794",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HQAocj1XQAA8TxK.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HQAocj1XQAA8TxK.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089661312548704615",
+    "text": "📊 Share spotlight: MTN Group (JSE: MTN) R190.38, down 1.91% today. Trading update flags a 20-30% H1 earnings drop from Iran impairments and forex losses, ahead of results due 24 Aug. Not financial advice. DYOR. @MTNGroup @EasyEquities #JSE",
+    "createdAt": "Tue Aug 18 10:30:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089661312548704615",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089612227032564123",
+    "text": "Investing tip 💡: The earlier you start, the less you need to save each month. Compound growth means your returns start earning their own returns over time. Time in the market usually beats timing it. #InvestingSA #JSE #PersonalFinanceSA",
+    "createdAt": "Tue Aug 18 07:15:52 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089612227032564123",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089578111457214796",
+    "text": "🇿🇦 JSE market wrap — 18 Aug\n\n📈 Top gainers\n• PPE R2.02 +8.60%\n• ACL R1.54 +8.45%\n• KAP R2.86 +7.52%\n\n📉 Top losers\n• EPE R4.65 -7.92%\n• BAT R2.02 -4.27%\n• GPL R1.66 -4.05%\n\nFull board: \n#JSE #Investing #SouthAfrica",
+    "createdAt": "Tue Aug 18 05:00:18 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089578111457214796",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089476738166202778",
+    "text": "📅 Dividend Consideration Notice!\n\nThe Board of Directors of KINGSTON PROPERTIES LIMITED ($KPREIT.ja) will meet on August 24, 2026 to consider a dividend declaration.\n\nAre you holding this stock?\n\nhttps://t.co/6gCv74DqsM\n\n#KPREIT #JSE #Dividends #JamaicanStocks https://t.co/PMS4B18Nrv",
+    "createdAt": "Mon Aug 17 22:17:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089476738166202778",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP9QBWhXoAEwyg_.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP9QBWhXoAEwyg_.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089437713967554640",
+    "text": "📊 ACCESS FINANCIAL SERVICES LIMITED ($AFS.ja) just released their Q1 2026/27 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/RUw1IAgCwK\n\n#AFS #JSE #Financials #JamaicanStocks https://t.co/mfb9sQ5eZC",
+    "createdAt": "Mon Aug 17 19:42:25 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089437713967554640",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8sh1DXYAIrvFR.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8sh1DXYAIrvFR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089428447466582362",
+    "text": "📈 Top 10 Advancers &amp; Decliners for August 17, 2026\n\nWhich stocks caught your attention today?\n\nhttps://t.co/cIxogRpYUg\n\n#JSE #JamaicaStockExchange #JamaicanStocks #Investing https://t.co/bFT8vqcWx0",
+    "createdAt": "Mon Aug 17 19:05:36 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 0,
+    "conversationId": "2089428447466582362",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8kGeCWEAAHOM9.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8kGeCWEAAHOM9.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089422580721541596",
+    "text": "🛑 HALT ALERT!\n\nPALACE AMUSEMENT CO. LTD. ($PAL.ja) has been halted after trading down -$0.09 (-15.3%).\n\n🔻 Last Price: $0.50\n\nWhat's happening with PAL?\n\nhttps://t.co/EpVvKFpkUB\n\n#PAL #JSE #HaltAlert #JamaicanStocks https://t.co/dUYy9y3a2o",
+    "createdAt": "Mon Aug 17 18:42:17 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089422580721541596",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8ew-qWgAAXNJw.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8ew-qWgAAXNJw.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089413292749955080",
+    "text": "🛑 HALT ALERT!\n\nBERGER PAINTS JAMAICA LTD. ($BRG.ja) has been halted after trading up +$0.79 (+15.0%).\n\n🔺 Last Price: $6.05\n\nWhat's happening with BRG?\n\nhttps://t.co/rHL1mAKlMV\n\n#BRG #JSE #HaltAlert #JamaicanStocks https://t.co/Ut1Le02GBw",
+    "createdAt": "Mon Aug 17 18:05:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089413292749955080",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8WUWsXoAArTY6.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8WUWsXoAArTY6.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089395412247413018",
+    "text": "🛑 HALT ALERT!\n\nONE-ON-ONE EDUCATIONAL SERVICES LIMITED ($ONE.ja) has been halted after trading down -$0.16 (-24.2%).\n\n🔻 Last Price: $0.50\n\nWhat's happening with ONE?\n\nhttps://t.co/ozoCm5WAUK\n\n#ONE #JSE #HaltAlert #JamaicanStocks https://t.co/5JVRA8bUPS",
+    "createdAt": "Mon Aug 17 16:54:20 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089395412247413018",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP8GDktXYAANvhW.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP8GDktXYAANvhW.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089377275842036138",
+    "text": "🛑 HALT ALERT!\n\nEVERYTHING FRESH LIMITED ($EFRESH.ja) has been halted after trading down -$0.51 (-24.4%).\n\n🔻 Last Price: $1.58\n\nWhat's happening with EFRESH?\n\nhttps://t.co/z2kQg4BWV5\n\n#EFRESH #JSE #HaltAlert #JamaicanStocks https://t.co/4VRTmaTwCK",
+    "createdAt": "Mon Aug 17 15:42:15 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089377275842036138",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP71j5rWIAADnTV.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP71j5rWIAADnTV.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089376765533683820",
+    "text": "🛑 HALT ALERT!\n\nFIRSTROCK REAL ESTATE INVESTMENTS LIMITED ($FIRSTROCKJMD.ja) has been halted after trading down -$1.83 (-24.9%).\n\n🔻 Last Price: $5.52\n\nWhat's happening with FIRSTROCKJMD?\n\nhttps://t.co/rdTDBP6Hyv\n\n#FIRSTROCKJMD #JSE #HaltAlert #JamaicanStocks https://t.co/TX7n4fpakK",
+    "createdAt": "Mon Aug 17 15:40:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089376765533683820",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP71GLmWgAA738Q.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP71GLmWgAA738Q.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089370225128972613",
+    "text": "🛑 HALT ALERT!\n\nFOSRICH COMPANY LIMITED ($FOSRICH.ja) has been halted after trading down -$0.23 (-17.3%).\n\n🔻 Last Price: $1.10\n\nWhat's happening with FOSRICH?\n\nhttps://t.co/6FCDrK2XaM\n\n#FOSRICH #JSE #HaltAlert #JamaicanStocks https://t.co/SyFaiXvJvb",
+    "createdAt": "Mon Aug 17 15:14:14 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089370225128972613",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7vJf7XsAAP-mR.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7vJf7XsAAP-mR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089359397881344498",
+    "text": "🛑 HALT ALERT!\n\nKINGSTON PROPERTIES LIMITED ($KPREIT.ja) has been halted after trading up +$2.35 (+24.4%).\n\n🔺 Last Price: $12.00\n\nWhat's happening with KPREIT?\n\nhttps://t.co/8OVvNlGYvy\n\n#KPREIT #JSE #HaltAlert #JamaicanStocks https://t.co/I7I3cdj3BR",
+    "createdAt": "Mon Aug 17 14:31:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089359397881344498",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7lTQvWEAAj2vq.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7lTQvWEAAj2vq.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089354502843326483",
+    "text": "🛑 HALT ALERT!\n\nWOODCATS INTERNATIONAL LIMITED ($WOODCATS.ja) has been halted after trading down -$0.15 (-25.0%).\n\n🔻 Last Price: $0.45\n\nWhat's happening with WOODCATS?\n\nhttps://t.co/uhb0b9ndID\n\n#WOODCATS #JSE #HaltAlert #JamaicanStocks https://t.co/nyRlevLON9",
+    "createdAt": "Mon Aug 17 14:11:46 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2089354502843326483",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7g2VPW0AAstn8.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7g2VPW0AAstn8.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089353998260199427",
+    "text": "🛑 HALT ALERT!\n\nINNOVATIVE ENERGY GROUP LIMITED ($ENERGY.ja) has been halted after trading down -$0.22 (-20.4%).\n\n🔻 Last Price: $0.86\n\nWhat's happening with ENERGY?\n\nhttps://t.co/nbMjX69zVr\n\n#ENERGY #JSE #HaltAlert #JamaicanStocks https://t.co/3yugUjXS7i",
+    "createdAt": "Mon Aug 17 14:09:46 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089353998260199427",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7gY9kWYAAU2Tr.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7gY9kWYAAU2Tr.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089353492766879962",
+    "text": "🛑 HALT ALERT!\n\nMARGARITAVILLE (TURKS) LIMITED ($MTL.ja) has been halted after trading down -$1.55 (-18.1%).\n\n🔻 Last Price: $7.00\n\nWhat's happening with MTL?\n\nhttps://t.co/30nQbkYqs4\n\n#MTL #JSE #HaltAlert #JamaicanStocks https://t.co/38MT2rw6U7",
+    "createdAt": "Mon Aug 17 14:07:45 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089353492766879962",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7f7iHWwAAcY76.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7f7iHWwAAcY76.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089351200466489438",
+    "text": "📊 BARITA INVESTMENTS LIMITED ($BIL.ja) just released their Q3 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/uEmkj2Z09s\n\n#BIL #JSE #Financials #JamaicanStocks https://t.co/KtaGhlMqZA",
+    "createdAt": "Mon Aug 17 13:58:39 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089351200466489438",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7d2GgXoAAHyDR.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7d2GgXoAAHyDR.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089350696038449156",
+    "text": "📊 DERRIMON TRADING COMPANY LIMITED ($DTL.ja) just released their Q2 2026 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/DDdYkRXwPL\n\n#DTL #JSE #Financials #JamaicanStocks https://t.co/CtnGNN8y1S",
+    "createdAt": "Mon Aug 17 13:56:38 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089350696038449156",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP7dYvuW0AAdYD7.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HP7dYvuW0AAdYD7.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089298927115743723",
+    "text": "🔎 Share Spotlight: Naspers (NPN) slid ~11% last week to around R810 as investors fretted over Tencent's AI spending plans - even after Naspers posted strong FY26 results (adjusted EBITDA +84%). Not financial advice. DYOR. #JSE #NextRand @EasyEquities",
+    "createdAt": "Mon Aug 17 10:30:56 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089298927115743723",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2089289605107314850",
+    "text": "At 25, the stock market can look intimidating. But waiting until you “know everything” could mean missing valuable time in the market.\n\nRead about the Five Lessons for My 25-Year-Old Self on Investing: https://t.co/spIaqaUhrH\n\n#InvestingSouthAfrica #JSE #PersonalFinance https://t.co/l1JV4Kk2Np",
+    "createdAt": "Mon Aug 17 09:53:53 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089289605107314850",
+    "author": {
+      "username": "ImaliMatters",
+      "name": "Imali Matters"
+    },
+    "authorId": "1430257778401157120",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HP6lzS_WIAAeXO-.jpg",
+        "width": 2048,
+        "height": 1366,
+        "previewUrl": "https://pbs.twimg.com/media/HP6lzS_WIAAeXO-.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2089215765933109632",
+    "text": "🇿🇦 JSE market wrap — 17 Aug\n\n📈 Top gainers\n• ACL R1.51 +6.34%\n• LBR R3.90 +4.00%\n• SOL R186.45 +2.35%\n\n📉 Top losers\n• EXX R180.73 -5.43%\n• GPL R1.65 -4.62%\n• AGL R839.10 -2.84%\n\nFull board: \n#JSE #Investing #SouthAfrica",
+    "createdAt": "Mon Aug 17 05:00:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089215765933109632",
+    "author": {
+      "username": "Next_Rand",
+      "name": "NextRand"
+    },
+    "authorId": "1975553693136068608"
+  },
+  {
+    "id": "2088439444764283122",
+    "text": "📊 PROVEN INVESTMENTS LIMITED JMD ($PROVEN.ja) just released their Q4 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/eQFjgepNio\n\n#PROVEN #JSE #Financials #JamaicanStocks https://t.co/QV7hc1WDXI",
+    "createdAt": "Sat Aug 15 01:35:39 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088439444764283122",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPugm7xWwAAYqLP.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPugm7xWwAAYqLP.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088438936804696098",
+    "text": "📊 PROVEN INVESTMENTS LIMITED JMD ($PROVEN.ja) just released their FY 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/mGfOYokLiu\n\n#PROVEN #JSE #Financials #JamaicanStocks https://t.co/yyh2a7asTu",
+    "createdAt": "Sat Aug 15 01:33:38 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088438936804696098",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPugJX_WcAA9OBG.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPugJX_WcAA9OBG.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088438431961559198",
+    "text": "📊 PROVEN INVESTMENTS LIMITED USD ($PROVENUSD.ja) just released their Q4 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/cNDOsJ51xf\n\n#PROVENUSD #JSE #Financials #JamaicanStocks https://t.co/MqZTb9zjcF",
+    "createdAt": "Sat Aug 15 01:31:38 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088438431961559198",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPufr_NXEAAjBm3.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPufr_NXEAAjBm3.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088437923540550100",
+    "text": "📊 KINGSTON PROPERTIES LIMITED ($KPREIT.ja) just released their Q2 2026 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/dh9dUZrzWz\n\n#KPREIT #JSE #Financials #JamaicanStocks https://t.co/rHRFs7xqRp",
+    "createdAt": "Sat Aug 15 01:29:36 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088437923540550100",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPufOZYWUAAQEj3.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPufOZYWUAAQEj3.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088437415463530847",
+    "text": "📊 PROVEN INVESTMENTS LIMITED USD ($PROVENUSD.ja) just released their FY 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/HR5rvtVVZs\n\n#PROVENUSD #JSE #Financials #JamaicanStocks https://t.co/q4cZCHSfRh",
+    "createdAt": "Sat Aug 15 01:27:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088437415463530847",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPuew0xXkAAK2Mo.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPuew0xXkAAK2Mo.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088436920057577628",
+    "text": "📊 CONSOLIDATED BAKERIES (JAMAICA) LIMITED ($PURITY.ja) just released their Q2 2026 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/RYX6Pd3pyT\n\n#PURITY #JSE #Financials #JamaicanStocks https://t.co/jb7eDjtNF4",
+    "createdAt": "Sat Aug 15 01:25:37 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088436920057577628",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPueT-2WEAE06hv.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPueT-2WEAE06hv.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088436413020725748",
+    "text": "📊 PROVEN INVESTMENTS LIMITED USD ($PROVENUSD.ja) just released their Q1 2026/27 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/WU1yQEDRPV\n\n#PROVENUSD #JSE #Financials #JamaicanStocks https://t.co/8CWUmTPUt8",
+    "createdAt": "Sat Aug 15 01:23:36 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088436413020725748",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPud2d1WsAAWzHH.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPud2d1WsAAWzHH.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088435904536858919",
+    "text": "📊 TROPICAL BATTERY LTD ($TROPICAL.ja) just released their Q3 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/cS2XieYIln\n\n#TROPICAL #JSE #Financials #JamaicanStocks https://t.co/XBIkW6JDpx",
+    "createdAt": "Sat Aug 15 01:21:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088435904536858919",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPudY3yWIAAUmkI.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPudY3yWIAAUmkI.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088435407767703676",
+    "text": "📊 PROVEN INVESTMENTS LIMITED JMD ($PROVEN.ja) just released their Q1 2026/27 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/Ht1wXAQa2u\n\n#PROVEN #JSE #Financials #JamaicanStocks https://t.co/IzUTUWGRhH",
+    "createdAt": "Sat Aug 15 01:19:37 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088435407767703676",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPuc78fWUAAfYMq.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPuc78fWUAAfYMq.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088434899241889803",
+    "text": "📊 EPPLEY CARIBBEAN PROPERTY FUND LIMITED SCC ($CPFV.ja) just released their Q3 2025/26 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/0yy9a8FQmg\n\n#CPFV #JSE #Financials #JamaicanStocks https://t.co/Y79h2ilEqZ",
+    "createdAt": "Sat Aug 15 01:17:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088434899241889803",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPuceSMWEAA4MPg.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPuceSMWEAA4MPg.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088434399821926901",
+    "text": "📊 DOLPHIN COVE LIMITED ($DCOVE.ja) just released their Q2 2026 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/BvrdbSBJLm\n\n#DCOVE #JSE #Financials #JamaicanStocks https://t.co/kShVnN2mj2",
+    "createdAt": "Sat Aug 15 01:15:36 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088434399821926901",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPucBSmWUAAHEtE.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPucBSmWUAAHEtE.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2088433891681988869",
+    "text": "📊 FOSRICH COMPANY LIMITED ($FOSRICH.ja) just released their Q2 2026 financial results!\n\nWhat are your thoughts on this report?\n\nhttps://t.co/6F21s0tfhc\n\n#FOSRICH #JSE #Financials #JamaicanStocks https://t.co/wFVGaaFGWH",
+    "createdAt": "Sat Aug 15 01:13:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2088433891681988869",
+    "author": {
+      "username": "MyMoneyJA",
+      "name": "MyMoneyJA"
+    },
+    "authorId": "1296899058276151297",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HPubjtGWcAEg7bu.jpg",
+        "width": 1200,
+        "height": 630,
+        "previewUrl": "https://pbs.twimg.com/media/HPubjtGWcAEg7bu.jpg:small"
+      }
+    ]
+  }
+]
