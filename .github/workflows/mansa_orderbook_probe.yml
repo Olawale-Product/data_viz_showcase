@@ -1,0 +1,57 @@
+name: Mansa Order Book Probe
+
+on:
+  push:
+    branches:
+      - agent-reach-sandbox
+    paths:
+      - run_mansa_orderbook_probe.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      MANSA_API_KEY: ${{ secrets.MANSA_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: agent-reach-sandbox
+
+      - name: Probe documented quote and likely order-book endpoints
+        shell: bash
+        run: |
+          set +e
+          call() {
+            label="$1"; url="$2"
+            echo "=== $label ==="
+            code=$(curl -sS -L --max-time 20 -o /tmp/mansa_body.txt -w '%{http_code}' \
+              -H "Authorization: Bearer $MANSA_API_KEY" "$url")
+            echo "HTTP $code"
+            cat /tmp/mansa_body.txt
+            echo
+          }
+          {
+            date -u
+            [ -n "$MANSA_API_KEY" ] && echo 'Mansa key detected' || echo 'Mansa key missing'
+            call 'DOCUMENTED ACCESSCORP QUOTE' 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP'
+            call 'ACCESSCORP /orderbook' 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP/orderbook'
+            call 'ACCESSCORP /order-book' 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP/order-book'
+            call 'ACCESSCORP /depth' 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP/depth'
+            call 'ACCESSCORP /market-depth' 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP/market-depth'
+            call 'ACCESSCORP /bid-ask' 'https://mansaapi.com/api/v1/markets/exchanges/NGX/stocks/ACCESSCORP/bid-ask'
+          } 2>&1 | tee mansa_orderbook_probe_output.txt
+
+      - name: Commit output
+        shell: bash
+        run: |
+          git config user.name 'mansa-orderbook-probe'
+          git config user.email 'actions@users.noreply.github.com'
+          git add mansa_orderbook_probe_output.txt
+          git commit -m 'Save Mansa order book probe [skip ci]' || exit 0
+          git push origin HEAD:agent-reach-sandbox
