@@ -1,0 +1,109 @@
+npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+=== REQUESTED TWEET ===
+{
+  "id": "2089959042282086710",
+  "text": "I have been investing for a while across Nigerian stocks, US equities, fixed income and real estate.\n\nAnd the older I get, the more I realise that building wealth in Nigeria has its own rules.\n\nHere are 10 things I have learned along the way 🧵👇",
+  "createdAt": "Wed Aug 19 06:13:59 +0000 2026",
+  "replyCount": 8,
+  "retweetCount": 30,
+  "likeCount": 133,
+  "conversationId": "2089959042282086710",
+  "author": {
+    "username": "moyo54",
+    "name": "Michael Adewuyi"
+  },
+  "authorId": "24398228"
+}
+=== REPLIES ===
+[
+  {
+    "id": "2089959045603938365",
+    "text": "1/ In Nigeria, making money is only half the job.\n\nYou also have to protect its purchasing power.\n\nYou can grow your portfolio 20% in naira and still become poorer in dollar terms.\n\nThat completely changed how I think about investing.",
+    "createdAt": "Wed Aug 19 06:14:00 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "moyo54",
+      "name": "Michael Adewuyi"
+    },
+    "authorId": "24398228"
+  },
+  {
+    "id": "2089973143343436158",
+    "text": "@moyo54 Thanks for sharing 👏🏼",
+    "createdAt": "Wed Aug 19 07:10:01 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "Nelsondey4you",
+      "name": "Nelson👑"
+    },
+    "authorId": "2014266537511690240"
+  },
+  {
+    "id": "2089981741943464134",
+    "text": "@moyo54 Thanks for sharing Michael. Brief, informative and helpful.",
+    "createdAt": "Wed Aug 19 07:44:11 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "rukky_nate",
+      "name": "Mazi Nathan"
+    },
+    "authorId": "1216696257093296129"
+  },
+  {
+    "id": "2089992657816748182",
+    "text": "@moyo54 Consistency is king. One big loss can wipe out many small gains.",
+    "createdAt": "Wed Aug 19 08:27:34 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "Chemmer_F",
+      "name": "Frankinsense"
+    },
+    "authorId": "1537580898"
+  },
+  {
+    "id": "2089965840900792582",
+    "text": "@moyo54 following back massively",
+    "createdAt": "Wed Aug 19 06:41:00 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "BlzeeW",
+      "name": "S&U homes"
+    },
+    "authorId": "1593018520790507521"
+  },
+  {
+    "id": "2089996509873893848",
+    "text": "@moyo54 👏👏",
+    "createdAt": "Wed Aug 19 08:42:52 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "bitvillealpha",
+      "name": "Nwokwu"
+    },
+    "authorId": "228047847"
+  }
+]
