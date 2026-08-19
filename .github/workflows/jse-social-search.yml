@@ -1,0 +1,55 @@
+name: JSE Social Search
+
+on:
+  push:
+    branches:
+      - agent-reach-sandbox
+    paths:
+      - 'jse_social_trigger_*.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  jse-social-search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+      CT0: ${{ secrets.TWITTER_CT0 }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: agent-reach-sandbox
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Search JSE discussion on X
+        shell: bash
+        run: |
+          set +e
+          {
+            npm install -g @steipete/bird >/dev/null
+            echo '=== QUERY 1: JSE INVESTING ==='
+            bird search '(JSE OR "Johannesburg Stock Exchange") (stocks OR shares OR investing OR investor OR trader)' -n 50 --json || true
+            echo '=== QUERY 2: JSE TICKERS ==='
+            bird search '(JSE OR "JSE:") (NPN OR SOL OR CPI OR MTN OR AGL OR SBK OR FSR OR CFR)' -n 50 --json || true
+            echo '=== QUERY 3: EASYEQUITIES / JSE ==='
+            bird search 'EasyEquities (JSE OR stocks OR shares OR investing)' -n 50 --json || true
+            echo '=== QUERY 4: JSE HASHTAG ==='
+            bird search '#JSE (stocks OR shares OR investing OR results OR dividend)' -n 50 --json || true
+          } 2>&1 | tee jse_social_output.txt
+
+      - name: Commit output
+        shell: bash
+        run: |
+          git config user.name 'jse-social-search'
+          git config user.email 'actions@users.noreply.github.com'
+          git add jse_social_output.txt
+          git commit -m 'Save JSE social search output [skip ci]' || exit 0
+          git push origin HEAD:agent-reach-sandbox
