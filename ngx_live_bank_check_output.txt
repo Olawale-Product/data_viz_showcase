@@ -1,0 +1,42 @@
+=== UTC NOW ===
+Wed Aug 19 10:59:53 UTC 2026
+=== SECRET CHECK ===
+NGX Pulse key detected
+Mansa key detected
+=== MANSA ACCESSCORP ===
+{"success":true,"data":{"ticker":"ACCESSCORP","name":"Access Holdings Plc","price":27,"change":0.1,"change_pct":0.37,"volume":3350870,"market_cap":1370268447728.1,"shares_outstanding":53317838433,"sector":"FINANCIAL SERVICES","logo_url":null,"last_updated":"2026-08-19T10:48:19.231+00:00"},"meta":{"exchange":"NGX","currency":"NGN","updated_at":"2026-08-19T10:48:19.231+00:00","data_freshness":"30_minutes","source":"mansa_api"}}
+=== MANSA FIDELITYBK ===
+{"success":true,"data":{"ticker":"FIDELITYBK","name":"Fidelity Bank Plc","price":20.05,"change":-0.5,"change_pct":-2.43,"volume":51904122,"market_cap":961563846988.65,"shares_outstanding":50212211331,"sector":"FINANCIAL SERVICES","logo_url":null,"last_updated":"2026-08-19T10:48:19.231+00:00"},"meta":{"exchange":"NGX","currency":"NGN","updated_at":"2026-08-19T10:48:19.231+00:00","data_freshness":"30_minutes","source":"mansa_api"}}
+=== NGX PULSE FILTERED ===
+[
+  {
+    "symbol": "ACCESSCORP",
+    "name": "Access Holdings Plc",
+    "current_price": 27,
+    "previous_close": 26.9,
+    "change_percent": 0.37,
+    "official_change_percent": 0.37,
+    "pct_change_7d": -4.42,
+    "volume": 3350870,
+    "market_cap": 1439581637691,
+    "shares_outstanding": 53317838433,
+    "sector": "FINANCIAL SERVICES",
+    "market": "Premium Board",
+    "trade_date": "2026-08-19T00:00:00"
+  },
+  {
+    "symbol": "FIDELITYBK",
+    "name": "Fidelity Bank Plc",
+    "current_price": 20.05,
+    "previous_close": 20.55,
+    "change_percent": -2.43,
+    "official_change_percent": -2.43,
+    "pct_change_7d": -8.86,
+    "volume": 51904122,
+    "market_cap": 1006754837186.55,
+    "shares_outstanding": 50212211331,
+    "sector": "FINANCIAL SERVICES",
+    "market": "Main Board",
+    "trade_date": "2026-08-19T00:00:00"
+  }
+]
