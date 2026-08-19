@@ -7,6 +7,7 @@ on:
     paths-ignore:
       - agent_reach_output.txt
       - youtube_transcript_output.txt
+      - jse_social_output.txt
   workflow_dispatch:
 
 permissions:
@@ -15,7 +16,7 @@ permissions:
 jobs:
   agent-reach-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     env:
       TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
       TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
@@ -23,6 +24,7 @@ jobs:
       CT0: ${{ secrets.TWITTER_CT0 }}
       NGXPULSE_API_KEY: ${{ secrets.NGXPULSE_API_KEY }}
       YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+      MANSA_API_KEY: ${{ secrets.MANSA_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,53 +41,28 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Test authenticated YouTube transcript
+      - name: Search JSE discussion on X
         shell: bash
         run: |
           set +e
           {
-            echo '=== INSTALL YT-DLP ==='
-            python -m pip install --upgrade yt-dlp >/dev/null
-            echo '=== YOUTUBE SECRET CHECK ==='
-            if [ -n "$YOUTUBE_COOKIES" ]; then echo 'YouTube cookies secret detected.'; else echo 'YouTube cookies secret missing.'; fi
-            printf '%s' "$YOUTUBE_COOKIES" > /tmp/youtube_cookies.txt
-            chmod 600 /tmp/youtube_cookies.txt
-            echo '=== VIDEO INFO ==='
-            yt-dlp --cookies /tmp/youtube_cookies.txt --skip-download --print '%(title)s | %(channel)s | %(duration_string)s' 'https://youtu.be/4GgINqj-7DU' || true
-            echo '=== SUBTITLE LIST ==='
-            yt-dlp --cookies /tmp/youtube_cookies.txt --list-subs 'https://youtu.be/4GgINqj-7DU' || true
-            echo '=== DOWNLOAD ENGLISH SUBTITLES ==='
-            rm -f /tmp/ytsub.*
-            yt-dlp --cookies /tmp/youtube_cookies.txt --skip-download --write-subs --write-auto-subs --sub-langs 'en.*' --sub-format vtt -o '/tmp/ytsub.%(ext)s' 'https://youtu.be/4GgINqj-7DU' || true
-            echo '=== TRANSCRIPT FILES ==='
-            ls -la /tmp/ytsub* 2>/dev/null || true
-            for f in /tmp/ytsub*.vtt; do
-              [ -e "$f" ] || continue
-              echo "--- $f ---"
-              python - "$f" <<'PY'
-import re, sys
-p=sys.argv[1]
-text=open(p,encoding='utf-8',errors='ignore').read().splitlines()
-out=[]
-for line in text:
-    if not line or line.startswith('WEBVTT') or '-->' in line or line.startswith('Kind:') or line.startswith('Language:'):
-        continue
-    line=re.sub(r'<[^>]+>','',line)
-    line=re.sub(r'&nbsp;',' ',line)
-    line=re.sub(r'&amp;','&',line)
-    if line and (not out or line != out[-1]):
-        out.append(line)
-print('\n'.join(out))
-PY
-            done
-            rm -f /tmp/youtube_cookies.txt
-          } 2>&1 | tee youtube_transcript_output.txt
+            echo '=== INSTALL BIRD ==='
+            npm install -g @steipete/bird >/dev/null
+            echo '=== QUERY 1: JSE INVESTING ==='
+            bird search '(JSE OR "Johannesburg Stock Exchange") (stocks OR shares OR investing OR investor OR trader)' -n 50 --json || true
+            echo '=== QUERY 2: JSE TICKERS ==='
+            bird search '(JSE OR "JSE:") (NPN OR SOL OR CPI OR MTN OR AGL OR SBK OR FSR OR CFR)' -n 50 --json || true
+            echo '=== QUERY 3: EASYEQUITIES / JSE ==='
+            bird search 'EasyEquities (JSE OR stocks OR shares OR investing)' -n 50 --json || true
+            echo '=== QUERY 4: JSE HASHTAG ==='
+            bird search '#JSE (stocks OR shares OR investing OR results OR dividend)' -n 50 --json || true
+          } 2>&1 | tee jse_social_output.txt
 
-      - name: Commit transcript output
+      - name: Commit JSE social output
         shell: bash
         run: |
           git config user.name 'agent-reach-sandbox'
           git config user.email 'actions@users.noreply.github.com'
-          git add youtube_transcript_output.txt
-          git commit -m 'Save authenticated YouTube transcript test [skip ci]' || exit 0
+          git add jse_social_output.txt
+          git commit -m 'Save JSE social search output [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
