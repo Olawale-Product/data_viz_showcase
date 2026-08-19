@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Read requested X post
+      - name: Read requested X thread
         shell: bash
         run: |
           set +e
@@ -42,6 +42,8 @@ jobs:
             npm install -g @steipete/bird >/dev/null
             echo '=== REQUESTED TWEET ==='
             bird read 'https://x.com/moyo54/status/2089959042282086710' --json || true
+            echo '=== THREAD ==='
+            bird thread 'https://x.com/moyo54/status/2089959042282086710' --json || true
             echo '=== REPLIES ==='
             bird replies 'https://x.com/moyo54/status/2089959042282086710' --json || true
           } 2>&1 | tee requested_tweet_output.txt
@@ -52,5 +54,5 @@ jobs:
           git config user.name 'agent-reach-sandbox'
           git config user.email 'actions@users.noreply.github.com'
           git add requested_tweet_output.txt
-          git commit -m 'Save requested X post output [skip ci]' || exit 0
+          git commit -m 'Save requested X thread output [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
