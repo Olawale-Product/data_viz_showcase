@@ -4,9 +4,9 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
   "id": "2089959042282086710",
   "text": "I have been investing for a while across Nigerian stocks, US equities, fixed income and real estate.\n\nAnd the older I get, the more I realise that building wealth in Nigeria has its own rules.\n\nHere are 10 things I have learned along the way 🧵👇",
   "createdAt": "Wed Aug 19 06:13:59 +0000 2026",
-  "replyCount": 8,
-  "retweetCount": 30,
-  "likeCount": 133,
+  "replyCount": 10,
+  "retweetCount": 47,
+  "likeCount": 190,
   "conversationId": "2089959042282086710",
   "author": {
     "username": "moyo54",
@@ -20,9 +20,9 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "id": "2089959042282086710",
     "text": "I have been investing for a while across Nigerian stocks, US equities, fixed income and real estate.\n\nAnd the older I get, the more I realise that building wealth in Nigeria has its own rules.\n\nHere are 10 things I have learned along the way 🧵👇",
     "createdAt": "Wed Aug 19 06:13:59 +0000 2026",
-    "replyCount": 8,
-    "retweetCount": 30,
-    "likeCount": 133,
+    "replyCount": 10,
+    "retweetCount": 47,
+    "likeCount": 190,
     "conversationId": "2089959042282086710",
     "author": {
       "username": "moyo54",
@@ -36,7 +36,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:00 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 6,
+    "likeCount": 14,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -51,7 +51,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:01 +0000 2026",
     "replyCount": 1,
     "retweetCount": 1,
-    "likeCount": 9,
+    "likeCount": 14,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959045603938365",
     "author": {
@@ -66,7 +66,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:02 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 6,
+    "likeCount": 11,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959050188365936",
     "author": {
@@ -81,7 +81,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:03 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 5,
+    "likeCount": 11,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959053774475610",
     "author": {
@@ -96,7 +96,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:04 +0000 2026",
     "replyCount": 1,
     "retweetCount": 1,
-    "likeCount": 6,
+    "likeCount": 10,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959057691975943",
     "author": {
@@ -111,7 +111,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:05 +0000 2026",
     "replyCount": 1,
     "retweetCount": 2,
-    "likeCount": 4,
+    "likeCount": 9,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959061504573566",
     "author": {
@@ -126,7 +126,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:06 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 5,
+    "likeCount": 10,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959065409499547",
     "author": {
@@ -141,7 +141,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:07 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 5,
+    "likeCount": 8,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959069205365211",
     "author": {
@@ -156,7 +156,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:08 +0000 2026",
     "replyCount": 1,
     "retweetCount": 1,
-    "likeCount": 6,
+    "likeCount": 10,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959072883773607",
     "author": {
@@ -171,7 +171,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:09 +0000 2026",
     "replyCount": 1,
     "retweetCount": 1,
-    "likeCount": 13,
+    "likeCount": 22,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959076817969187",
     "author": {
@@ -186,7 +186,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:41:00 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
-    "likeCount": 0,
+    "likeCount": 1,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -216,7 +216,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 07:44:11 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
-    "likeCount": 1,
+    "likeCount": 2,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -229,9 +229,9 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "id": "2089992657816748182",
     "text": "@moyo54 Consistency is king. One big loss can wipe out many small gains.",
     "createdAt": "Wed Aug 19 08:27:34 +0000 2026",
-    "replyCount": 0,
+    "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 0,
+    "likeCount": 1,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -246,7 +246,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 08:42:52 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
-    "likeCount": 0,
+    "likeCount": 1,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -254,6 +254,66 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
       "name": "Nwokwu"
     },
     "authorId": "228047847"
+  },
+  {
+    "id": "2090002185782166004",
+    "text": "@Chemmer_F This can not be over said…",
+    "createdAt": "Wed Aug 19 09:05:26 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089992657816748182",
+    "author": {
+      "username": "moyo54",
+      "name": "Michael Adewuyi"
+    },
+    "authorId": "24398228"
+  },
+  {
+    "id": "2090016849878569120",
+    "text": "@moyo54 There will always be another better opportunity. Do not rush into opportunity  because you feel you’re missing out. Sometimes, it’s good to walk away without a deal to gain better deal",
+    "createdAt": "Wed Aug 19 10:03:42 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "adeboyeoye",
+      "name": "oyewole adeboye"
+    },
+    "authorId": "1662891597640486912"
+  },
+  {
+    "id": "2090040151883878703",
+    "text": "@moyo54 This is deep",
+    "createdAt": "Wed Aug 19 11:36:17 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "Lopez3web",
+      "name": "Adedayo Michael Lopez"
+    },
+    "authorId": "1816840785809014784"
+  },
+  {
+    "id": "2090042272670761341",
+    "text": "@adeboyeoye Can’t agree more",
+    "createdAt": "Wed Aug 19 11:44:43 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2090016849878569120",
+    "author": {
+      "username": "moyo54",
+      "name": "Michael Adewuyi"
+    },
+    "authorId": "24398228"
   }
 ]
 === REPLIES ===
@@ -264,7 +324,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:14:00 +0000 2026",
     "replyCount": 1,
     "retweetCount": 0,
-    "likeCount": 6,
+    "likeCount": 14,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -272,6 +332,51 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
       "name": "Michael Adewuyi"
     },
     "authorId": "24398228"
+  },
+  {
+    "id": "2090016849878569120",
+    "text": "@moyo54 There will always be another better opportunity. Do not rush into opportunity  because you feel you’re missing out. Sometimes, it’s good to walk away without a deal to gain better deal",
+    "createdAt": "Wed Aug 19 10:03:42 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "adeboyeoye",
+      "name": "oyewole adeboye"
+    },
+    "authorId": "1662891597640486912"
+  },
+  {
+    "id": "2089992657816748182",
+    "text": "@moyo54 Consistency is king. One big loss can wipe out many small gains.",
+    "createdAt": "Wed Aug 19 08:27:34 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "Chemmer_F",
+      "name": "Frankinsense"
+    },
+    "authorId": "1537580898"
+  },
+  {
+    "id": "2089981741943464134",
+    "text": "@moyo54 Thanks for sharing Michael. Brief, informative and helpful.",
+    "createdAt": "Wed Aug 19 07:44:11 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2089959042282086710",
+    "inReplyToStatusId": "2089959042282086710",
+    "author": {
+      "username": "rukky_nate",
+      "name": "Mazi Nathan"
+    },
+    "authorId": "1216696257093296129"
   },
   {
     "id": "2089973143343436158",
@@ -289,34 +394,19 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "authorId": "2014266537511690240"
   },
   {
-    "id": "2089981741943464134",
-    "text": "@moyo54 Thanks for sharing Michael. Brief, informative and helpful.",
-    "createdAt": "Wed Aug 19 07:44:11 +0000 2026",
-    "replyCount": 0,
-    "retweetCount": 0,
-    "likeCount": 1,
-    "conversationId": "2089959042282086710",
-    "inReplyToStatusId": "2089959042282086710",
-    "author": {
-      "username": "rukky_nate",
-      "name": "Mazi Nathan"
-    },
-    "authorId": "1216696257093296129"
-  },
-  {
-    "id": "2089992657816748182",
-    "text": "@moyo54 Consistency is king. One big loss can wipe out many small gains.",
-    "createdAt": "Wed Aug 19 08:27:34 +0000 2026",
+    "id": "2090040151883878703",
+    "text": "@moyo54 This is deep",
+    "createdAt": "Wed Aug 19 11:36:17 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
     "likeCount": 0,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
-      "username": "Chemmer_F",
-      "name": "Frankinsense"
+      "username": "Lopez3web",
+      "name": "Adedayo Michael Lopez"
     },
-    "authorId": "1537580898"
+    "authorId": "1816840785809014784"
   },
   {
     "id": "2089965840900792582",
@@ -324,7 +414,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 06:41:00 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
-    "likeCount": 0,
+    "likeCount": 1,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
@@ -339,7 +429,7 @@ npm warn deprecated @steipete/bird@0.8.0: Package no longer supported. Contact S
     "createdAt": "Wed Aug 19 08:42:52 +0000 2026",
     "replyCount": 0,
     "retweetCount": 0,
-    "likeCount": 0,
+    "likeCount": 1,
     "conversationId": "2089959042282086710",
     "inReplyToStatusId": "2089959042282086710",
     "author": {
