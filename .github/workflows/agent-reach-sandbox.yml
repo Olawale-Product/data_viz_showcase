@@ -31,31 +31,25 @@ jobs:
         with:
           ref: agent-reach-sandbox
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Search JSE discussion on X
+      - name: Search South African JSE discussion on X
         shell: bash
         run: |
           set +e
           {
-            echo '=== INSTALL BIRD ==='
             npm install -g @steipete/bird >/dev/null
-            echo '=== QUERY 1: JSE INVESTING ==='
-            bird search '(JSE OR "Johannesburg Stock Exchange") (stocks OR shares OR investing OR investor OR trader)' -n 50 --json || true
-            echo '=== QUERY 2: JSE TICKERS ==='
-            bird search '(JSE OR "JSE:") (NPN OR SOL OR CPI OR MTN OR AGL OR SBK OR FSR OR CFR)' -n 50 --json || true
-            echo '=== QUERY 3: EASYEQUITIES / JSE ==='
-            bird search 'EasyEquities (JSE OR stocks OR shares OR investing)' -n 50 --json || true
-            echo '=== QUERY 4: JSE HASHTAG ==='
-            bird search '#JSE (stocks OR shares OR investing OR results OR dividend)' -n 50 --json || true
+            echo '=== QUERY 1: JOHANNESBURG ==='
+            bird search '("Johannesburg Stock Exchange" OR "JSE Top 40" OR "JSE All Share") (stocks OR shares OR investing OR investor OR trader)' -n 60 --json || true
+            echo '=== QUERY 2: MAJOR SA TICKERS ==='
+            bird search '(Naspers OR Prosus OR Capitec OR Sasol OR Shoprite OR "Standard Bank" OR MTN) (JSE OR "South Africa" OR shares)' -n 60 --json || true
+            echo '=== QUERY 3: SOUTH AFRICAN STOCKS ==='
+            bird search '("South African stocks" OR "SA stocks" OR "JSE shares") (investing OR trader OR portfolio)' -n 60 --json || true
+            echo '=== QUERY 4: EASYEQUITIES / SATRIX ==='
+            bird search '(EasyEquities OR Satrix) (JSE OR "South African shares" OR stocks)' -n 60 --json || true
           } 2>&1 | tee jse_social_output.txt
 
       - name: Commit JSE social output
@@ -64,5 +58,5 @@ jobs:
           git config user.name 'agent-reach-sandbox'
           git config user.email 'actions@users.noreply.github.com'
           git add jse_social_output.txt
-          git commit -m 'Save JSE social search output [skip ci]' || exit 0
+          git commit -m 'Save refined JSE social search output [skip ci]' || exit 0
           git push origin HEAD:agent-reach-sandbox
